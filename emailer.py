@@ -55,7 +55,7 @@ def send_digest(jobs: list[dict]) -> None:
         raise ValueError("RECIPIENT_EMAIL not set in environment")
 
     msg = EmailMessage()
-    msg["Subject"] = f"Finance Jobs Digest — {date.today().isoformat()} ({len(jobs)} new)"
+    msg["Subject"] = f"Hardware Jobs Digest — {date.today().isoformat()} ({len(jobs)} new)"
     msg["To"] = recipient
     msg.set_content(_build_plain(jobs))
     msg.add_alternative(_build_html(jobs), subtype="html")
@@ -67,7 +67,7 @@ def send_digest(jobs: list[dict]) -> None:
 
 
 def _build_plain(jobs: list[dict]) -> str:
-    lines = [f"New finance jobs in Canada — {date.today().isoformat()}\n"]
+    lines = [f"New hardware/embedded jobs — {date.today().isoformat()}\n"]
     for j in jobs:
         lines.append(f"{j['company']} | {j['title']} | {j['location']}")
         lines.append(f"  {j['link']}\n")
@@ -84,7 +84,7 @@ def _build_html(jobs: list[dict]) -> str:
         for j in company_jobs:
             rows.append(f"""
         <tr>
-          <td style="padding:8px;border-bottom:1px solid #eee;font-weight:bold;color:#c8102e">{company}</td>
+          <td style="padding:8px;border-bottom:1px solid #eee;font-weight:bold;color:#0f766e">{company}</td>
           <td style="padding:8px;border-bottom:1px solid #eee">
             <a href="{j['link']}" style="color:#1a0dab;text-decoration:none">{j['title']}</a>
           </td>
@@ -95,8 +95,8 @@ def _build_html(jobs: list[dict]) -> str:
     return f"""<!DOCTYPE html>
 <html>
 <body style="font-family:Arial,sans-serif;color:#333;max-width:800px;margin:auto">
-  <h2 style="border-bottom:2px solid #c8102e;padding-bottom:8px">
-    New Finance Jobs in Canada
+  <h2 style="border-bottom:2px solid #0f766e;padding-bottom:8px">
+    New Hardware Jobs
     <span style="font-size:14px;color:#666;font-weight:normal">— {date.today().isoformat()}</span>
   </h2>
   <p>{len(jobs)} new posting(s) found today.</p>
@@ -114,7 +114,7 @@ def _build_html(jobs: list[dict]) -> str:
     </tbody>
   </table>
   <p style="color:#888;font-size:12px;margin-top:24px">
-    Automated digest from FinancialBot. Jobs filtered for Canada + entry-level keywords.<br>
+    Automated digest from FinancialBot. Jobs filtered for Toronto/Montreal/Ottawa/Vancouver + firmware/embedded/systems keywords.<br>
     <a href="https://aneel-badesha.github.io/FinancialBot" style="color:#1a0dab">View full job board →</a>
   </p>
 </body>

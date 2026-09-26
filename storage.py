@@ -49,3 +49,36 @@ def save_jobs_for_site(jobs: list[dict]) -> None:
             "jobs": jobs,
         }, f, indent=2)
     logger.info(f"Saved {len(jobs)} jobs to {JOBS_SITE_FILE}")
+
+
+README_FILE = Path(__file__).parent / "README.md"
+_TABLE_START = "<!-- JOBS:START -->"
+_TABLE_END = "<!-- JOBS:END -->"
+
+
+def save_jobs_to_readme(jobs: list[dict]) -> None:
+    """Rewrite the jobs table between the JOBS markers in README.md (appended if missing)."""
+    def cell(text: str) -> str:
+        return str(text).replace("|", r"\|").replace("\n", " ").strip()
+
+    rows = sorted(jobs, key=lambda j: (j["company"].lower(), j["title"].lower()))
+    lines = [
+        _TABLE_START,
+        f"_Updated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} — {len(rows)} jobs_",
+        "",
+        "| Company | Role | Location |",
+        "|---------|------|----------|",
+    ]
+    lines += [f"| {cell(j['company'])} | [{cell(j['title'])}]({j['link']}) | {cell(j['location'])} |" for j in rows]
+    lines.append(_TABLE_END)
+    table = "\n".join(lines)
+
+    text = README_FILE.read_text(encoding="utf-8") if README_FILE.exists() else ""
+    if _TABLE_START in text and _TABLE_END in text:
+        before = text.split(_TABLE_START, 1)[0]
+        after = text.split(_TABLE_END, 1)[1]
+        text = before + table + after
+    else:
+        text = text.rstrip() + "\n\n## Current jobs\n\n" + table + "\n"
+    README_FILE.write_text(text, encoding="utf-8")
+    logger.info(f"Wrote {len(rows)} jobs to {README_FILE.name}")

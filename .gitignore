@@ -8,3 +8,4 @@ token.json
 *.log
 .venv/
 seen_jobs.json
+.claude/

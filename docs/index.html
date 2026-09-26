@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FinancialBot Job Board</title>
+  <title>Hardware Jobs Board</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -157,7 +157,7 @@
 
 <header>
   <div style="max-width:1100px;margin:0 auto">
-    <h1>Financial<span>Bot</span> Job Board</h1>
+    <h1>Hardware<span>Jobs</span> Board</h1>
     <p id="meta">Loading latest jobs...</p>
   </div>
 </header>
@@ -180,60 +180,52 @@
 
 <script>
 const COMPANIES = [
-  { name: "Accenture",          url: "https://accenture.wd103.myworkdayjobs.com/en-US/AccentureCareers" },
-  { name: "American Express",   url: "https://careers.americanexpress.com/en/sites/CX_1/jobs" },
-  { name: "Bank of America",    url: "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/user-36/xf-1c8d608fd721/wid-1/candidate/jobboard/vacancy/1/adv/" },
-  { name: "ATB Financial",      url: "https://apply.workable.com/atb-financial/" },
-  { name: "Bain & Company",     url: "https://www.bain.com/careers/" },
-  { name: "Barclays",           url: "https://barclays.wd3.myworkdayjobs.com/en-US/External_Career_Site_Barclays" },
-  { name: "BCG",                url: "https://careers.bcg.com/" },
-  { name: "BDO Canada",         url: "https://bdo.wd3.myworkdayjobs.com/en-US/bdo" },
-  { name: "Bell",               url: "https://jobs.bell.ca/ca/en" },
-  { name: "BlackRock",          url: "https://blackrock.wd1.myworkdayjobs.com/en-US/BlackRock_Professional" },
-  { name: "BMO",                url: "https://bmo.wd3.myworkdayjobs.com/en-US/External" },
-  { name: "BNP Paribas",        url: "https://careers.bnpparibas.com/en/our-job-offers" },
-  { name: "Brookfield",         url: "https://brookfield.wd5.myworkdayjobs.com/en-US/brookfield" },
-  { name: "Canada Life",        url: "https://jobs.canadalife.com/" },
-  { name: "Capital One",        url: "https://capitalone.wd12.myworkdayjobs.com/en-US/Capital_One" },
-  { name: "CDPQ",               url: "https://cdpq.wd10.myworkdayjobs.com/en-US/CDPQ" },
-  { name: "CIBC",               url: "https://cibc.wd3.myworkdayjobs.com/en-US/search" },
-  { name: "Citigroup",          url: "https://jobs.citi.com/" },
-  { name: "CPP Investments",    url: "https://cppib.wd10.myworkdayjobs.com/en-US/cppinvestments" },
-  { name: "Deloitte",           url: "https://www.deloitte.com/ca/en/careers.html" },
-  { name: "Deutsche Bank",      url: "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite" },
-  { name: "Enbridge",           url: "https://enbridge.wd3.myworkdayjobs.com/en-US/enbridge_careers" },
-  { name: "EY",                 url: "https://careers.ey.com/ey/search/" },
-  { name: "Fairfax Financial",  url: "https://www.fairfax.ca/careers/" },
-  { name: "Fidelity Canada",    url: "https://fil.wd3.myworkdayjobs.com/en-US/fidelitycanada" },
-  { name: "George Weston",      url: "https://myview.wd3.myworkdayjobs.com/en-US/George_Weston" },
-  { name: "Goldman Sachs",      url: "https://higher.gs.com/results" },
-  { name: "Grant Thornton",     url: "https://www.grantthornton.ca/careers/" },
-  { name: "HSBC",               url: "https://mycareer.hsbc.com/en_GB/external/SearchJobs" },
-  { name: "IBM",                url: "https://www.ibm.com/careers" },
-  { name: "Intact Financial",   url: "https://intactfc.wd3.myworkdayjobs.com/en-US/intactfc" },
-  { name: "JPMorgan",           url: "https://careers.jpmorgan.com/us/en/students/programs" },
-  { name: "KPMG",               url: "https://home.kpmg/ca/en/home/careers.html" },
-  { name: "Loblaw",             url: "https://myview.wd3.myworkdayjobs.com/en-US/Loblaw-Digital_Careers_Carrieres" },
-  { name: "Manulife",           url: "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs" },
-  { name: "Mastercard",         url: "https://mastercard.wd1.myworkdayjobs.com/en-US/Campus" },
-  { name: "McKinsey",           url: "https://www.mckinsey.com/careers" },
-  { name: "MNP",                url: "https://www.mnp.ca/en/careers" },
-  { name: "Morgan Stanley",     url: "https://ms.wd5.myworkdayjobs.com/en-US/External" },
-  { name: "National Bank",      url: "https://emplois.bnc.ca/en_CA/careers" },
-  { name: "Oliver Wyman",       url: "https://careers.marsh.com/global/en/oliver-wyman-search" },
-  { name: "OTPP",               url: "https://otppb.wd3.myworkdayjobs.com/en-US/OntarioTeachers_Careers" },
-  { name: "PSP Investments",    url: "https://investpsp.wd3.myworkdayjobs.com/en-US/psp_careers" },
-  { name: "PwC",                url: "https://www.pwc.com/ca/en/careers.html" },
-  { name: "RBC",                url: "https://jobs.rbc.com/ca/en" },
-  { name: "Rogers",             url: "https://jobs.rogers.com/" },
-  { name: "Scotiabank",         url: "https://jobs.scotiabank.com/" },
-  { name: "Shopify",            url: "https://www.shopify.com/careers" },
-  { name: "Sobeys",             url: "https://www.sobeys.com/en/careers/" },
-  { name: "Sun Life",           url: "https://www.sunlife.ca/en/careers/" },
-  { name: "TD",                 url: "https://jobs.td.com/en-CA/" },
-  { name: "Visa",               url: "https://visa.wd5.myworkdayjobs.com/en-US/visa" },
-  { name: "Wealthsimple",       url: "https://jobs.lever.co/wealthsimple" },
-  { name: "Wells Fargo",        url: "https://wf.wd1.myworkdayjobs.com/en-US/WellsFargoJobs" },
+  { name: "Alphawave Semi",    url: "https://awavesemi.com/careers/" },
+  { name: "Altera",            url: "https://altera.wd1.myworkdayjobs.com/altera" },
+  { name: "Amazon",            url: "https://www.amazon.jobs/en/search?country%5B%5D=CAN" },
+  { name: "AMD",               url: "https://careers.amd.com/careers-home/jobs?country=Canada" },
+  { name: "Analog Devices",    url: "https://analogdevices.wd1.myworkdayjobs.com/External" },
+  { name: "Arm",               url: "https://careers.arm.com/search-jobs/canada" },
+  { name: "BlackBerry QNX",    url: "https://bb.wd3.myworkdayjobs.com/QNX" },
+  { name: "Broadcom",          url: "https://broadcom.wd1.myworkdayjobs.com/External_Career" },
+  { name: "Cadence",           url: "https://cadence.wd1.myworkdayjobs.com/External_Careers" },
+  { name: "Cerebras",          url: "https://jobs.ashbyhq.com/cerebras" },
+  { name: "Ciena",             url: "https://ciena.wd5.myworkdayjobs.com/Careers" },
+  { name: "Cisco",             url: "https://jobs.cisco.com/" },
+  { name: "ecobee",            url: "https://generac.wd5.myworkdayjobs.com/External?q=ecobee" },
+  { name: "Ericsson",          url: "https://jobs.ericsson.com/careers" },
+  { name: "Ford",              url: "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1" },
+  { name: "GM",                url: "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM" },
+  { name: "Google",            url: "https://www.google.com/about/careers/applications/jobs/results?location=Canada" },
+  { name: "Huawei",            url: "https://huaweicanada.recruitee.com/" },
+  { name: "IBM",               url: "https://www.ibm.com/careers/search?field_keyword_05[0]=Canada" },
+  { name: "Infineon",          url: "https://jobs.infineon.com/careers" },
+  { name: "Infinera",          url: "https://infinera.wd1.myworkdayjobs.com/infinera_Careers" },
+  { name: "Intel",             url: "https://intel.wd1.myworkdayjobs.com/External" },
+  { name: "Jetson AI",         url: "https://www.linkedin.com/search/results/companies/?keywords=Jetson%20AI" },
+  { name: "L3Harris",          url: "https://careers.l3harris.com/en/search-jobs/canada" },
+  { name: "Lightmatter",       url: "https://job-boards.greenhouse.io/lightmatter" },
+  { name: "Marvell",           url: "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2" },
+  { name: "Meta",              url: "https://www.metacareers.com/jobs" },
+  { name: "Microchip",         url: "https://microchiphr.wd5.myworkdayjobs.com/External" },
+  { name: "Microsoft",         url: "https://apply.careers.microsoft.com/careers?location=Canada" },
+  { name: "Nokia",             url: "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1" },
+  { name: "NVIDIA",            url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite" },
+  { name: "NXP",               url: "https://nxp.wd3.myworkdayjobs.com/careers" },
+  { name: "onsemi",            url: "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001" },
+  { name: "Photonic Inc.",     url: "https://photonic.com/careers/" },
+  { name: "Qualcomm",          url: "https://qualcomm.wd12.myworkdayjobs.com/External" },
+  { name: "Rambus",            url: "https://careers.rambus.com/" },
+  { name: "Ranovus",           url: "https://ranovus.com/careers/" },
+  { name: "Rivian",            url: "https://careers.rivian.com/careers-home/jobs?country=Canada" },
+  { name: "Samsung",           url: "https://sec.wd3.myworkdayjobs.com/Samsung_Careers" },
+  { name: "Siemens EDA",       url: "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/Canada" },
+  { name: "Synopsys",          url: "https://synopsys.avature.net/careers/SearchJobs/Canada" },
+  { name: "Tenstorrent",       url: "https://job-boards.greenhouse.io/tenstorrent" },
+  { name: "Tesla",             url: "https://www.tesla.com/en_CA/careers/search" },
+  { name: "Texas Instruments", url: "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX" },
+  { name: "Untether AI",       url: "https://www.untether.ai/careers" },
+  { name: "VIAVI Solutions",   url: "https://viavisolutions.wd1.myworkdayjobs.com/careers" },
 ];
 
 // Render company chips (sorted alphabetically)

@@ -13,35 +13,54 @@ except ImportError:
     pass
 
 from scrapers import (
-    scrape_all_workday,
-    scrape_scotiabank,
-    scrape_jpmorgan,
-    scrape_hsbc,
-    scrape_bnpparibas,
-    scrape_deloitte,
-    scrape_ey,
-    scrape_mckinsey,
-    scrape_bcg,
-    scrape_pwc,
-    scrape_kpmg,
-    scrape_rogers,
-    scrape_bell,
-    scrape_bain,
-    scrape_national_bank,
-    scrape_atb,
-    scrape_shopify,
+    scrape_alphawave,
+    scrape_altera,
     scrape_amazon,
+    scrape_amd,
+    scrape_analog_devices,
+    scrape_arm,
+    scrape_broadcom,
+    scrape_cadence,
+    scrape_cerebras,
+    scrape_ciena,
+    scrape_cisco,
+    scrape_ecobee,
+    scrape_ericsson,
+    scrape_ford,
+    scrape_gm,
     scrape_google,
-    scrape_oliver_wyman,
-    scrape_grant_thornton,
-    scrape_mnp,
-    scrape_canada_life,
-    scrape_fairfax,
-    scrape_sobeys,
-    scrape_wealthsimple,
-    scrape_bank_of_america,
+    scrape_huawei,
+    scrape_ibm,
+    scrape_infineon,
+    scrape_infinera,
+    scrape_intel,
+    scrape_jetson_ai,
+    scrape_l3harris,
+    scrape_lightmatter,
+    scrape_marvell,
+    scrape_meta,
+    scrape_microchip,
+    scrape_microsoft,
+    scrape_nokia,
+    scrape_nvidia,
+    scrape_nxp,
+    scrape_onsemi,
+    scrape_photonic,
+    scrape_qnx,
+    scrape_qualcomm,
+    scrape_rambus,
+    scrape_ranovus,
+    scrape_rivian,
+    scrape_samsung,
+    scrape_siemens_eda,
+    scrape_synopsys,
+    scrape_tenstorrent,
+    scrape_tesla,
+    scrape_ti,
+    scrape_untether,
+    scrape_viavi,
 )
-from storage import load_seen_ids, save_seen_ids, filter_new_jobs, add_to_seen, save_jobs_for_site
+from storage import load_seen_ids, save_seen_ids, filter_new_jobs, add_to_seen, save_jobs_for_site, save_jobs_to_readme
 from emailer import send_digest
 
 logging.basicConfig(
@@ -52,31 +71,52 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SCRAPERS = [
-    ("Workday (27 companies)", scrape_all_workday),
-    ("Scotiabank", scrape_scotiabank),
-    ("JPMorgan", scrape_jpmorgan),
-    # ("HSBC", scrape_hsbc),  # slow RSS feed
-    ("BNP Paribas", scrape_bnpparibas),
-    # ("National Bank", scrape_national_bank),  # slow RSS feed
-    ("Deloitte", scrape_deloitte),
-    ("EY", scrape_ey),
-    # ("McKinsey", scrape_mckinsey),  # blocks scrapers
-    ("BCG", scrape_bcg),
-    # ("Bain & Company", scrape_bain),  # blocks scrapers
-    # ("Oliver Wyman", scrape_oliver_wyman),  # dead URL
-    ("PwC", scrape_pwc),
-    ("KPMG", scrape_kpmg),
-    # ("Grant Thornton", scrape_grant_thornton),  # dead URL
-    # ("MNP", scrape_mnp),  # dead URL
-    # ("Rogers", scrape_rogers),
-    ("Bell", scrape_bell),
-    # ("Shopify", scrape_shopify),  # left Lever, new ATS unknown
-    ("ATB Financial", scrape_atb),
-    ("Canada Life", scrape_canada_life),
-    ("Fairfax Financial", scrape_fairfax),
-    # ("Sobeys / Empire", scrape_sobeys),  # dead URL
-    ("Wealthsimple", scrape_wealthsimple),
-    ("Bank of America", scrape_bank_of_america),
+    ("Alphawave Semi", scrape_alphawave),
+    ("Altera", scrape_altera),
+    ("Amazon", scrape_amazon),
+    ("AMD", scrape_amd),
+    ("Analog Devices", scrape_analog_devices),
+    ("Arm", scrape_arm),
+    ("BlackBerry QNX", scrape_qnx),
+    ("Broadcom", scrape_broadcom),
+    ("Cadence", scrape_cadence),
+    ("Cerebras", scrape_cerebras),
+    ("Ciena", scrape_ciena),
+    ("Cisco", scrape_cisco),
+    ("ecobee", scrape_ecobee),
+    ("Ericsson", scrape_ericsson),
+    ("Ford", scrape_ford),
+    ("GM", scrape_gm),
+    ("Google", scrape_google),
+    ("Huawei", scrape_huawei),
+    ("IBM", scrape_ibm),
+    ("Infineon", scrape_infineon),
+    ("Infinera", scrape_infinera),
+    ("Intel", scrape_intel),
+    ("Jetson AI", scrape_jetson_ai),
+    ("L3Harris", scrape_l3harris),
+    ("Lightmatter", scrape_lightmatter),
+    ("Marvell", scrape_marvell),
+    ("Meta", scrape_meta),
+    ("Microchip", scrape_microchip),
+    ("Microsoft", scrape_microsoft),
+    ("Nokia", scrape_nokia),
+    ("NVIDIA", scrape_nvidia),
+    ("NXP", scrape_nxp),
+    ("onsemi", scrape_onsemi),
+    ("Photonic Inc.", scrape_photonic),
+    ("Qualcomm", scrape_qualcomm),
+    ("Rambus", scrape_rambus),
+    ("Ranovus", scrape_ranovus),
+    ("Rivian", scrape_rivian),
+    ("Samsung", scrape_samsung),
+    ("Siemens EDA", scrape_siemens_eda),
+    ("Synopsys", scrape_synopsys),
+    ("Tenstorrent", scrape_tenstorrent),
+    ("Tesla", scrape_tesla),
+    ("Texas Instruments", scrape_ti),
+    ("Untether AI", scrape_untether),
+    ("VIAVI Solutions", scrape_viavi),
 ]
 
 
@@ -114,25 +154,26 @@ def main():
     updated_seen = add_to_seen(all_jobs, seen_ids)
     save_seen_ids(updated_seen)
     save_jobs_for_site(all_jobs)
+    save_jobs_to_readme(all_jobs)
     _push_site()
 
 
 def _push_site():
     repo = Path(__file__).parent
     try:
-        subprocess.run(["git", "add", "docs/jobs.json"], cwd=repo, check=True)
+        subprocess.run(["git", "add", "docs/jobs.json", "README.md"], cwd=repo, check=True)
         result = subprocess.run(
             ["git", "diff", "--cached", "--quiet"], cwd=repo
         )
         if result.returncode == 0:
-            logger.info("docs/jobs.json unchanged — skipping push")
+            logger.info("Job listings unchanged — skipping push")
             return
         subprocess.run(
             ["git", "commit", "-m", f"Update jobs.json [{date.today().isoformat()}]"],
             cwd=repo, check=True,
         )
         subprocess.run(["git", "push", "origin", "main"], cwd=repo, check=True)
-        logger.info("Pushed docs/jobs.json to GitHub")
+        logger.info("Pushed job listings to GitHub")
     except Exception as e:
         logger.error(f"Failed to push site update: {e}")
 

@@ -1,57 +1,95 @@
-from .workday import scrape_all_workday
-from .scotiabank import scrape_scotiabank
-from .jpmorgan import scrape_jpmorgan
-from .hsbc import scrape_hsbc
-from .bnpparibas import scrape_bnpparibas
-from .deloitte import scrape_deloitte
-from .ey import scrape_ey
-from .mckinsey import scrape_mckinsey
-from .bcg import scrape_bcg
-from .pwc import scrape_pwc
-from .kpmg import scrape_kpmg
-from .rogers import scrape_rogers
-from .bell import scrape_bell
-from .bain import scrape_bain
-from .national_bank import scrape_national_bank
-from .atb import scrape_atb
-from .shopify import scrape_shopify
+from .alphawave import scrape_alphawave
+from .altera import scrape_altera
 from .amazon import scrape_amazon
+from .amd import scrape_amd
+from .analog_devices import scrape_analog_devices
+from .arm import scrape_arm
+from .broadcom import scrape_broadcom
+from .cadence import scrape_cadence
+from .cerebras import scrape_cerebras
+from .ciena import scrape_ciena
+from .cisco import scrape_cisco
+from .ecobee import scrape_ecobee
+from .ericsson import scrape_ericsson
+from .ford import scrape_ford
+from .gm import scrape_gm
 from .google import scrape_google
-from .oliver_wyman import scrape_oliver_wyman
-from .grant_thornton import scrape_grant_thornton
-from .mnp import scrape_mnp
-from .canada_life import scrape_canada_life
-from .fairfax import scrape_fairfax
-from .sobeys import scrape_sobeys
-from .wealthsimple import scrape_wealthsimple
-from .bank_of_america import scrape_bank_of_america
+from .huawei import scrape_huawei
+from .ibm import scrape_ibm
+from .infineon import scrape_infineon
+from .infinera import scrape_infinera
+from .intel import scrape_intel
+from .jetson_ai import scrape_jetson_ai
+from .l3harris import scrape_l3harris
+from .lightmatter import scrape_lightmatter
+from .marvell import scrape_marvell
+from .meta import scrape_meta
+from .microchip import scrape_microchip
+from .microsoft import scrape_microsoft
+from .nokia import scrape_nokia
+from .nvidia import scrape_nvidia
+from .nxp import scrape_nxp
+from .onsemi import scrape_onsemi
+from .photonic import scrape_photonic
+from .qnx import scrape_qnx
+from .qualcomm import scrape_qualcomm
+from .rambus import scrape_rambus
+from .ranovus import scrape_ranovus
+from .rivian import scrape_rivian
+from .samsung import scrape_samsung
+from .siemens_eda import scrape_siemens_eda
+from .synopsys import scrape_synopsys
+from .tenstorrent import scrape_tenstorrent
+from .tesla import scrape_tesla
+from .ti import scrape_ti
+from .untether import scrape_untether
+from .viavi import scrape_viavi
 
 __all__ = [
-    "scrape_all_workday",
-    "scrape_scotiabank",
-    "scrape_jpmorgan",
-    "scrape_hsbc",
-    "scrape_bnpparibas",
-    "scrape_deloitte",
-    "scrape_ey",
-    "scrape_mckinsey",
-    "scrape_bcg",
-    "scrape_pwc",
-    "scrape_kpmg",
-    "scrape_rogers",
-    "scrape_bell",
-    "scrape_bain",
-    "scrape_national_bank",
-    "scrape_atb",
-    "scrape_shopify",
+    "scrape_alphawave",
+    "scrape_altera",
     "scrape_amazon",
+    "scrape_amd",
+    "scrape_analog_devices",
+    "scrape_arm",
+    "scrape_broadcom",
+    "scrape_cadence",
+    "scrape_cerebras",
+    "scrape_ciena",
+    "scrape_cisco",
+    "scrape_ecobee",
+    "scrape_ericsson",
+    "scrape_ford",
+    "scrape_gm",
     "scrape_google",
-    "scrape_oliver_wyman",
-    "scrape_grant_thornton",
-    "scrape_mnp",
-    "scrape_canada_life",
-    "scrape_fairfax",
-    "scrape_sobeys",
-    "scrape_wealthsimple",
-    "scrape_bank_of_america",
+    "scrape_huawei",
+    "scrape_ibm",
+    "scrape_infineon",
+    "scrape_infinera",
+    "scrape_intel",
+    "scrape_jetson_ai",
+    "scrape_l3harris",
+    "scrape_lightmatter",
+    "scrape_marvell",
+    "scrape_meta",
+    "scrape_microchip",
+    "scrape_microsoft",
+    "scrape_nokia",
+    "scrape_nvidia",
+    "scrape_nxp",
+    "scrape_onsemi",
+    "scrape_photonic",
+    "scrape_qnx",
+    "scrape_qualcomm",
+    "scrape_rambus",
+    "scrape_ranovus",
+    "scrape_rivian",
+    "scrape_samsung",
+    "scrape_siemens_eda",
+    "scrape_synopsys",
+    "scrape_tenstorrent",
+    "scrape_tesla",
+    "scrape_ti",
+    "scrape_untether",
+    "scrape_viavi",
 ]
