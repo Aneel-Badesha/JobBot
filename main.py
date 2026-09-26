@@ -60,7 +60,7 @@ from scrapers import (
     scrape_untether,
     scrape_viavi,
 )
-from storage import load_seen_ids, save_seen_ids, filter_new_jobs, add_to_seen, save_jobs_for_site, save_jobs_to_readme
+from storage import load_seen_ids, save_seen_ids, filter_new_jobs, add_to_seen, save_jobs_for_site, save_jobs_to_readme, apply_posted_dates
 from emailer import send_digest
 
 logging.basicConfig(
@@ -139,6 +139,7 @@ def main():
         all_jobs += run_scraper(name, fn)
 
     logger.info(f"Total jobs scraped (before dedup): {len(all_jobs)}")
+    all_jobs = apply_posted_dates(all_jobs)
 
     new_jobs = filter_new_jobs(all_jobs, seen_ids)
     logger.info(f"New jobs (not previously seen): {len(new_jobs)}")

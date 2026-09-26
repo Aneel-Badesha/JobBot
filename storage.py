@@ -1,8 +1,11 @@
 import json
 import logging
 import os
-from datetime import datetime, timezone
+import re
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+
+from scrapers.filters import is_intern
 
 logger = logging.getLogger(__name__)
 SEEN_JOBS_FILE = Path(__file__).parent / "seen_jobs.json"
@@ -57,28 +60,108 @@ _TABLE_END = "<!-- JOBS:END -->"
 
 
 def save_jobs_to_readme(jobs: list[dict]) -> None:
-    """Rewrite the jobs table between the JOBS markers in README.md (appended if missing)."""
+    """Rewrite the jobs tables between the JOBS markers in README.md (appended if missing)."""
     def cell(text: str) -> str:
         return str(text).replace("|", r"\|").replace("\n", " ").strip()
 
-    rows = sorted(jobs, key=lambda j: (j["company"].lower(), j["title"].lower()))
+    def table(rows: list[dict]) -> list[str]:
+        if not rows:
+            return ["_None right now._"]
+        rows = sorted(rows, key=lambda j: (j["company"].lower(), j["title"].lower()))
+        rows.sort(key=lambda j: j.get("posted", ""), reverse=True)
+        out = ["| Posted | Company | Role | Location |", "|--------|---------|------|----------|"]
+        out += [f"| {cell(j.get('posted', ''))} | {cell(j['company'])} | [{cell(j['title'])}]({j['link']}) | {cell(j['location'])} |"
+                for j in rows]
+        return out
+
+    interns = [j for j in jobs if is_intern(j["title"])]
+    full_time = [j for j in jobs if not is_intern(j["title"])]
     lines = [
         _TABLE_START,
-        f"_Updated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} — {len(rows)} jobs_",
+        f"_Updated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} — {len(jobs)} jobs posted in the last {MAX_AGE_DAYS} days_",
         "",
-        "| Company | Role | Location |",
-        "|---------|------|----------|",
+        f"### Internships & Co-ops ({len(interns)})",
+        "",
+        *table(interns),
+        "",
+        f"### Full-time ({len(full_time)})",
+        "",
+        *table(full_time),
+        _TABLE_END,
     ]
-    lines += [f"| {cell(j['company'])} | [{cell(j['title'])}]({j['link']}) | {cell(j['location'])} |" for j in rows]
-    lines.append(_TABLE_END)
-    table = "\n".join(lines)
+    block = "\n".join(lines)
 
     text = README_FILE.read_text(encoding="utf-8") if README_FILE.exists() else ""
     if _TABLE_START in text and _TABLE_END in text:
         before = text.split(_TABLE_START, 1)[0]
         after = text.split(_TABLE_END, 1)[1]
-        text = before + table + after
+        text = before + block + after
     else:
-        text = text.rstrip() + "\n\n## Current jobs\n\n" + table + "\n"
+        text = text.rstrip() + "\n\n## Current jobs\n\n" + block + "\n"
     README_FILE.write_text(text, encoding="utf-8")
-    logger.info(f"Wrote {len(rows)} jobs to {README_FILE.name}")
+    logger.info(f"Wrote {len(interns)} intern + {len(full_time)} full-time jobs to {README_FILE.name}")
+
+
+# --- Posted dates ------------------------------------------------------------
+
+MAX_AGE_DAYS = 14
+FIRST_SEEN_FILE = Path(__file__).parent / "first_seen.json"
+
+_RELATIVE_RE = re.compile(r"posted\s+(\d+)\+?\s+days?\s+ago", re.IGNORECASE)
+
+
+def parse_posted(raw, today: date) -> date | None:
+    """Normalize the many ATS 'posted' formats to a date. Returns None if unknown."""
+    if raw in (None, ""):
+        return None
+    if isinstance(raw, (int, float)) or (isinstance(raw, str) and raw.isdigit() and len(raw) >= 12):
+        return datetime.fromtimestamp(int(raw) / 1000, tz=timezone.utc).date()  # epoch ms (Lever)
+    text = str(raw).strip()
+    low = text.lower()
+    if low in ("posted today", "today", "just posted"):
+        return today
+    if low in ("posted yesterday", "yesterday"):
+        return today - timedelta(days=1)
+    m = _RELATIVE_RE.search(text)
+    if m:
+        return today - timedelta(days=int(m.group(1)))
+    m = re.match(r"(\d{4}-\d{2}-\d{2})", text)  # ISO date / datetime prefix
+    if m:
+        return date.fromisoformat(m.group(1))
+    try:
+        return datetime.strptime(" ".join(text.split()), "%B %d, %Y").date()  # "September 2, 2026"
+    except ValueError:
+        return None
+
+
+def apply_posted_dates(jobs: list[dict], today: date | None = None) -> list[dict]:
+    """Set each job's 'posted' to an ISO date and drop jobs older than MAX_AGE_DAYS.
+
+    Jobs whose ATS gives no usable date fall back to the date we first saw them,
+    tracked in first_seen.json (kept separately so an aged-out job doesn't come back).
+    """
+    today = today or date.today()
+    first_seen = {}
+    if FIRST_SEEN_FILE.exists():
+        try:
+            first_seen = json.loads(FIRST_SEEN_FILE.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning(f"Could not read {FIRST_SEEN_FILE} ({e}); treating as empty")
+
+    cutoff = today - timedelta(days=MAX_AGE_DAYS)
+    kept = []
+    current_first_seen = {}
+    for job in jobs:
+        posted = parse_posted(job.get("posted"), today)
+        if posted is None:
+            seen_on = first_seen.get(job["id"], today.isoformat())
+            current_first_seen[job["id"]] = seen_on
+            posted = date.fromisoformat(seen_on)
+        if posted < cutoff:
+            continue
+        kept.append({**job, "posted": posted.isoformat()})
+
+    # Only keep entries for jobs still listed, so the file doesn't grow forever
+    FIRST_SEEN_FILE.write_text(json.dumps(current_first_seen, indent=2, sort_keys=True), encoding="utf-8")
+    logger.info(f"Dropped {len(jobs) - len(kept)} jobs posted more than {MAX_AGE_DAYS} days ago")
+    return kept

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T22:58:10.138051+00:00",
+  "updated": "2026-09-26T23:09:22.678096+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
@@ -7,7 +7,7 @@
       "title": "FPGA Designer",
       "location": "Toronto, Ontario, Canada",
       "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
-      "posted": "Posted 3 Days Ago"
+      "posted": "2026-09-23"
     },
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03026-1",
@@ -15,7 +15,7 @@
       "title": "FPGA Development Tools Engineer",
       "location": "Toronto, Ontario, Canada",
       "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03026-1",
-      "posted": "Posted 11 Days Ago"
+      "posted": "2026-09-15"
     },
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03049",
@@ -23,63 +23,7 @@
       "title": "FPGA Development Tools Engineer",
       "location": "Toronto, Ontario, Canada",
       "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03049",
-      "posted": "Posted 11 Days Ago"
-    },
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/IP-Firmware-Design-Engineer_R02871",
-      "company": "Altera",
-      "title": "IP Firmware Design Engineer",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/IP-Firmware-Design-Engineer_R02871",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Compiler--Placer--Engineer_R02895",
-      "company": "Altera",
-      "title": "FPGA Compiler (Placer) Engineer",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Compiler--Placer--Engineer_R02895",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R02854",
-      "company": "Altera",
-      "title": "FPGA Development Tools Engineer",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R02854",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer---Synthesis_R02600",
-      "company": "Altera",
-      "title": "FPGA Development Tools Engineer \u2013 Synthesis",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer---Synthesis_R02600",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "amazon-10538066",
-      "company": "Amazon",
-      "title": "ML Systems Software Development Engineer Intern, Annapurna Labs - 2027",
-      "location": "Toronto, Ontario, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10538066",
-      "posted": "September 11, 2026"
-    },
-    {
-      "id": "amazon-10526702",
-      "company": "Amazon",
-      "title": "ML Kernel Performance Engineer, AWS Neuron, Annapurna Labs",
-      "location": "Toronto, Ontario, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10526702",
-      "posted": "September  2, 2026"
-    },
-    {
-      "id": "amazon-10515427",
-      "company": "Amazon",
-      "title": "Design Verification Engineer, Annapurna Labs",
-      "location": "Toronto, Ontario, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10515427",
-      "posted": "August 26, 2026"
+      "posted": "2026-09-15"
     },
     {
       "id": "amazon-10559417",
@@ -87,31 +31,7 @@
       "title": "Builder - Mobile (Platform), Ring",
       "location": "Toronto, Ontario, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10559417",
-      "posted": "September 24, 2026"
-    },
-    {
-      "id": "amazon-10482782",
-      "company": "Amazon",
-      "title": "Software Development Engineer - Supply Chain Optimization Tech, Inbound Systems",
-      "location": "Toronto, Ontario, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10482782",
-      "posted": "July 23, 2026"
-    },
-    {
-      "id": "amazon-10482781",
-      "company": "Amazon",
-      "title": "Software Development Engineer - Supply Chain Optimization Tech, Inbound Systems",
-      "location": "Toronto, Ontario, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10482781",
-      "posted": "July 23, 2026"
-    },
-    {
-      "id": "amazon-10424755",
-      "company": "Amazon",
-      "title": "Software Development Engineer, RDS Platform",
-      "location": "Vancouver, British Columbia, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10424755",
-      "posted": "May 20, 2026"
+      "posted": "2026-09-24"
     },
     {
       "id": "amd-92896",
@@ -119,7 +39,7 @@
       "title": "Physical Design Engineer",
       "location": "MARKHAM, Canada",
       "link": "https://canadacareers-amd.icims.com/jobs/92896/login",
-      "posted": "2026-09-25T23:46:00+0000"
+      "posted": "2026-09-25"
     },
     {
       "id": "amd-92182",
@@ -127,7 +47,7 @@
       "title": "RTL Design Engineer",
       "location": "MARKHAM, Canada",
       "link": "https://canadacareers-amd.icims.com/jobs/92182/login",
-      "posted": "2026-09-25T20:17:00+0000"
+      "posted": "2026-09-25"
     },
     {
       "id": "amd-92583",
@@ -135,7 +55,7 @@
       "title": "Static Timing Analysis / Full Chip Timing Engineer",
       "location": "MARKHAM, Canada",
       "link": "https://canadacareers-amd.icims.com/jobs/92583/login",
-      "posted": "2026-09-24T18:28:00+0000"
+      "posted": "2026-09-24"
     },
     {
       "id": "amd-92195",
@@ -143,7 +63,7 @@
       "title": "Systems Design Engineer - dGPU / CPU Software Feature Enablement",
       "location": "MARKHAM, Canada",
       "link": "https://canadacareers-amd.icims.com/jobs/92195/login",
-      "posted": "2026-09-24T15:38:00+0000"
+      "posted": "2026-09-24"
     },
     {
       "id": "amd-92300",
@@ -151,7 +71,7 @@
       "title": "Software Development Engineer (Chip Product Security)",
       "location": "MARKHAM, Canada",
       "link": "https://careers-amd.icims.com/jobs/92300/login",
-      "posted": "2026-09-22T23:43:00+0000"
+      "posted": "2026-09-22"
     },
     {
       "id": "amd-92299",
@@ -159,7 +79,7 @@
       "title": "Ryzen/Radeon Systems Design Engineer",
       "location": "MARKHAM, Canada",
       "link": "https://canadacareers-amd.icims.com/jobs/92299/login",
-      "posted": "2026-09-21T19:44:00+0000"
+      "posted": "2026-09-21"
     },
     {
       "id": "amd-92178",
@@ -167,327 +87,7 @@
       "title": "RTL Design Engineer",
       "location": "MARKHAM, Canada",
       "link": "https://canadacareers-amd.icims.com/jobs/92178/login",
-      "posted": "2026-09-17T20:08:00+0000"
-    },
-    {
-      "id": "amd-92333",
-      "company": "AMD",
-      "title": "IP Silicon Firmware Engineer",
-      "location": "VANCOUVER, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/92333/login",
-      "posted": "2026-09-11T15:05:00+0000"
-    },
-    {
-      "id": "amd-92064",
-      "company": "AMD",
-      "title": "IP Silicon Firmware Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/92064/login",
-      "posted": "2026-09-11T14:56:00+0000"
-    },
-    {
-      "id": "amd-90266",
-      "company": "AMD",
-      "title": "AI Systems Engineer \u2013 AI Model (Training & Inference)",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/90266/login",
-      "posted": "2026-09-10T14:31:00+0000"
-    },
-    {
-      "id": "amd-91979",
-      "company": "AMD",
-      "title": "Silicon Design Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/91979/login",
-      "posted": "2026-09-09T19:42:00+0000"
-    },
-    {
-      "id": "amd-91361",
-      "company": "AMD",
-      "title": "Short Term 2027 Hardware Design Verification Engineering Intern/Co-Op",
-      "location": "MARKHAM, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/91361/login",
-      "posted": "2026-09-03T11:19:00+0000"
-    },
-    {
-      "id": "amd-91643",
-      "company": "AMD",
-      "title": "IOMMU Verification Engineer",
-      "location": "VANCOUVER, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/91643/login",
-      "posted": "2026-09-02T18:58:00+0000"
-    },
-    {
-      "id": "amd-91207",
-      "company": "AMD",
-      "title": "Summer 2027 Long Term ASIC Verification Engineering Intern/ Co-Op",
-      "location": "OTTAWA, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/91207/login",
-      "posted": "2026-09-02T16:52:00+0000"
-    },
-    {
-      "id": "amd-91740",
-      "company": "AMD",
-      "title": "Design Verification Engineer",
-      "location": "VANCOUVER, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/91740/login",
-      "posted": "2026-09-02T15:43:00+0000"
-    },
-    {
-      "id": "amd-90287",
-      "company": "AMD",
-      "title": "ASIC Design Verification Engineer",
-      "location": "OTTAWA, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/90287/login",
-      "posted": "2026-09-01T18:41:00+0000"
-    },
-    {
-      "id": "amd-91541",
-      "company": "AMD",
-      "title": "Fullchip Floorplan Physical Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/91541/login",
-      "posted": "2026-09-01T16:05:00+0000"
-    },
-    {
-      "id": "amd-91362",
-      "company": "AMD",
-      "title": "Short Term 2027 Hardware Design Verification Engineering Intern/Co-Op",
-      "location": "VANCOUVER, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/91362/login",
-      "posted": "2026-09-01T07:48:00+0000"
-    },
-    {
-      "id": "amd-91320",
-      "company": "AMD",
-      "title": "Short Term 2027 Firmware Engineering Intern/Co-Op",
-      "location": "MARKHAM, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/91320/login",
-      "posted": "2026-09-01T07:10:00+0000"
-    },
-    {
-      "id": "amd-90379",
-      "company": "AMD",
-      "title": "Summer 2027 Long Term Hardware Design Verification Engineering Intern/Co-Op",
-      "location": "MARKHAM, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/90379/login",
-      "posted": "2026-09-01T07:07:00+0000"
-    },
-    {
-      "id": "amd-90372",
-      "company": "AMD",
-      "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
-      "location": "VANCOUVER, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/90372/login",
-      "posted": "2026-09-01T07:07:00+0000"
-    },
-    {
-      "id": "amd-90367",
-      "company": "AMD",
-      "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
-      "location": "MARKHAM, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/90367/login",
-      "posted": "2026-09-01T07:07:00+0000"
-    },
-    {
-      "id": "amd-91313",
-      "company": "AMD",
-      "title": "Short Term 2027 Firmware Engineering Intern/Co-Op",
-      "location": "VANCOUVER, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/91313/login",
-      "posted": "2026-09-01T07:05:00+0000"
-    },
-    {
-      "id": "amd-90301",
-      "company": "AMD",
-      "title": "Summer 2027 Long Term Firmware Engineering Intern/Co-op",
-      "location": "VANCOUVER, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/90301/login",
-      "posted": "2026-09-01T07:04:00+0000"
-    },
-    {
-      "id": "amd-90297",
-      "company": "AMD",
-      "title": "Summer 2027 Long Term Firmware Engineering Intern/Co-op",
-      "location": "MARKHAM, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/90297/login",
-      "posted": "2026-09-01T07:04:00+0000"
-    },
-    {
-      "id": "amd-91369",
-      "company": "AMD",
-      "title": "Summer 2027 Long Term Analog and Mixed Signal Engineering Intern/Co-Op",
-      "location": "MARKHAM, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/91369/login",
-      "posted": "2026-09-01T07:00:00+0000"
-    },
-    {
-      "id": "amd-91360",
-      "company": "AMD",
-      "title": "Short Term 2027 Hardware Design Engineering Intern/Co-Op",
-      "location": "MARKHAM, Canada",
-      "link": "https://campuscanada-amd.icims.com/jobs/91360/login",
-      "posted": "2026-09-01T07:00:00+0000"
-    },
-    {
-      "id": "amd-91540",
-      "company": "AMD",
-      "title": "Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/91540/login",
-      "posted": "2026-08-27T16:31:00+0000"
-    },
-    {
-      "id": "amd-91052",
-      "company": "AMD",
-      "title": "Mixed Signal Circuit Design Analysis & CAD Engineer ( Temporary Contract)",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/91052/login",
-      "posted": "2026-08-26T13:19:00+0000"
-    },
-    {
-      "id": "amd-89711",
-      "company": "AMD",
-      "title": "SOC Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/89711/login",
-      "posted": "2026-08-25T22:49:00+0000"
-    },
-    {
-      "id": "amd-90564",
-      "company": "AMD",
-      "title": "Design Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/90564/login",
-      "posted": "2026-08-20T17:32:00+0000"
-    },
-    {
-      "id": "amd-88983",
-      "company": "AMD",
-      "title": "Server Systems Assembly Manufacturing Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers-amd.icims.com/jobs/88983/login",
-      "posted": "2026-08-13T20:20:00+0000"
-    },
-    {
-      "id": "amd-88877",
-      "company": "AMD",
-      "title": "Design Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/88877/login",
-      "posted": "2026-08-07T20:40:00+0000"
-    },
-    {
-      "id": "amd-89475",
-      "company": "AMD",
-      "title": "SoC DFX Scan / ATPG Engineer",
-      "location": "OTTAWA, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/89475/login",
-      "posted": "2026-08-04T20:54:00+0000"
-    },
-    {
-      "id": "amd-89215",
-      "company": "AMD",
-      "title": "Digital Design Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/89215/login",
-      "posted": "2026-07-31T15:21:00+0000"
-    },
-    {
-      "id": "amd-88719",
-      "company": "AMD",
-      "title": "Silicon Design Engineer (1 year contract)",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/88719/login",
-      "posted": "2026-07-29T22:21:00+0000"
-    },
-    {
-      "id": "amd-88718",
-      "company": "AMD",
-      "title": "DFT Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/88718/login",
-      "posted": "2026-07-28T22:01:00+0000"
-    },
-    {
-      "id": "amd-88677",
-      "company": "AMD",
-      "title": "SoC Data Path Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/88677/login",
-      "posted": "2026-07-24T18:06:00+0000"
-    },
-    {
-      "id": "amd-88603",
-      "company": "AMD",
-      "title": "RTL Digital Design Engineer",
-      "location": "VANCOUVER, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/88603/login",
-      "posted": "2026-07-23T21:02:00+0000"
-    },
-    {
-      "id": "amd-87355",
-      "company": "AMD",
-      "title": "System Firmware Technical Engineer (1 yr contract)",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/87355/login",
-      "posted": "2026-07-10T22:45:00+0000"
-    },
-    {
-      "id": "amd-87520",
-      "company": "AMD",
-      "title": "SOC CAD Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/87520/login",
-      "posted": "2026-07-07T18:29:00+0000"
-    },
-    {
-      "id": "amd-87376",
-      "company": "AMD",
-      "title": "RTL Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/87376/login",
-      "posted": "2026-06-29T17:40:00+0000"
-    },
-    {
-      "id": "amd-87378",
-      "company": "AMD",
-      "title": "ASIC Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/87378/login",
-      "posted": "2026-06-26T15:27:00+0000"
-    },
-    {
-      "id": "amd-81103",
-      "company": "AMD",
-      "title": "SoC DFX Scan / ATPG Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/81103/login",
-      "posted": "2026-06-18T20:37:00+0000"
-    },
-    {
-      "id": "amd-84595",
-      "company": "AMD",
-      "title": "Physical Design Engineer",
-      "location": "VANCOUVER, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/84595/login",
-      "posted": "2026-06-15T19:15:00+0000"
-    },
-    {
-      "id": "amd-86868",
-      "company": "AMD",
-      "title": "Analog/Mixed-Signal SerDes Design Engineer",
-      "location": "Markham, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/86868/login",
-      "posted": "2026-06-10T18:53:00+0000"
-    },
-    {
-      "id": "amd-85833",
-      "company": "AMD",
-      "title": "Design Verification Engineer (1-Year Contract)",
-      "location": "OTTAWA, Canada",
-      "link": "https://canadacareers-amd.icims.com/jobs/85833/login",
-      "posted": "2026-05-29T20:38:00+0000"
+      "posted": "2026-09-17"
     },
     {
       "id": "workday-analogdevices-job/Canada-Toronto/Embedded-Software-Engineer_R266615",
@@ -495,7 +95,7 @@
       "title": "Embedded Software Engineer",
       "location": "Canada, Toronto; Canada, Vancouver",
       "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615",
-      "posted": "Posted 3 Days Ago"
+      "posted": "2026-09-23"
     },
     {
       "id": "workday-analogdevices-job/Canada-Toronto/Associate-Analog-Design-Engineer_R266122",
@@ -503,7 +103,7 @@
       "title": "Associate Analog Design Engineer",
       "location": "Canada, Toronto",
       "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Associate-Analog-Design-Engineer_R266122",
-      "posted": "Posted 11 Days Ago"
+      "posted": "2026-09-15"
     },
     {
       "id": "workday-analogdevices-job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614",
@@ -511,15 +111,7 @@
       "title": "Analog Design Engineering Intern",
       "location": "Canada, Toronto",
       "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614",
-      "posted": "Posted 3 Days Ago"
-    },
-    {
-      "id": "workday-analogdevices-job/US-MA-Wilmington/Mixed-Signal-Design-Engineer_R262378",
-      "company": "Analog Devices",
-      "title": "Mixed-Signal Design Engineer",
-      "location": "US, MA, Wilmington; Canada, Toronto; US, TX, Austin, Plaza on the Lake; US, CA, San Diego, Avenue of Science; US, NC, Durham",
-      "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Mixed-Signal-Design-Engineer_R262378",
-      "posted": "Posted 26 Days Ago"
+      "posted": "2026-09-23"
     },
     {
       "id": "arm-98723949120",
@@ -527,7 +119,7 @@
       "title": "CAD-DFT Engineer",
       "location": "Toronto, Canada",
       "link": "https://careers.arm.com/job/toronto/cad-dft-engineer/33099/98723949120",
-      "posted": ""
+      "posted": "2026-09-26"
     },
     {
       "id": "workday-cadence-job/BURNABY-01/Distributed-Systems-Engineer_R53233-1",
@@ -535,7 +127,7 @@
       "title": "Distributed Systems Engineer",
       "location": "BURNABY 01",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1",
-      "posted": "Posted 10 Days Ago"
+      "posted": "2026-09-16"
     },
     {
       "id": "workday-cadence-job/BURNABY-01/Distributed-Systems-Engineer_R53232",
@@ -543,63 +135,7 @@
       "title": "Distributed Systems Engineer",
       "location": "BURNABY 01",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232",
-      "posted": "Posted 10 Days Ago"
-    },
-    {
-      "id": "workday-cadence-job/MOUNT-ROYAL-Montreal/Analog-Mixed-Signal-IC-Design-Co-Op-Intern---Summer-2026----Stage-Co-Op-en-Conception-de-CI-Analogiques-Signal-Mixte--t--2026-_R53993-2",
-      "company": "Cadence",
-      "title": "Analog/Mixed-Signal IC Design Co-Op/Intern  (Summer 2026) / Stage/Co-Op en Conception de CI Analogiques/Signal Mixte (\u00c9t\u00e9  2026)",
-      "location": "MOUNT-ROYAL (Montreal)",
-      "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Analog-Mixed-Signal-IC-Design-Co-Op-Intern---Summer-2026----Stage-Co-Op-en-Conception-de-CI-Analogiques-Signal-Mixte--t--2026-_R53993-2",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-cadence-job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55507",
-      "company": "Cadence",
-      "title": "Firmware Design Engineer",
-      "location": "MOUNT-ROYAL (Montreal); MOUNT-ROYAL 01 (MONTREAL)",
-      "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55507",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-cadence-job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55932",
-      "company": "Cadence",
-      "title": "Ing\u00e9nieur en conception de micrologiciel - Firmware Design Engineer",
-      "location": "MOUNT-ROYAL (Montreal); MOUNT-ROYAL 01 (MONTREAL)",
-      "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55932",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-cadence-job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55931",
-      "company": "Cadence",
-      "title": "Ing\u00e9nieur en conception de micrologiciel - Firmware Design Engineer",
-      "location": "MOUNT-ROYAL (Montreal); MOUNT-ROYAL 01 (MONTREAL)",
-      "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Ingnieur-en-conception-de-micrologiciel---Firmware-Design-Engineer_R55931",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "ashby-cerebras-3f85f614-264f-4987-9fb5-320ee2798e97",
-      "company": "Cerebras",
-      "title": "FPGA Engineer",
-      "location": "Sunnyvale, CA; Toronto, CAN",
-      "link": "https://jobs.ashbyhq.com/cerebras/3f85f614-264f-4987-9fb5-320ee2798e97",
-      "posted": "2026-08-06T15:58:08.210+00:00"
-    },
-    {
-      "id": "ashby-cerebras-80775253-7fba-4a3b-87ee-0e70ce8e995c",
-      "company": "Cerebras",
-      "title": "Software Engineer, Inference Platform ",
-      "location": "Sunnyvale, CA; Toronto, CAN",
-      "link": "https://jobs.ashbyhq.com/cerebras/80775253-7fba-4a3b-87ee-0e70ce8e995c",
-      "posted": "2026-06-20T01:28:09.918+00:00"
-    },
-    {
-      "id": "ashby-cerebras-c35a389c-807e-45fb-bfda-03f6b1361871",
-      "company": "Cerebras",
-      "title": "ML Systems Integration Engineer",
-      "location": "Sunnyvale, CA; Toronto, CAN",
-      "link": "https://jobs.ashbyhq.com/cerebras/c35a389c-807e-45fb-bfda-03f6b1361871",
-      "posted": "2026-09-03T18:54:24.775+00:00"
+      "posted": "2026-09-16"
     },
     {
       "id": "workday-ciena-job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752",
@@ -607,63 +143,7 @@
       "title": "Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 months)",
       "location": "Canada- Ottawa- 383 Terry Fox- Bldg C",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752",
-      "posted": "Posted Yesterday"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Hardware-Engineer--Power-Design--onsite-Kanata_R031227",
-      "company": "Ciena",
-      "title": "Hardware Engineer, Power Design, onsite Kanata",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer--Power-Design--onsite-Kanata_R031227",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Embedded-Software-Developer--New-Grad-_R031481",
-      "company": "Ciena",
-      "title": "Embedded Software Developer (New Grad)",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Software-Developer--New-Grad-_R031481",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Product-Verification-Technologist_R031555",
-      "company": "Ciena",
-      "title": "Product Verification Technologist",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Product-Verification-Technologist_R031555",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Embedded-Software-Engineer---New-Grad_R031571",
-      "company": "Ciena",
-      "title": "Embedded Software Engineer - New Grad",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Software-Engineer---New-Grad_R031571",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Hardware-Power-Engineer---New-Grad_R030580",
-      "company": "Ciena",
-      "title": "Hardware Power Engineer - New Grad",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Power-Engineer---New-Grad_R030580",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Mixed-Signal-Design-Engineer_R030994",
-      "company": "Ciena",
-      "title": "Mixed Signal Design Engineer",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Mixed-Signal-Design-Engineer_R030994",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/ASIC-Synthesis-and-STA-Engineer---New-Grad_R030893",
-      "company": "Ciena",
-      "title": "ASIC Synthesis and STA Engineer - New Grad",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Synthesis-and-STA-Engineer---New-Grad_R030893",
-      "posted": "Posted 30 Days Ago"
+      "posted": "2026-09-25"
     },
     {
       "id": "workday-ciena-job/Ottawa/Mixed-Signal-IP-Integration-Engineer---New-Grad_R031688",
@@ -671,23 +151,7 @@
       "title": "Mixed Signal IP Integration Engineer \u2013 New Grad",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Mixed-Signal-IP-Integration-Engineer---New-Grad_R031688",
-      "posted": "Posted 5 Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Embedded-software-engineer_R031266",
-      "company": "Ciena",
-      "title": "Embedded software engineer",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-software-engineer_R031266",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/NPI-Hardware-Co-op--8-month---January-2027-_R031642",
-      "company": "Ciena",
-      "title": "NPI Hardware Co-op (8 month - January 2027)",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/NPI-Hardware-Co-op--8-month---January-2027-_R031642",
-      "posted": "Posted 15 Days Ago"
+      "posted": "2026-09-21"
     },
     {
       "id": "workday-ciena-job/Ottawa/ASIC-Engineer-Intern_R031750",
@@ -695,7 +159,7 @@
       "title": "ASIC Engineer Intern",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750",
-      "posted": "Posted 4 Days Ago"
+      "posted": "2026-09-22"
     },
     {
       "id": "workday-ciena-job/Ottawa/ASIC-Processor-Complex-Engineering-Co-op--January-2027---4-months-_R031744",
@@ -703,7 +167,7 @@
       "title": "ASIC Processor Complex Engineering Co-op (January 2027 - 4 months)",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Processor-Complex-Engineering-Co-op--January-2027---4-months-_R031744",
-      "posted": "Posted Yesterday"
+      "posted": "2026-09-25"
     },
     {
       "id": "workday-generac-job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1",
@@ -711,31 +175,7 @@
       "title": "Associate Verification Engineer",
       "location": "Canada - Toronto",
       "link": "https://generac.wd5.myworkdayjobs.com/External/job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1",
-      "posted": "Posted 9 Days Ago"
-    },
-    {
-      "id": "ford-68556",
-      "company": "Ford",
-      "title": "Software Development (Embedded) Engineer",
-      "location": "Ottawa, ON, Canada",
-      "link": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/68556",
-      "posted": "2026-08-13"
-    },
-    {
-      "id": "ford-69725",
-      "company": "Ford",
-      "title": "Embedded Software Developer - BSP/Bootloader",
-      "location": "Ottawa, ON, Canada",
-      "link": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/69725",
-      "posted": "2026-09-09"
-    },
-    {
-      "id": "workday-generalmotors-job/Markham-Ontario-Canada/Software-Developer----Virtualization-and-SIL-Integration_JR-202602900",
-      "company": "GM",
-      "title": "Embedded Simulation Developer - SIL and Virtualization",
-      "location": "Markham, Ontario, Canada",
-      "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/Software-Developer----Virtualization-and-SIL-Integration_JR-202602900",
-      "posted": "Posted 26 Days Ago"
+      "posted": "2026-09-17"
     },
     {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/XMLNAME-2027-Winter-Co-op-Mechatronic-Infrastructure-Diagnostic-Systems_JR-202618915",
@@ -743,7 +183,7 @@
       "title": "2027 Winter Co-op Mechatronic Infrastructure Diagnostic Systems",
       "location": "Markham, Ontario, Canada",
       "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/XMLNAME-2027-Winter-Co-op-Mechatronic-Infrastructure-Diagnostic-Systems_JR-202618915",
-      "posted": "Posted 3 Days Ago"
+      "posted": "2026-09-23"
     },
     {
       "id": "huawei-2750210",
@@ -751,79 +191,7 @@
       "title": "Researcher \u2013 Agent Platform R&D",
       "location": "Markham, Ontario, Canada",
       "link": "https://huaweicanada.recruitee.com/o/researcher-agent-platform-rd",
-      "posted": "2026-09-24 18:53:28 UTC"
-    },
-    {
-      "id": "huawei-2700274",
-      "company": "Huawei",
-      "title": "Co-op Engineer - openJiuwen AI Agent Platform",
-      "location": "Markham, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/co-op-engineer-openjiuwen-ai-agent-platform",
-      "posted": "2026-09-02 12:20:10 UTC"
-    },
-    {
-      "id": "huawei-2689959",
-      "company": "Huawei",
-      "title": "Research Engineer - AI Workload & Systems",
-      "location": "Markham, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/research-engineer-ai-workload-systems",
-      "posted": "2026-08-05 05:14:34 UTC"
-    },
-    {
-      "id": "huawei-2681802",
-      "company": "Huawei",
-      "title": "Engineer - Optical Systems",
-      "location": "Ottawa, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/engineer-optical-systems-1",
-      "posted": "2026-08-05 12:05:27 UTC"
-    },
-    {
-      "id": "huawei-2638789",
-      "company": "Huawei",
-      "title": "Engineer - Optical Communication Systems (Test, Modeling & Sensing)",
-      "location": "Ottawa, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/engineer-optical-communication-systems-test-modeling-sensing",
-      "posted": "2026-08-05 10:59:30 UTC"
-    },
-    {
-      "id": "huawei-2604025",
-      "company": "Huawei",
-      "title": "Research Engineer - Agentic Software Systems Engineering",
-      "location": "Markham, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering",
-      "posted": "2026-08-21 12:49:44 UTC"
-    },
-    {
-      "id": "huawei-2249196",
-      "company": "Huawei",
-      "title": "Database Research Expert - Big Data Platform",
-      "location": "Markham, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/database-research-expert",
-      "posted": "2026-07-27 15:35:07 UTC"
-    },
-    {
-      "id": "huawei-2210919",
-      "company": "Huawei",
-      "title": "Researcher \u2013 AI/ML Real-Time Embedded OS",
-      "location": "Ottawa, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/researcher-real-time-embedded-os-2",
-      "posted": "2026-08-10 17:33:08 UTC"
-    },
-    {
-      "id": "huawei-1166741",
-      "company": "Huawei",
-      "title": "Researcher - Real-Time Embedded OS",
-      "location": "Ottawa, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/researcher-realtime-embedded-os",
-      "posted": "2026-08-07 16:29:01 UTC"
-    },
-    {
-      "id": "greenhouse-lightmatter-4418733008",
-      "company": "Lightmatter",
-      "title": "Analog IC Design Engineer, High-Speed",
-      "location": "Toronto, ON",
-      "link": "https://boards.greenhouse.io/lightmatter/jobs/4418733008?gh_jid=4418733008",
-      "posted": "2026-08-25T14:50:58-04:00"
+      "posted": "2026-09-24"
     },
     {
       "id": "workday-marvell-job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525",
@@ -831,7 +199,7 @@
       "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
       "location": "Ottawa, Canada; Toronto, Canada",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525",
-      "posted": "Posted 9 Days Ago"
+      "posted": "2026-09-17"
     },
     {
       "id": "workday-marvell-job/Ottawa-Canada/Firmware-Engineer-Intern_2604738-1",
@@ -839,23 +207,7 @@
       "title": "Firmware Engineer Intern",
       "location": "Ottawa, Canada",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Firmware-Engineer-Intern_2604738-1",
-      "posted": "Posted 12 Days Ago"
-    },
-    {
-      "id": "workday-marvell-job/Ottawa-Canada/Silicon-Photonics-Intern---PhD_2502469",
-      "company": "Marvell",
-      "title": "Silicon Photonics Intern - PhD (Fall 2026 Start Date)",
-      "location": "Ottawa, Canada",
-      "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Silicon-Photonics-Intern---PhD_2502469",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-microchiphr-job/Canada---Burnaby/ASIC-Development-Engineer_R3761-26",
-      "company": "Microchip",
-      "title": "ASIC Development Engineer",
-      "location": "Canada - Burnaby",
-      "link": "https://microchiphr.wd5.myworkdayjobs.com/External/job/Canada---Burnaby/ASIC-Development-Engineer_R3761-26",
-      "posted": "Posted 23 Days Ago"
+      "posted": "2026-09-14"
     },
     {
       "id": "nokia-40197",
@@ -866,14 +218,6 @@
       "posted": "2026-09-14"
     },
     {
-      "id": "nokia-40264",
-      "company": "Nokia",
-      "title": "Firmware DSP Engineer",
-      "location": "Ottawa, Ontario",
-      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40264",
-      "posted": "2026-09-11"
-    },
-    {
       "id": "nokia-39600",
       "company": "Nokia",
       "title": "Hardware Developer Eng Co-op/Intern",
@@ -882,36 +226,12 @@
       "posted": "2026-09-15"
     },
     {
-      "id": "nokia-39237",
-      "company": "Nokia",
-      "title": "DSP Firmware Engineering Co-op/Intern",
-      "location": "Ottawa, Ontario",
-      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39237",
-      "posted": "2026-09-02"
-    },
-    {
-      "id": "workday-nxp-job/Kanata/Digital-Verification-Engineer_R-10063157",
-      "company": "NXP",
-      "title": "Software Engineer - Hardware Design Verification",
-      "location": "Kanata",
-      "link": "https://nxp.wd3.myworkdayjobs.com/careers/job/Kanata/Digital-Verification-Engineer_R-10063157",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
-      "id": "workday-nxp-job/Kanata/IC-Design-Verification-Engineer_R-10063155",
-      "company": "NXP",
-      "title": "IC Design Verification Engineer",
-      "location": "Kanata",
-      "link": "https://nxp.wd3.myworkdayjobs.com/careers/job/Kanata/IC-Design-Verification-Engineer_R-10063155",
-      "posted": "Posted 30+ Days Ago"
-    },
-    {
       "id": "greenhouse-tenstorrent-5178453007",
       "company": "Tenstorrent",
       "title": "Electrical Engineer, PCB Design ",
       "location": "Belgrade, Serbia; Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5178453007",
-      "posted": "2026-09-24T13:30:07-04:00"
+      "posted": "2026-09-24"
     },
     {
       "id": "greenhouse-tenstorrent-5198590007",
@@ -919,7 +239,7 @@
       "title": "Physical Design Engineer, AI Accelerator IP",
       "location": "Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5198590007",
-      "posted": "2026-09-24T13:30:07-04:00"
+      "posted": "2026-09-24"
     },
     {
       "id": "greenhouse-tenstorrent-5198608007",
@@ -927,7 +247,7 @@
       "title": "Physical Design Methodology Engineer, AI HW IP",
       "location": "Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5198608007",
-      "posted": "2026-09-24T13:30:07-04:00"
+      "posted": "2026-09-24"
     },
     {
       "id": "greenhouse-tenstorrent-4155609007",
@@ -935,7 +255,7 @@
       "title": "Software Engineer, Acceleration Kernel Development",
       "location": "Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4155609007",
-      "posted": "2026-09-24T13:30:07-04:00"
+      "posted": "2026-09-24"
     },
     {
       "id": "greenhouse-tenstorrent-5143663007",
@@ -943,7 +263,7 @@
       "title": "Systems Engineer, Data Center Debug",
       "location": "Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5143663007",
-      "posted": "2026-09-24T13:30:07-04:00"
+      "posted": "2026-09-24"
     }
   ]
 }

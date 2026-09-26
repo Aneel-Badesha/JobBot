@@ -77,3 +77,11 @@ def is_target_location(text: str) -> bool:
 
 def is_recent(posted_on: str) -> bool:
     return posted_on.lower().strip() in _RECENT_WORKDAY
+
+
+_INTERN_RE = _kw_pattern(["intern", "interns", "internship", "co-op", "coop", "student", "stage", "stagiaire"])
+
+
+def is_intern(title: str) -> bool:
+    """Intern/co-op postings (vs. full-time) — used to split the README tables."""
+    return bool(_INTERN_RE.search(title))

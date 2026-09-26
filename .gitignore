@@ -9,3 +9,4 @@ token.json
 .venv/
 seen_jobs.json
 .claude/
+first_seen.json
