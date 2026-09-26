@@ -4,6 +4,7 @@ from .amazon import scrape_amazon
 from .amd import scrape_amd
 from .analog_devices import scrape_analog_devices
 from .arm import scrape_arm
+from .astera_labs import scrape_astera_labs
 from .broadcom import scrape_broadcom
 from .cadence import scrape_cadence
 from .cerebras import scrape_cerebras
@@ -52,6 +53,7 @@ __all__ = [
     "scrape_amd",
     "scrape_analog_devices",
     "scrape_arm",
+    "scrape_astera_labs",
     "scrape_broadcom",
     "scrape_cadence",
     "scrape_cerebras",
