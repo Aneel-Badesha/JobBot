@@ -88,7 +88,8 @@ def scrape_google() -> list[dict]:
                 continue
 
             job_id = p[0] if len(p) > 0 else ""
-            link = p[2] if len(p) > 2 else "https://www.google.com/about/careers/applications/jobs/results"
+            # p[2] is the sign-in/apply URL; link to the public posting page instead
+            link = f"https://www.google.com/about/careers/applications/jobs/results/{job_id}"
 
             jobs.append({
                 "id": f"google-{job_id}",

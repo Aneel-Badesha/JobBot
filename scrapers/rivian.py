@@ -43,7 +43,8 @@ def scrape_rivian() -> list[dict]:
                 "company": "Rivian",
                 "title": title,
                 "location": location,
-                "link": d.get("apply_url", ""),
+                "link": (d.get("meta_data") or {}).get("canonical_url")
+                        or f"{API_URL.rsplit('/api/', 1)[0]}/jobs/{d.get('slug') or d.get('req_id')}",  # posting page, not iCIMS apply/login
                 "posted": d.get("posted_date", ""),
             })
 
