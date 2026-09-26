@@ -1,4 +1,4 @@
-# FinancialBot
+# JobBot
 
 A job scraper and Gmail digest bot for hardware/firmware/embedded systems roles. Scrapes ~46 hardware and semiconductor companies for firmware, embedded, hardware, and systems engineer internships, co-ops, and new-grad roles in Toronto, Montreal, Ottawa, and Vancouver. Emails a daily digest and keeps the table below up to date.
 
