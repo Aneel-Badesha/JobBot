@@ -3,6 +3,7 @@ import logging
 import os
 from datetime import date
 from email.message import EmailMessage
+from html import escape
 from pathlib import Path
 
 from google.auth.exceptions import RefreshError
@@ -11,7 +12,10 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
+from storage import split_jobs
+
 logger = logging.getLogger(__name__)
+README_URL = "https://github.com/Aneel-Badesha/JobBot#current-jobs"
 
 SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
 _CREDS_DIR = Path.home() / ".config" / "financialbot"
@@ -67,31 +71,50 @@ def send_digest(jobs: list[dict]) -> None:
 
 
 def _build_plain(jobs: list[dict]) -> str:
-    lines = [f"New hardware/embedded jobs — {date.today().isoformat()}\n"]
-    for j in jobs:
-        lines.append(f"{j['company']} | {j['title']} | {j['location']}")
-        lines.append(f"  {j['link']}\n")
+    interns, full_time = split_jobs(jobs)
+    lines = [f"New hardware/embedded jobs — {date.today().isoformat()} ({len(jobs)} new)", ""]
+    for heading, rows in ((f"Internships & Co-ops ({len(interns)})", interns),
+                          (f"Full-time ({len(full_time)})", full_time)):
+        lines += [heading, "-" * len(heading)]
+        if not rows:
+            lines.append("None today.")
+        for j in rows:
+            lines.append(f"{j.get('posted', '')} | {j['company']} | {j['title']} | {j['location']}")
+            lines.append(f"  {j['link']}")
+        lines.append("")
+    lines.append(f"All current jobs: {README_URL}")
     return "\n".join(lines)
 
 
+_CELL = "padding:8px;border-bottom:1px solid #eee;vertical-align:top"
+
+
+def _html_table(rows: list[dict]) -> str:
+    if not rows:
+        return '<p style="color:#888"><em>None today.</em></p>'
+    body = "".join(f"""
+      <tr>
+        <td style="{_CELL};color:#888;white-space:nowrap">{escape(j.get('posted', ''))}</td>
+        <td style="{_CELL};font-weight:bold;color:#0f766e">{escape(j['company'])}</td>
+        <td style="{_CELL}"><a href="{escape(j['link'], quote=True)}" style="color:#1a0dab;text-decoration:none">{escape(j['title'])}</a></td>
+        <td style="{_CELL};color:#555">{escape(j['location'])}</td>
+      </tr>""" for j in rows)
+    return f"""<table style="width:100%;border-collapse:collapse">
+    <thead>
+      <tr style="background:#f5f5f5">
+        <th style="padding:8px;text-align:left">Posted</th>
+        <th style="padding:8px;text-align:left">Company</th>
+        <th style="padding:8px;text-align:left">Role</th>
+        <th style="padding:8px;text-align:left">Location</th>
+      </tr>
+    </thead>
+    <tbody>{body}
+    </tbody>
+  </table>"""
+
+
 def _build_html(jobs: list[dict]) -> str:
-    by_company: dict[str, list[dict]] = {}
-    for j in jobs:
-        by_company.setdefault(j["company"], []).append(j)
-
-    rows = []
-    for company, company_jobs in sorted(by_company.items()):
-        for j in company_jobs:
-            rows.append(f"""
-        <tr>
-          <td style="padding:8px;border-bottom:1px solid #eee;font-weight:bold;color:#0f766e">{company}</td>
-          <td style="padding:8px;border-bottom:1px solid #eee">
-            <a href="{j['link']}" style="color:#1a0dab;text-decoration:none">{j['title']}</a>
-          </td>
-          <td style="padding:8px;border-bottom:1px solid #eee;color:#555">{j['location']}</td>
-          <td style="padding:8px;border-bottom:1px solid #eee;color:#888;font-size:12px">{j.get('posted', '')}</td>
-        </tr>""")
-
+    interns, full_time = split_jobs(jobs)
     return f"""<!DOCTYPE html>
 <html>
 <body style="font-family:Arial,sans-serif;color:#333;max-width:800px;margin:auto">
@@ -99,23 +122,14 @@ def _build_html(jobs: list[dict]) -> str:
     New Hardware Jobs
     <span style="font-size:14px;color:#666;font-weight:normal">— {date.today().isoformat()}</span>
   </h2>
-  <p>{len(jobs)} new posting(s) found today.</p>
-  <table style="width:100%;border-collapse:collapse">
-    <thead>
-      <tr style="background:#f5f5f5">
-        <th style="padding:8px;text-align:left">Company</th>
-        <th style="padding:8px;text-align:left">Role</th>
-        <th style="padding:8px;text-align:left">Location</th>
-        <th style="padding:8px;text-align:left">Posted</th>
-      </tr>
-    </thead>
-    <tbody>
-      {''.join(rows)}
-    </tbody>
-  </table>
+  <p>{len(jobs)} new posting(s) added today.</p>
+  <h3>Internships &amp; Co-ops ({len(interns)})</h3>
+  {_html_table(interns)}
+  <h3 style="margin-top:28px">Full-time ({len(full_time)})</h3>
+  {_html_table(full_time)}
   <p style="color:#888;font-size:12px;margin-top:24px">
-    Automated digest from FinancialBot. Jobs filtered for Toronto/Montreal/Ottawa/Vancouver + firmware/embedded/systems keywords.<br>
-    <a href="https://aneel-badesha.github.io/FinancialBot" style="color:#1a0dab">View full job board →</a>
+    Automated digest from FinancialBot. Jobs filtered for Toronto/Montreal/Ottawa/Vancouver + firmware/embedded/systems keywords, posted in the last 14 days.<br>
+    <a href="{README_URL}" style="color:#1a0dab">View all current jobs →</a>
   </p>
 </body>
 </html>"""

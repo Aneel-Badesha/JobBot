@@ -59,6 +59,17 @@ _TABLE_START = "<!-- JOBS:START -->"
 _TABLE_END = "<!-- JOBS:END -->"
 
 
+def split_jobs(jobs: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Split into (interns/co-ops, full-time), each sorted newest first then by company/title.
+    Shared by the README tables and the email digest so both look the same."""
+    def ordered(rows: list[dict]) -> list[dict]:
+        rows = sorted(rows, key=lambda j: (j["company"].lower(), j["title"].lower()))
+        return sorted(rows, key=lambda j: j.get("posted", ""), reverse=True)
+
+    return (ordered([j for j in jobs if is_intern(j["title"])]),
+            ordered([j for j in jobs if not is_intern(j["title"])]))
+
+
 def save_jobs_to_readme(jobs: list[dict]) -> None:
     """Rewrite the jobs tables between the JOBS markers in README.md (appended if missing)."""
     def cell(text: str) -> str:
@@ -67,15 +78,12 @@ def save_jobs_to_readme(jobs: list[dict]) -> None:
     def table(rows: list[dict]) -> list[str]:
         if not rows:
             return ["_None right now._"]
-        rows = sorted(rows, key=lambda j: (j["company"].lower(), j["title"].lower()))
-        rows.sort(key=lambda j: j.get("posted", ""), reverse=True)
         out = ["| Posted | Company | Role | Location |", "|--------|---------|------|----------|"]
         out += [f"| {cell(j.get('posted', ''))} | {cell(j['company'])} | [{cell(j['title'])}]({j['link']}) | {cell(j['location'])} |"
                 for j in rows]
         return out
 
-    interns = [j for j in jobs if is_intern(j["title"])]
-    full_time = [j for j in jobs if not is_intern(j["title"])]
+    interns, full_time = split_jobs(jobs)
     lines = [
         _TABLE_START,
         f"_Updated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} — {len(jobs)} jobs posted in the last {MAX_AGE_DAYS} days_",
