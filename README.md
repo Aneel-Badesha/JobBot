@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-09-26 23:24 UTC — 33 jobs posted in the last 14 days_
+_Updated 2026-09-26 23:35 UTC — 33 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (8)
 
@@ -43,11 +43,11 @@ _Updated 2026-09-26 23:24 UTC — 33 jobs posted in the last 14 days_
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
 | 2026-09-26 | Arm | [CAD-DFT Engineer](https://careers.arm.com/job/toronto/cad-dft-engineer/33099/98723949120) | Toronto, Canada |
-| 2026-09-25 | AMD | [Physical Design Engineer](https://canadacareers-amd.icims.com/jobs/92896/login) | MARKHAM, Canada |
-| 2026-09-25 | AMD | [RTL Design Engineer](https://canadacareers-amd.icims.com/jobs/92182/login) | MARKHAM, Canada |
+| 2026-09-25 | AMD | [Physical Design Engineer](https://careers.amd.com/jobs/92896?lang=en-us) | MARKHAM, Canada |
+| 2026-09-25 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/92182?lang=en-us) | MARKHAM, Canada |
 | 2026-09-24 | Amazon | [Builder - Mobile (Platform), Ring](https://www.amazon.jobs/en/jobs/10559417) | Toronto, Ontario, CAN |
-| 2026-09-24 | AMD | [Static Timing Analysis / Full Chip Timing Engineer](https://canadacareers-amd.icims.com/jobs/92583/login) | MARKHAM, Canada |
-| 2026-09-24 | AMD | [Systems Design Engineer - dGPU / CPU Software Feature Enablement](https://canadacareers-amd.icims.com/jobs/92195/login) | MARKHAM, Canada |
+| 2026-09-24 | AMD | [Static Timing Analysis / Full Chip Timing Engineer](https://careers.amd.com/jobs/92583?lang=en-us) | MARKHAM, Canada |
+| 2026-09-24 | AMD | [Systems Design Engineer - dGPU / CPU Software Feature Enablement](https://careers.amd.com/jobs/92195?lang=en-us) | MARKHAM, Canada |
 | 2026-09-24 | Huawei | [Researcher – Agent Platform R&D](https://huaweicanada.recruitee.com/o/researcher-agent-platform-rd) | Markham, Ontario, Canada |
 | 2026-09-24 | Tenstorrent | [Electrical Engineer, PCB Design](https://job-boards.greenhouse.io/tenstorrent/jobs/5178453007) | Belgrade, Serbia; Toronto, Ontario, Canada |
 | 2026-09-24 | Tenstorrent | [Physical Design Engineer, AI Accelerator IP](https://job-boards.greenhouse.io/tenstorrent/jobs/5198590007) | Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada |
@@ -56,10 +56,10 @@ _Updated 2026-09-26 23:24 UTC — 33 jobs posted in the last 14 days_
 | 2026-09-24 | Tenstorrent | [Systems Engineer, Data Center Debug](https://job-boards.greenhouse.io/tenstorrent/jobs/5143663007) | Toronto, Ontario, Canada |
 | 2026-09-23 | Altera | [FPGA Designer](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Designer_R02835) | Toronto, Ontario, Canada |
 | 2026-09-23 | Analog Devices | [Embedded Software Engineer](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615) | Canada, Toronto; Canada, Vancouver |
-| 2026-09-22 | AMD | [Software Development Engineer (Chip Product Security)](https://careers-amd.icims.com/jobs/92300/login) | MARKHAM, Canada |
-| 2026-09-21 | AMD | [Ryzen/Radeon Systems Design Engineer](https://canadacareers-amd.icims.com/jobs/92299/login) | MARKHAM, Canada |
+| 2026-09-22 | AMD | [Software Development Engineer (Chip Product Security)](https://careers.amd.com/jobs/92300?lang=en-us) | MARKHAM, Canada |
+| 2026-09-21 | AMD | [Ryzen/Radeon Systems Design Engineer](https://careers.amd.com/jobs/92299?lang=en-us) | MARKHAM, Canada |
 | 2026-09-21 | Ciena | [Mixed Signal IP Integration Engineer – New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Mixed-Signal-IP-Integration-Engineer---New-Grad_R031688) | Ottawa |
-| 2026-09-17 | AMD | [RTL Design Engineer](https://canadacareers-amd.icims.com/jobs/92178/login) | MARKHAM, Canada |
+| 2026-09-17 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/92178?lang=en-us) | MARKHAM, Canada |
 | 2026-09-17 | ecobee | [Associate Verification Engineer](https://generac.wd5.myworkdayjobs.com/External/job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1) | Canada - Toronto |
 | 2026-09-16 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
 | 2026-09-16 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232) | BURNABY 01 |
