@@ -23,16 +23,15 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-09-26 23:35 UTC — 33 jobs posted in the last 14 days_
+_Updated 2026-09-27 21:31 UTC — 32 jobs posted in the last 14 days_
 
-### Internships & Co-ops (8)
+### Internships & Co-ops (7)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
 | 2026-09-25 | Ciena | [ASIC Processor Complex Engineering Co-op (January 2027 - 4 months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Processor-Complex-Engineering-Co-op--January-2027---4-months-_R031744) | Ottawa |
 | 2026-09-25 | Ciena | [Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752) | Canada- Ottawa- 383 Terry Fox- Bldg C |
 | 2026-09-23 | Analog Devices | [Analog Design Engineering Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614) | Canada, Toronto |
-| 2026-09-23 | GM | [2027 Winter Co-op Mechatronic Infrastructure Diagnostic Systems](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/XMLNAME-2027-Winter-Co-op-Mechatronic-Infrastructure-Diagnostic-Systems_JR-202618915) | Markham, Ontario, Canada |
 | 2026-09-22 | Ciena | [ASIC Engineer Intern](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750) | Ottawa |
 | 2026-09-17 | Marvell | [Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525) | Ottawa, Canada; Toronto, Canada |
 | 2026-09-15 | Nokia | [Hardware Developer Eng Co-op/Intern](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39600) | Ottawa, Ontario |
