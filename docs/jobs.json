@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T21:31:48.612201+00:00",
+  "updated": "2026-09-29T21:32:07.718528+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
@@ -8,22 +8,6 @@
       "location": "Toronto, Ontario, Canada",
       "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
       "posted": "2026-09-23"
-    },
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03026-1",
-      "company": "Altera",
-      "title": "FPGA Development Tools Engineer",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03026-1",
-      "posted": "2026-09-15"
-    },
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03049",
-      "company": "Altera",
-      "title": "FPGA Development Tools Engineer",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03049",
-      "posted": "2026-09-15"
     },
     {
       "id": "amazon-10559417",
@@ -250,6 +234,14 @@
       "posted": "2026-09-22"
     },
     {
+      "id": "workday-ciena-job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
+      "company": "Ciena",
+      "title": "Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
+      "posted": "2026-09-29"
+    },
+    {
       "id": "workday-generac-job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1",
       "company": "ecobee",
       "title": "Associate Verification Engineer",
@@ -272,22 +264,6 @@
       "location": "Ottawa, Canada; Toronto, Canada",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525",
       "posted": "2026-09-17"
-    },
-    {
-      "id": "workday-marvell-job/Ottawa-Canada/Firmware-Engineer-Intern_2604738-1",
-      "company": "Marvell",
-      "title": "Firmware Engineer Intern",
-      "location": "Ottawa, Canada",
-      "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Firmware-Engineer-Intern_2604738-1",
-      "posted": "2026-09-14"
-    },
-    {
-      "id": "nokia-40197",
-      "company": "Nokia",
-      "title": "DSP Firmware Engineer",
-      "location": "Ottawa, Ontario",
-      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40197",
-      "posted": "2026-09-14"
     },
     {
       "id": "nokia-39600",
