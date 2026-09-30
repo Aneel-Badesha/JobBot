@@ -23,9 +23,9 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-09-29 21:32 UTC — 40 jobs posted in the last 14 days_
+_Updated 2026-09-30 21:32 UTC — 38 jobs posted in the last 14 days_
 
-### Internships & Co-ops (6)
+### Internships & Co-ops (5)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
@@ -34,12 +34,12 @@ _Updated 2026-09-29 21:32 UTC — 40 jobs posted in the last 14 days_
 | 2026-09-23 | Analog Devices | [Analog Design Engineering Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614) | Canada, Toronto |
 | 2026-09-22 | Ciena | [ASIC Engineer Intern](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750) | Ottawa |
 | 2026-09-17 | Marvell | [Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525) | Ottawa, Canada; Toronto, Canada |
-| 2026-09-15 | Nokia | [Hardware Developer Eng Co-op/Intern](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39600) | Ottawa, Ontario |
 
-### Full-time (34)
+### Full-time (33)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-09-30 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/91986?lang=en-us) | MARKHAM, Canada |
 | 2026-09-28 | AMD | [Firmware Engineer](https://careers.amd.com/jobs/90012?lang=en-us) | MARKHAM, Canada |
 | 2026-09-28 | AMD | [Firmware Engineer](https://careers.amd.com/jobs/90462?lang=en-us) | VANCOUVER, Canada |
 | 2026-09-28 | AMD | [RTL/Firmware Design Engineer](https://careers.amd.com/jobs/90713?lang=en-us) | MARKHAM, Canada |
@@ -63,7 +63,6 @@ _Updated 2026-09-29 21:32 UTC — 40 jobs posted in the last 14 days_
 | 2026-09-24 | Tenstorrent | [Electrical Engineer, PCB Design](https://job-boards.greenhouse.io/tenstorrent/jobs/5178453007) | Belgrade, Serbia; Toronto, Ontario, Canada |
 | 2026-09-24 | Tenstorrent | [Physical Design Engineer, AI Accelerator IP](https://job-boards.greenhouse.io/tenstorrent/jobs/5198590007) | Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada |
 | 2026-09-24 | Tenstorrent | [Physical Design Methodology Engineer, AI HW IP](https://job-boards.greenhouse.io/tenstorrent/jobs/5198608007) | Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada |
-| 2026-09-24 | Tenstorrent | [Systems Engineer, Data Center Debug](https://job-boards.greenhouse.io/tenstorrent/jobs/5143663007) | Toronto, Ontario, Canada |
 | 2026-09-23 | Altera | [FPGA Designer](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Designer_R02835) | Toronto, Ontario, Canada |
 | 2026-09-23 | Analog Devices | [Embedded Software Engineer](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615) | Canada, Toronto; Canada, Vancouver |
 | 2026-09-22 | AMD | [Software Development Engineer (Chip Product Security)](https://careers.amd.com/jobs/92300?lang=en-us) | MARKHAM, Canada |
@@ -73,5 +72,4 @@ _Updated 2026-09-29 21:32 UTC — 40 jobs posted in the last 14 days_
 | 2026-09-17 | ecobee | [Associate Verification Engineer](https://generac.wd5.myworkdayjobs.com/External/job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1) | Canada - Toronto |
 | 2026-09-16 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
 | 2026-09-16 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232) | BURNABY 01 |
-| 2026-09-15 | Analog Devices | [Associate Analog Design Engineer](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Associate-Analog-Design-Engineer_R266122) | Canada, Toronto |
 <!-- JOBS:END -->

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T21:32:07.718528+00:00",
+  "updated": "2026-09-30T21:32:07.529376+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
@@ -16,6 +16,14 @@
       "location": "Toronto, Ontario, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10559417",
       "posted": "2026-09-24"
+    },
+    {
+      "id": "amd-91986",
+      "company": "AMD",
+      "title": "Silicon Design Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/91986?lang=en-us",
+      "posted": "2026-09-30"
     },
     {
       "id": "amd-90603",
@@ -154,14 +162,6 @@
       "posted": "2026-09-23"
     },
     {
-      "id": "workday-analogdevices-job/Canada-Toronto/Associate-Analog-Design-Engineer_R266122",
-      "company": "Analog Devices",
-      "title": "Associate Analog Design Engineer",
-      "location": "Canada, Toronto",
-      "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Associate-Analog-Design-Engineer_R266122",
-      "posted": "2026-09-15"
-    },
-    {
       "id": "workday-analogdevices-job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614",
       "company": "Analog Devices",
       "title": "Analog Design Engineering Intern",
@@ -266,14 +266,6 @@
       "posted": "2026-09-17"
     },
     {
-      "id": "nokia-39600",
-      "company": "Nokia",
-      "title": "Hardware Developer Eng Co-op/Intern",
-      "location": "Ottawa, Ontario",
-      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/39600",
-      "posted": "2026-09-15"
-    },
-    {
       "id": "greenhouse-tenstorrent-5178453007",
       "company": "Tenstorrent",
       "title": "Electrical Engineer, PCB Design ",
@@ -304,14 +296,6 @@
       "location": "Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4155609007",
       "posted": "2026-09-28"
-    },
-    {
-      "id": "greenhouse-tenstorrent-5143663007",
-      "company": "Tenstorrent",
-      "title": "Systems Engineer, Data Center Debug",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5143663007",
-      "posted": "2026-09-24"
     },
     {
       "id": "greenhouse-tenstorrent-5230724007",
