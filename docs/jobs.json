@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T21:32:07.529376+00:00",
+  "updated": "2026-10-01T21:31:40.756031+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
@@ -16,6 +16,30 @@
       "location": "Toronto, Ontario, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10559417",
       "posted": "2026-09-24"
+    },
+    {
+      "id": "amd-92764",
+      "company": "AMD",
+      "title": "Silicon Design Engineer (1 year contract starting asap)",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/92764?lang=en-us",
+      "posted": "2026-10-01"
+    },
+    {
+      "id": "amd-93114",
+      "company": "AMD",
+      "title": "Silicon Design Engineer 2 (1-Year Contract)",
+      "location": "OTTAWA, Canada",
+      "link": "https://careers.amd.com/jobs/93114?lang=en-us",
+      "posted": "2026-10-01"
+    },
+    {
+      "id": "amd-92369",
+      "company": "AMD",
+      "title": "AI Platform Engineer, Silicon Design Infrastructure",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/92369?lang=en-us",
+      "posted": "2026-10-01"
     },
     {
       "id": "amd-91986",
@@ -183,7 +207,7 @@
       "title": "Distributed Systems Engineer",
       "location": "BURNABY 01",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1",
-      "posted": "2026-09-16"
+      "posted": "2026-09-30"
     },
     {
       "id": "workday-cadence-job/BURNABY-01/Distributed-Systems-Engineer_R53232",
@@ -191,7 +215,7 @@
       "title": "Distributed Systems Engineer",
       "location": "BURNABY 01",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232",
-      "posted": "2026-09-16"
+      "posted": "2026-09-30"
     },
     {
       "id": "ashby-cerebras-d6df4a44-a05f-4fac-b012-6d2e8bb981f6",

@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-09-30 21:32 UTC — 38 jobs posted in the last 14 days_
+_Updated 2026-10-01 21:31 UTC — 41 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (5)
 
@@ -35,11 +35,16 @@ _Updated 2026-09-30 21:32 UTC — 38 jobs posted in the last 14 days_
 | 2026-09-22 | Ciena | [ASIC Engineer Intern](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750) | Ottawa |
 | 2026-09-17 | Marvell | [Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op](https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525) | Ottawa, Canada; Toronto, Canada |
 
-### Full-time (33)
+### Full-time (36)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-01 | AMD | [AI Platform Engineer, Silicon Design Infrastructure](https://careers.amd.com/jobs/92369?lang=en-us) | MARKHAM, Canada |
+| 2026-10-01 | AMD | [Silicon Design Engineer (1 year contract starting asap)](https://careers.amd.com/jobs/92764?lang=en-us) | MARKHAM, Canada |
+| 2026-10-01 | AMD | [Silicon Design Engineer 2 (1-Year Contract)](https://careers.amd.com/jobs/93114?lang=en-us) | OTTAWA, Canada |
 | 2026-09-30 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/91986?lang=en-us) | MARKHAM, Canada |
+| 2026-09-30 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
+| 2026-09-30 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232) | BURNABY 01 |
 | 2026-09-28 | AMD | [Firmware Engineer](https://careers.amd.com/jobs/90012?lang=en-us) | MARKHAM, Canada |
 | 2026-09-28 | AMD | [Firmware Engineer](https://careers.amd.com/jobs/90462?lang=en-us) | VANCOUVER, Canada |
 | 2026-09-28 | AMD | [RTL/Firmware Design Engineer](https://careers.amd.com/jobs/90713?lang=en-us) | MARKHAM, Canada |
@@ -70,6 +75,4 @@ _Updated 2026-09-30 21:32 UTC — 38 jobs posted in the last 14 days_
 | 2026-09-21 | Ciena | [Mixed Signal IP Integration Engineer – New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Mixed-Signal-IP-Integration-Engineer---New-Grad_R031688) | Ottawa |
 | 2026-09-17 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/92178?lang=en-us) | MARKHAM, Canada |
 | 2026-09-17 | ecobee | [Associate Verification Engineer](https://generac.wd5.myworkdayjobs.com/External/job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1) | Canada - Toronto |
-| 2026-09-16 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
-| 2026-09-16 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232) | BURNABY 01 |
 <!-- JOBS:END -->
