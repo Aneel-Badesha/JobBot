@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T21:31:40.756031+00:00",
+  "updated": "2026-10-02T21:32:04.908961+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
@@ -16,6 +16,14 @@
       "location": "Toronto, Ontario, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10559417",
       "posted": "2026-09-24"
+    },
+    {
+      "id": "amd-92938",
+      "company": "AMD",
+      "title": "Analog/Mixed-Signal SerDes Design Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/92938?lang=en-us",
+      "posted": "2026-10-02"
     },
     {
       "id": "amd-92764",
@@ -162,22 +170,6 @@
       "posted": "2026-09-22"
     },
     {
-      "id": "amd-92299",
-      "company": "AMD",
-      "title": "Ryzen/Radeon Systems Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92299?lang=en-us",
-      "posted": "2026-09-21"
-    },
-    {
-      "id": "amd-92178",
-      "company": "AMD",
-      "title": "RTL Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92178?lang=en-us",
-      "posted": "2026-09-17"
-    },
-    {
       "id": "workday-analogdevices-job/Canada-Toronto/Embedded-Software-Engineer_R266615",
       "company": "Analog Devices",
       "title": "Embedded Software Engineer",
@@ -226,52 +218,20 @@
       "posted": "2026-09-28"
     },
     {
-      "id": "workday-ciena-job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752",
-      "company": "Ciena",
-      "title": "Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 months)",
-      "location": "Canada- Ottawa- 383 Terry Fox- Bldg C",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752",
-      "posted": "2026-09-25"
+      "id": "ashby-cerebras-89ed36d3-d7e4-4c41-b466-2e39a30a84f4",
+      "company": "Cerebras",
+      "title": "AI Fleet Platform Software Engineer",
+      "location": "Sunnyvale, CA; Toronto, CAN",
+      "link": "https://jobs.ashbyhq.com/cerebras/89ed36d3-d7e4-4c41-b466-2e39a30a84f4",
+      "posted": "2026-10-02"
     },
     {
-      "id": "workday-ciena-job/Ottawa/Mixed-Signal-IP-Integration-Engineer---New-Grad_R031688",
-      "company": "Ciena",
-      "title": "Mixed Signal IP Integration Engineer \u2013 New Grad",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Mixed-Signal-IP-Integration-Engineer---New-Grad_R031688",
-      "posted": "2026-09-21"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031783",
-      "company": "Ciena",
-      "title": "Hardware Engineer - New Grad",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031783",
-      "posted": "2026-09-28"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/ASIC-Engineer-Intern_R031750",
-      "company": "Ciena",
-      "title": "ASIC Engineer Intern",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750",
-      "posted": "2026-09-22"
-    },
-    {
-      "id": "workday-ciena-job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
-      "company": "Ciena",
-      "title": "Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
-      "posted": "2026-09-29"
-    },
-    {
-      "id": "workday-generac-job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1",
-      "company": "ecobee",
-      "title": "Associate Verification Engineer",
-      "location": "Canada - Toronto",
-      "link": "https://generac.wd5.myworkdayjobs.com/External/job/Canada---Toronto/Associate-Verification-Engineer_JR16559-1",
-      "posted": "2026-09-17"
+      "id": "ericsson-791602",
+      "company": "Ericsson",
+      "title": "Data Platform Developer",
+      "location": "Ottawa, ON, CA; Stockholm, Stockholm County, SE",
+      "link": "https://jobs.ericsson.com/careers/job/563121777289695",
+      "posted": "2026-10-02"
     },
     {
       "id": "huawei-2750210",
@@ -282,12 +242,12 @@
       "posted": "2026-09-24"
     },
     {
-      "id": "workday-marvell-job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525",
-      "company": "Marvell",
-      "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
-      "location": "Ottawa, Canada; Toronto, Canada",
-      "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---Winter-2027_2604525",
-      "posted": "2026-09-17"
+      "id": "workday-intel-job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
+      "company": "Intel",
+      "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
+      "location": "Canada, Toronto",
+      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
+      "posted": "2026-10-01"
     },
     {
       "id": "greenhouse-tenstorrent-5178453007",
@@ -312,14 +272,6 @@
       "location": "Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5198608007",
       "posted": "2026-09-24"
-    },
-    {
-      "id": "greenhouse-tenstorrent-4155609007",
-      "company": "Tenstorrent",
-      "title": "Software Engineer, Acceleration Kernel Development",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4155609007",
-      "posted": "2026-09-28"
     },
     {
       "id": "greenhouse-tenstorrent-5230724007",
