@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T21:31:43.838190+00:00",
+  "updated": "2026-10-05T21:31:41.312327+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Designer_R02835",
@@ -31,14 +31,6 @@
       "title": "Silicon Design Engineer (1 year contract starting asap)",
       "location": "MARKHAM, Canada",
       "link": "https://careers.amd.com/jobs/92764?lang=en-us",
-      "posted": "2026-10-01"
-    },
-    {
-      "id": "amd-93114",
-      "company": "AMD",
-      "title": "Silicon Design Engineer 2 (1-Year Contract)",
-      "location": "OTTAWA, Canada",
-      "link": "https://careers.amd.com/jobs/93114?lang=en-us",
       "posted": "2026-10-01"
     },
     {
@@ -288,6 +280,22 @@
       "location": "Canada, Toronto",
       "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
       "posted": "2026-10-02"
+    },
+    {
+      "id": "l3harris-100077248416",
+      "company": "L3Harris",
+      "title": "Systems Engineer",
+      "location": "Montreal, Quebec",
+      "link": "https://careers.l3harris.com/en/job/montreal/systems-engineer/4832/100077248416",
+      "posted": "2026-10-05"
+    },
+    {
+      "id": "synopsys-18757",
+      "company": "Synopsys",
+      "title": "Silicon Validation/Characterization Engineer",
+      "location": "Nepean",
+      "link": "https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757",
+      "posted": "2026-10-05"
     },
     {
       "id": "greenhouse-tenstorrent-5178453007",

@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-04 21:31 UTC — 40 jobs posted in the last 14 days_
+_Updated 2026-10-05 21:31 UTC — 41 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (6)
 
@@ -36,15 +36,16 @@ _Updated 2026-10-04 21:31 UTC — 40 jobs posted in the last 14 days_
 | 2026-09-23 | Analog Devices | [Analog Design Engineering Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614) | Canada, Toronto |
 | 2026-09-22 | Ciena | [ASIC Engineer Intern](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750) | Ottawa |
 
-### Full-time (34)
+### Full-time (35)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-05 | L3Harris | [Systems Engineer](https://careers.l3harris.com/en/job/montreal/systems-engineer/4832/100077248416) | Montreal, Quebec |
+| 2026-10-05 | Synopsys | [Silicon Validation/Characterization Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757) | Nepean |
 | 2026-10-02 | AMD | [Analog/Mixed-Signal SerDes Design Engineer](https://careers.amd.com/jobs/92938?lang=en-us) | MARKHAM, Canada |
 | 2026-10-02 | Cerebras | [AI Fleet Platform Software Engineer](https://jobs.ashbyhq.com/cerebras/89ed36d3-d7e4-4c41-b466-2e39a30a84f4) | Sunnyvale, CA; Toronto, CAN |
 | 2026-10-01 | AMD | [AI Platform Engineer, Silicon Design Infrastructure](https://careers.amd.com/jobs/92369?lang=en-us) | MARKHAM, Canada |
 | 2026-10-01 | AMD | [Silicon Design Engineer (1 year contract starting asap)](https://careers.amd.com/jobs/92764?lang=en-us) | MARKHAM, Canada |
-| 2026-10-01 | AMD | [Silicon Design Engineer 2 (1-Year Contract)](https://careers.amd.com/jobs/93114?lang=en-us) | OTTAWA, Canada |
 | 2026-09-30 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/91986?lang=en-us) | MARKHAM, Canada |
 | 2026-09-30 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
 | 2026-09-30 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232) | BURNABY 01 |
