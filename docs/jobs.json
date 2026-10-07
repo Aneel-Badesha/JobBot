@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T21:32:25.669900+00:00",
+  "updated": "2026-10-07T21:31:50.970360+00:00",
   "jobs": [
     {
       "id": "amazon-10559417",
@@ -8,6 +8,14 @@
       "location": "Toronto, Ontario, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10559417",
       "posted": "2026-09-24"
+    },
+    {
+      "id": "amd-93052",
+      "company": "AMD",
+      "title": "Systems Validation Engineer - Data Center GPU",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93052?lang=en-us",
+      "posted": "2026-10-07"
     },
     {
       "id": "amd-92938",
@@ -146,14 +154,6 @@
       "posted": "2026-09-24"
     },
     {
-      "id": "amd-92300",
-      "company": "AMD",
-      "title": "Software Development Engineer (Chip Product Security)",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92300?lang=en-us",
-      "posted": "2026-09-22"
-    },
-    {
       "id": "workday-analogdevices-job/Canada-Toronto/Embedded-Software-Engineer_R266615",
       "company": "Analog Devices",
       "title": "Embedded Software Engineer",
@@ -183,7 +183,7 @@
       "title": "Distributed Systems Engineer",
       "location": "BURNABY 01",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1",
-      "posted": "2026-09-30"
+      "posted": "2026-10-07"
     },
     {
       "id": "workday-cadence-job/BURNABY-01/Distributed-Systems-Engineer_R53232",
@@ -191,7 +191,7 @@
       "title": "Distributed Systems Engineer",
       "location": "BURNABY 01",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232",
-      "posted": "2026-09-30"
+      "posted": "2026-10-07"
     },
     {
       "id": "ashby-cerebras-d6df4a44-a05f-4fac-b012-6d2e8bb981f6",
@@ -226,14 +226,6 @@
       "posted": "2026-09-28"
     },
     {
-      "id": "workday-ciena-job/Ottawa/ASIC-Engineer-Intern_R031750",
-      "company": "Ciena",
-      "title": "ASIC Engineer Intern",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750",
-      "posted": "2026-09-22"
-    },
-    {
       "id": "workday-ciena-job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
       "company": "Ciena",
       "title": "Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)",
@@ -247,14 +239,6 @@
       "title": "Hardware Design Co-Op (Winter 2027 - 4 Months)",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782",
-      "posted": "2026-10-06"
-    },
-    {
-      "id": "ericsson-791602",
-      "company": "Ericsson",
-      "title": "Data Platform Developer",
-      "location": "Ottawa, ON, CA; Stockholm, Stockholm County, SE",
-      "link": "https://jobs.ericsson.com/careers/job/563121777289695",
       "posted": "2026-10-06"
     },
     {
@@ -306,12 +290,12 @@
       "posted": "2026-10-05"
     },
     {
-      "id": "greenhouse-tenstorrent-5178453007",
+      "id": "greenhouse-tenstorrent-5260226007",
       "company": "Tenstorrent",
-      "title": "Electrical Engineer, PCB Design ",
-      "location": "Belgrade, Serbia; Toronto, Ontario, Canada",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5178453007",
-      "posted": "2026-09-24"
+      "title": "Low-Level Software Engineer, LLK",
+      "location": "Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5260226007",
+      "posted": "2026-10-07"
     },
     {
       "id": "greenhouse-tenstorrent-5198590007",
