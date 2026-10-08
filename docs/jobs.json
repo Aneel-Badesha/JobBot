@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-07T21:31:50.970360+00:00",
+  "updated": "2026-10-08T21:31:48.554785+00:00",
   "jobs": [
+    {
+      "id": "amazon-10573999",
+      "company": "Amazon",
+      "title": "Systems Development Engineer Intern, Canada 2027 ",
+      "location": "Vancouver, British Columbia, CAN",
+      "link": "https://www.amazon.jobs/en/jobs/10573999",
+      "posted": "2026-10-08"
+    },
     {
       "id": "amazon-10559417",
       "company": "Amazon",
@@ -8,6 +16,14 @@
       "location": "Toronto, Ontario, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10559417",
       "posted": "2026-09-24"
+    },
+    {
+      "id": "amd-92338",
+      "company": "AMD",
+      "title": "Systems Design Engineer (New Grad)",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/92338?lang=en-us",
+      "posted": "2026-10-08"
     },
     {
       "id": "amd-93052",
@@ -154,22 +170,6 @@
       "posted": "2026-09-24"
     },
     {
-      "id": "workday-analogdevices-job/Canada-Toronto/Embedded-Software-Engineer_R266615",
-      "company": "Analog Devices",
-      "title": "Embedded Software Engineer",
-      "location": "Canada, Toronto; Canada, Vancouver",
-      "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615",
-      "posted": "2026-09-23"
-    },
-    {
-      "id": "workday-analogdevices-job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614",
-      "company": "Analog Devices",
-      "title": "Analog Design Engineering Intern",
-      "location": "Canada, Toronto",
-      "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614",
-      "posted": "2026-09-23"
-    },
-    {
       "id": "arm-98723949120",
       "company": "Arm",
       "title": "CAD-DFT Engineer",
@@ -280,14 +280,6 @@
       "location": "Ottawa, Ontario",
       "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40797",
       "posted": "2026-10-06"
-    },
-    {
-      "id": "synopsys-18757",
-      "company": "Synopsys",
-      "title": "Silicon Validation/Characterization Engineer",
-      "location": "Nepean",
-      "link": "https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757",
-      "posted": "2026-10-05"
     },
     {
       "id": "greenhouse-tenstorrent-5260226007",

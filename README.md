@@ -23,30 +23,30 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-07 21:31 UTC — 41 jobs posted in the last 14 days_
+_Updated 2026-10-08 21:31 UTC — 40 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (6)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-08 | Amazon | [Systems Development Engineer Intern, Canada 2027](https://www.amazon.jobs/en/jobs/10573999) | Vancouver, British Columbia, CAN |
 | 2026-10-06 | Ciena | [Hardware Design Co-Op (Winter 2027 - 4 Months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782) | Ottawa |
 | 2026-10-02 | Intel | [GPU & AI Accelerator Hardware Design Undergraduate Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539) | Canada, Toronto |
 | 2026-10-01 | Intel | [Graphics Hardware Validation Undergraduate Engineering Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535) | Canada, Toronto |
 | 2026-09-29 | Ciena | [Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787) | Ottawa |
 | 2026-09-25 | Ciena | [Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752) | Canada- Ottawa- 383 Terry Fox- Bldg C |
-| 2026-09-23 | Analog Devices | [Analog Design Engineering Intern](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614) | Canada, Toronto |
 
-### Full-time (35)
+### Full-time (34)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-08 | AMD | [Systems Design Engineer (New Grad)](https://careers.amd.com/jobs/92338?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | AMD | [Systems Validation Engineer - Data Center GPU](https://careers.amd.com/jobs/93052?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
 | 2026-10-07 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232) | BURNABY 01 |
 | 2026-10-07 | Tenstorrent | [Low-Level Software Engineer, LLK](https://job-boards.greenhouse.io/tenstorrent/jobs/5260226007) | Toronto, Ontario, Canada |
 | 2026-10-06 | Nokia | [DSP Firmware Engineer](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40797) | Ottawa, Ontario |
 | 2026-10-05 | L3Harris | [Systems Engineer](https://careers.l3harris.com/en/job/montreal/systems-engineer/4832/100077248416) | Montreal, Quebec |
-| 2026-10-05 | Synopsys | [Silicon Validation/Characterization Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757) | Nepean |
 | 2026-10-05 | Tenstorrent | [Systems Engineer, Data Center Debug](https://job-boards.greenhouse.io/tenstorrent/jobs/5143663007) | Toronto, Ontario, Canada |
 | 2026-10-02 | AMD | [Analog/Mixed-Signal SerDes Design Engineer](https://careers.amd.com/jobs/92938?lang=en-us) | MARKHAM, Canada |
 | 2026-10-02 | Cerebras | [AI Fleet Platform Software Engineer](https://jobs.ashbyhq.com/cerebras/89ed36d3-d7e4-4c41-b466-2e39a30a84f4) | Sunnyvale, CA; Toronto, CAN |
@@ -74,5 +74,4 @@ _Updated 2026-10-07 21:31 UTC — 41 jobs posted in the last 14 days_
 | 2026-09-24 | Huawei | [Researcher – Agent Platform R&D](https://huaweicanada.recruitee.com/o/researcher-agent-platform-rd) | Markham, Ontario, Canada |
 | 2026-09-24 | Tenstorrent | [Physical Design Engineer, AI Accelerator IP](https://job-boards.greenhouse.io/tenstorrent/jobs/5198590007) | Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada |
 | 2026-09-24 | Tenstorrent | [Physical Design Methodology Engineer, AI HW IP](https://job-boards.greenhouse.io/tenstorrent/jobs/5198608007) | Austin, Texas, United States; Belgrade, Serbia; Toronto, Ontario, Canada |
-| 2026-09-23 | Analog Devices | [Embedded Software Engineer](https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Embedded-Software-Engineer_R266615) | Canada, Toronto; Canada, Vancouver |
 <!-- JOBS:END -->
