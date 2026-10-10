@@ -23,9 +23,9 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-09 21:31 UTC — 38 jobs posted in the last 14 days_
+_Updated 2026-10-10 21:32 UTC — 36 jobs posted in the last 14 days_
 
-### Internships & Co-ops (6)
+### Internships & Co-ops (5)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
@@ -34,15 +34,15 @@ _Updated 2026-10-09 21:31 UTC — 38 jobs posted in the last 14 days_
 | 2026-10-02 | Intel | [GPU & AI Accelerator Hardware Design Undergraduate Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539) | Canada, Toronto |
 | 2026-10-01 | Intel | [Graphics Hardware Validation Undergraduate Engineering Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535) | Canada, Toronto |
 | 2026-09-29 | Ciena | [Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787) | Ottawa |
-| 2026-09-25 | Ciena | [Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752) | Canada- Ottawa- 383 Terry Fox- Bldg C |
 
-### Full-time (32)
+### Full-time (31)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
 | 2026-10-09 | AMD | [IOHUB Design Verification Engineer](https://careers.amd.com/jobs/92834?lang=en-us) | MARKHAM, Canada |
+| 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/93349?lang=en-us) | MARKHAM, Canada |
+| 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/91483?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | Microsoft | [Innovative Data Platform Solution Engineer](https://apply.careers.microsoft.com/careers/job/1970393557008790) | Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA |
-| 2026-10-09 | Synopsys | [Silicon Validation Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Engineer-Sr-Staff-Engineer-18768/18768?businessTitle=Silicon+Validation+Engineer) | Mississauga |
 | 2026-10-09 | Synopsys | [Silicon Validation/Characterization Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757) | Nepean |
 | 2026-10-08 | AMD | [Systems Design Engineer (New Grad)](https://careers.amd.com/jobs/92338?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | AMD | [Systems Validation Engineer - Data Center GPU](https://careers.amd.com/jobs/93052?lang=en-us) | MARKHAM, Canada |
@@ -70,6 +70,4 @@ _Updated 2026-10-09 21:31 UTC — 38 jobs posted in the last 14 days_
 | 2026-09-28 | Ciena | [Hardware Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031783) | Ottawa |
 | 2026-09-28 | Tenstorrent | [Systems & Infrastructure Administrator, IT - Contractor](https://job-boards.greenhouse.io/tenstorrent/jobs/5230724007) | Toronto, Ontario, Canada |
 | 2026-09-26 | Arm | [CAD-DFT Engineer](https://careers.arm.com/job/toronto/cad-dft-engineer/33099/98723949120) | Toronto, Canada |
-| 2026-09-25 | AMD | [Physical Design Engineer](https://careers.amd.com/jobs/92896?lang=en-us) | MARKHAM, Canada |
-| 2026-09-25 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/92182?lang=en-us) | MARKHAM, Canada |
 <!-- JOBS:END -->

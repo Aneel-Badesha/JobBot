@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T21:31:49.586545+00:00",
+  "updated": "2026-10-10T21:32:00.882969+00:00",
   "jobs": [
     {
       "id": "amazon-10573999",
@@ -8,6 +8,22 @@
       "location": "Vancouver, British Columbia, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10573999",
       "posted": "2026-10-08"
+    },
+    {
+      "id": "amd-93349",
+      "company": "AMD",
+      "title": "RTL Design Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93349?lang=en-us",
+      "posted": "2026-10-09"
+    },
+    {
+      "id": "amd-91483",
+      "company": "AMD",
+      "title": "RTL Design Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/91483?lang=en-us",
+      "posted": "2026-10-09"
     },
     {
       "id": "amd-92834",
@@ -138,22 +154,6 @@
       "posted": "2026-09-28"
     },
     {
-      "id": "amd-92896",
-      "company": "AMD",
-      "title": "Physical Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92896?lang=en-us",
-      "posted": "2026-09-25"
-    },
-    {
-      "id": "amd-92182",
-      "company": "AMD",
-      "title": "RTL Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92182?lang=en-us",
-      "posted": "2026-09-25"
-    },
-    {
       "id": "arm-98723949120",
       "company": "Arm",
       "title": "CAD-DFT Engineer",
@@ -192,14 +192,6 @@
       "location": "Sunnyvale, CA; Toronto, CAN",
       "link": "https://jobs.ashbyhq.com/cerebras/89ed36d3-d7e4-4c41-b466-2e39a30a84f4",
       "posted": "2026-10-02"
-    },
-    {
-      "id": "workday-ciena-job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752",
-      "company": "Ciena",
-      "title": "Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 months)",
-      "location": "Canada- Ottawa- 383 Terry Fox- Bldg C",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Canada--Ottawa--383-Terry-Fox--Bldg-C/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-months-_R031752",
-      "posted": "2026-09-25"
     },
     {
       "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031783",
@@ -264,14 +256,6 @@
       "location": "Ottawa, Ontario",
       "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40797",
       "posted": "2026-10-06"
-    },
-    {
-      "id": "synopsys-18768",
-      "company": "Synopsys",
-      "title": "Silicon Validation Engineer",
-      "location": "Mississauga",
-      "link": "https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Engineer-Sr-Staff-Engineer-18768/18768?businessTitle=Silicon+Validation+Engineer",
-      "posted": "2026-10-09"
     },
     {
       "id": "synopsys-18757",
