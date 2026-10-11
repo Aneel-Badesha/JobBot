@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-10 21:32 UTC — 36 jobs posted in the last 14 days_
+_Updated 2026-10-11 21:32 UTC — 36 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (5)
 
@@ -39,6 +39,7 @@ _Updated 2026-10-10 21:32 UTC — 36 jobs posted in the last 14 days_
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-11 | Synopsys | [Silicon Validation Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Engineer-Sr-Staff-Engineer-18768/18768?businessTitle=Silicon+Validation+Engineer) | Mississauga |
 | 2026-10-09 | AMD | [IOHUB Design Verification Engineer](https://careers.amd.com/jobs/92834?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/93349?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/91483?lang=en-us) | MARKHAM, Canada |
@@ -69,5 +70,4 @@ _Updated 2026-10-10 21:32 UTC — 36 jobs posted in the last 14 days_
 | 2026-09-28 | Cerebras | [ML Runtime and Kernel Engineer - Core ML](https://jobs.ashbyhq.com/cerebras/d6df4a44-a05f-4fac-b012-6d2e8bb981f6) | Sunnyvale, CA; Toronto, CAN |
 | 2026-09-28 | Ciena | [Hardware Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031783) | Ottawa |
 | 2026-09-28 | Tenstorrent | [Systems & Infrastructure Administrator, IT - Contractor](https://job-boards.greenhouse.io/tenstorrent/jobs/5230724007) | Toronto, Ontario, Canada |
-| 2026-09-26 | Arm | [CAD-DFT Engineer](https://careers.arm.com/job/toronto/cad-dft-engineer/33099/98723949120) | Toronto, Canada |
 <!-- JOBS:END -->
