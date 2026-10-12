@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-11 21:32 UTC — 36 jobs posted in the last 14 days_
+_Updated 2026-10-12 21:31 UTC — 34 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (5)
 
@@ -35,16 +35,14 @@ _Updated 2026-10-11 21:32 UTC — 36 jobs posted in the last 14 days_
 | 2026-10-01 | Intel | [Graphics Hardware Validation Undergraduate Engineering Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535) | Canada, Toronto |
 | 2026-09-29 | Ciena | [Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787) | Ottawa |
 
-### Full-time (31)
+### Full-time (29)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
-| 2026-10-11 | Synopsys | [Silicon Validation Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Engineer-Sr-Staff-Engineer-18768/18768?businessTitle=Silicon+Validation+Engineer) | Mississauga |
 | 2026-10-09 | AMD | [IOHUB Design Verification Engineer](https://careers.amd.com/jobs/92834?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/93349?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/91483?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | Microsoft | [Innovative Data Platform Solution Engineer](https://apply.careers.microsoft.com/careers/job/1970393557008790) | Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA |
-| 2026-10-09 | Synopsys | [Silicon Validation/Characterization Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757) | Nepean |
 | 2026-10-08 | AMD | [Systems Design Engineer (New Grad)](https://careers.amd.com/jobs/92338?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | AMD | [Systems Validation Engineer - Data Center GPU](https://careers.amd.com/jobs/93052?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
