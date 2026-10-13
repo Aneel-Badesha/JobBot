@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-12 21:31 UTC — 34 jobs posted in the last 14 days_
+_Updated 2026-10-13 21:31 UTC — 24 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (5)
 
@@ -35,14 +35,17 @@ _Updated 2026-10-12 21:31 UTC — 34 jobs posted in the last 14 days_
 | 2026-10-01 | Intel | [Graphics Hardware Validation Undergraduate Engineering Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535) | Canada, Toronto |
 | 2026-09-29 | Ciena | [Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787) | Ottawa |
 
-### Full-time (29)
+### Full-time (19)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-13 | GM | [Embedded Simulation Developer - SIL and Virtualization](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/Embedded-Simulation-Developer---SIL-and-Virtualization_JR-202622345-1) | Markham, Ontario, Canada |
+| 2026-10-13 | Google | [Customer Engineer, Platform, Google Cloud (English, French)](https://www.google.com/about/careers/applications/jobs/results/83138342891201222) | Montreal, QC, Canada |
+| 2026-10-13 | Synopsys | [Silicon Validation Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Engineer-Sr-Staff-Engineer-18768/18768?businessTitle=Silicon+Validation+Engineer) | Mississauga |
+| 2026-10-13 | Synopsys | [Silicon Validation/Characterization Engineer](https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757) | Nepean |
 | 2026-10-09 | AMD | [IOHUB Design Verification Engineer](https://careers.amd.com/jobs/92834?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/93349?lang=en-us) | MARKHAM, Canada |
 | 2026-10-09 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/91483?lang=en-us) | MARKHAM, Canada |
-| 2026-10-09 | Microsoft | [Innovative Data Platform Solution Engineer](https://apply.careers.microsoft.com/careers/job/1970393557008790) | Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA |
 | 2026-10-08 | AMD | [Systems Design Engineer (New Grad)](https://careers.amd.com/jobs/92338?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | AMD | [Systems Validation Engineer - Data Center GPU](https://careers.amd.com/jobs/93052?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | Cadence | [Distributed Systems Engineer](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1) | BURNABY 01 |
@@ -54,18 +57,5 @@ _Updated 2026-10-12 21:31 UTC — 34 jobs posted in the last 14 days_
 | 2026-10-02 | AMD | [Analog/Mixed-Signal SerDes Design Engineer](https://careers.amd.com/jobs/92938?lang=en-us) | MARKHAM, Canada |
 | 2026-10-02 | Cerebras | [AI Fleet Platform Software Engineer](https://jobs.ashbyhq.com/cerebras/89ed36d3-d7e4-4c41-b466-2e39a30a84f4) | Sunnyvale, CA; Toronto, CAN |
 | 2026-10-01 | AMD | [AI Platform Engineer, Silicon Design Infrastructure](https://careers.amd.com/jobs/92369?lang=en-us) | MARKHAM, Canada |
-| 2026-10-01 | AMD | [Silicon Design Engineer (1 year contract starting asap)](https://careers.amd.com/jobs/92764?lang=en-us) | MARKHAM, Canada |
 | 2026-09-30 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/91986?lang=en-us) | MARKHAM, Canada |
-| 2026-09-28 | AMD | [Firmware Engineer](https://careers.amd.com/jobs/90012?lang=en-us) | MARKHAM, Canada |
-| 2026-09-28 | AMD | [Firmware Engineer](https://careers.amd.com/jobs/90462?lang=en-us) | VANCOUVER, Canada |
-| 2026-09-28 | AMD | [RTL/Firmware Design Engineer](https://careers.amd.com/jobs/90713?lang=en-us) | MARKHAM, Canada |
-| 2026-09-28 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/90603?lang=en-us) | MARKHAM, Canada |
-| 2026-09-28 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/90108?lang=en-us) | VANCOUVER, Canada |
-| 2026-09-28 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/90826?lang=en-us) | MARKHAM, Canada |
-| 2026-09-28 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/91098?lang=en-us) | MARKHAM, Canada |
-| 2026-09-28 | AMD | [Silicon Design Engineer](https://careers.amd.com/jobs/90373?lang=en-us) | VANCOUVER, Canada |
-| 2026-09-28 | AMD | [Silicon Design Infrastructure Hardware/Software Engineer](https://careers.amd.com/jobs/87268?lang=en-us) | MARKHAM, Canada |
-| 2026-09-28 | Cerebras | [ML Runtime and Kernel Engineer - Core ML](https://jobs.ashbyhq.com/cerebras/d6df4a44-a05f-4fac-b012-6d2e8bb981f6) | Sunnyvale, CA; Toronto, CAN |
-| 2026-09-28 | Ciena | [Hardware Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031783) | Ottawa |
-| 2026-09-28 | Tenstorrent | [Systems & Infrastructure Administrator, IT - Contractor](https://job-boards.greenhouse.io/tenstorrent/jobs/5230724007) | Toronto, Ontario, Canada |
 <!-- JOBS:END -->
