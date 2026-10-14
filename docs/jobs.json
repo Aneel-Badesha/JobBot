@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:31:50.609183+00:00",
+  "updated": "2026-10-14T21:31:55.646290+00:00",
   "jobs": [
     {
       "id": "amazon-10573999",
@@ -74,22 +74,6 @@
       "posted": "2026-09-30"
     },
     {
-      "id": "workday-cadence-job/BURNABY-01/Distributed-Systems-Engineer_R53233-1",
-      "company": "Cadence",
-      "title": "Distributed Systems Engineer",
-      "location": "BURNABY 01",
-      "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53233-1",
-      "posted": "2026-10-07"
-    },
-    {
-      "id": "workday-cadence-job/BURNABY-01/Distributed-Systems-Engineer_R53232",
-      "company": "Cadence",
-      "title": "Distributed Systems Engineer",
-      "location": "BURNABY 01",
-      "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/BURNABY-01/Distributed-Systems-Engineer_R53232",
-      "posted": "2026-10-07"
-    },
-    {
       "id": "ashby-cerebras-89ed36d3-d7e4-4c41-b466-2e39a30a84f4",
       "company": "Cerebras",
       "title": "AI Fleet Platform Software Engineer",
@@ -98,20 +82,28 @@
       "posted": "2026-10-02"
     },
     {
-      "id": "workday-ciena-job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
-      "company": "Ciena",
-      "title": "Hardware (PCBA) Design and Verification Intern (Winter 2027 - 4 Months)",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware--PCBA--Design-and-Verification-Intern--Winter-2027---4-Months-_R031787",
-      "posted": "2026-09-29"
-    },
-    {
       "id": "workday-ciena-job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782",
       "company": "Ciena",
       "title": "Hardware Design Co-Op (Winter 2027 - 4 Months)",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782",
       "posted": "2026-10-06"
+    },
+    {
+      "id": "ericsson-792082",
+      "company": "Ericsson",
+      "title": "RAN System Verification Professional",
+      "location": "Ottawa, ON, CA",
+      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
+      "posted": "2026-10-14"
+    },
+    {
+      "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
+      "company": "GM",
+      "title": "Test Engineering, Data Engineering - Systems QA",
+      "location": "Markham, Ontario, Canada; Oshawa, Ontario, Canada",
+      "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
+      "posted": "2026-10-14"
     },
     {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Embedded-Simulation-Developer---SIL-and-Virtualization_JR-202622345-1",
@@ -154,28 +146,20 @@
       "posted": "2026-10-05"
     },
     {
+      "id": "microsoft-200058400",
+      "company": "Microsoft",
+      "title": "Innovative Data Platform Solution Engineer",
+      "location": "Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
+      "posted": "2026-10-14"
+    },
+    {
       "id": "nokia-40797",
       "company": "Nokia",
       "title": "DSP Firmware Engineer",
       "location": "Ottawa, Ontario",
       "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40797",
       "posted": "2026-10-06"
-    },
-    {
-      "id": "synopsys-18768",
-      "company": "Synopsys",
-      "title": "Silicon Validation Engineer",
-      "location": "Mississauga",
-      "link": "https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Engineer-Sr-Staff-Engineer-18768/18768?businessTitle=Silicon+Validation+Engineer",
-      "posted": "2026-10-13"
-    },
-    {
-      "id": "synopsys-18757",
-      "company": "Synopsys",
-      "title": "Silicon Validation/Characterization Engineer",
-      "location": "Nepean",
-      "link": "https://synopsys.avature.net/careers/JobDetail/Silicon-Validation-Characterization-Eng-Staff-Engineer-18757/18757?businessTitle=Silicon+Validation%2FCharacterization+Engineer+-+18757",
-      "posted": "2026-10-13"
     },
     {
       "id": "greenhouse-tenstorrent-5260226007",
