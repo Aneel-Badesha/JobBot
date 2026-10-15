@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T21:31:55.646290+00:00",
+  "updated": "2026-10-15T21:31:53.255620+00:00",
   "jobs": [
     {
       "id": "amazon-10573999",
@@ -15,14 +15,6 @@
       "title": "RTL Design Engineer",
       "location": "MARKHAM, Canada",
       "link": "https://careers.amd.com/jobs/93349?lang=en-us",
-      "posted": "2026-10-09"
-    },
-    {
-      "id": "amd-91483",
-      "company": "AMD",
-      "title": "RTL Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/91483?lang=en-us",
       "posted": "2026-10-09"
     },
     {
@@ -66,14 +58,6 @@
       "posted": "2026-10-01"
     },
     {
-      "id": "amd-91986",
-      "company": "AMD",
-      "title": "Silicon Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/91986?lang=en-us",
-      "posted": "2026-09-30"
-    },
-    {
       "id": "ashby-cerebras-89ed36d3-d7e4-4c41-b466-2e39a30a84f4",
       "company": "Cerebras",
       "title": "AI Fleet Platform Software Engineer",
@@ -90,12 +74,12 @@
       "posted": "2026-10-06"
     },
     {
-      "id": "ericsson-792082",
-      "company": "Ericsson",
-      "title": "RAN System Verification Professional",
-      "location": "Ottawa, ON, CA",
-      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
-      "posted": "2026-10-14"
+      "id": "workday-ciena-job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
+      "company": "Ciena",
+      "title": "Wavelogic Embedded Software Developer Intern (Winter 2027)",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
+      "posted": "2026-10-15"
     },
     {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
@@ -160,6 +144,14 @@
       "location": "Ottawa, Ontario",
       "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40797",
       "posted": "2026-10-06"
+    },
+    {
+      "id": "nokia-41311",
+      "company": "Nokia",
+      "title": "Embedded C/C++ SW Developer Co-op/Intern",
+      "location": "Ottawa, Ontario",
+      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41311",
+      "posted": "2026-10-15"
     },
     {
       "id": "greenhouse-tenstorrent-5260226007",
