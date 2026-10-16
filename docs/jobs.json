@@ -1,21 +1,13 @@
 {
-  "updated": "2026-10-15T21:31:53.255620+00:00",
+  "updated": "2026-10-16T21:31:52.885550+00:00",
   "jobs": [
     {
-      "id": "amazon-10573999",
-      "company": "Amazon",
-      "title": "Systems Development Engineer Intern, Canada 2027 ",
-      "location": "Vancouver, British Columbia, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10573999",
-      "posted": "2026-10-08"
-    },
-    {
-      "id": "amd-93349",
-      "company": "AMD",
-      "title": "RTL Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/93349?lang=en-us",
-      "posted": "2026-10-09"
+      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----Intern_R03324",
+      "company": "Altera",
+      "title": "FPGA IP Design Engineer -  Intern",
+      "location": "Toronto, Ontario, Canada",
+      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----Intern_R03324",
+      "posted": "2026-10-15"
     },
     {
       "id": "amd-92834",
@@ -50,14 +42,6 @@
       "posted": "2026-10-02"
     },
     {
-      "id": "amd-92369",
-      "company": "AMD",
-      "title": "AI Platform Engineer, Silicon Design Infrastructure",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92369?lang=en-us",
-      "posted": "2026-10-01"
-    },
-    {
       "id": "ashby-cerebras-89ed36d3-d7e4-4c41-b466-2e39a30a84f4",
       "company": "Cerebras",
       "title": "AI Fleet Platform Software Engineer",
@@ -80,6 +64,14 @@
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
       "posted": "2026-10-15"
+    },
+    {
+      "id": "ericsson-791602",
+      "company": "Ericsson",
+      "title": "Data Platform Developer",
+      "location": "Ottawa, ON, CA; Stockholm, Stockholm County, SE",
+      "link": "https://jobs.ericsson.com/careers/job/563121777289695",
+      "posted": "2026-10-16"
     },
     {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
@@ -106,20 +98,12 @@
       "posted": "2026-10-13"
     },
     {
-      "id": "workday-intel-job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
-      "company": "Intel",
-      "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
-      "location": "Canada, Toronto",
-      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
-      "posted": "2026-10-01"
-    },
-    {
       "id": "workday-intel-job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
       "company": "Intel",
       "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
       "location": "Canada, Toronto",
       "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
-      "posted": "2026-10-02"
+      "posted": "2026-10-16"
     },
     {
       "id": "l3harris-100077248416",
@@ -128,14 +112,6 @@
       "location": "Montreal, Quebec",
       "link": "https://careers.l3harris.com/en/job/montreal/systems-engineer/4832/100077248416",
       "posted": "2026-10-05"
-    },
-    {
-      "id": "microsoft-200058400",
-      "company": "Microsoft",
-      "title": "Innovative Data Platform Solution Engineer",
-      "location": "Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
-      "posted": "2026-10-14"
     },
     {
       "id": "nokia-40797",
