@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-17 21:31 UTC — 19 jobs posted in the last 14 days_
+_Updated 2026-10-18 21:32 UTC — 18 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (6)
 
@@ -36,11 +36,10 @@ _Updated 2026-10-17 21:31 UTC — 19 jobs posted in the last 14 days_
 | 2026-10-08 | Amazon | [Systems Development Engineer Intern, Canada 2027](https://www.amazon.jobs/en/jobs/10573999) | Vancouver, British Columbia, CAN |
 | 2026-10-06 | Ciena | [Hardware Design Co-Op (Winter 2027 - 4 Months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782) | Ottawa |
 
-### Full-time (13)
+### Full-time (12)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
-| 2026-10-17 | Ericsson | [RAN System Verification Professional](https://jobs.ericsson.com/careers/job/563121777356246) | Ottawa, ON, CA |
 | 2026-10-17 | Microsoft | [Innovative Data Platform Solution Engineer](https://apply.careers.microsoft.com/careers/job/1970393557008790) | Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA |
 | 2026-10-16 | AMD | [GPU Design Verification Engineer](https://careers.amd.com/jobs/93729?lang=en-us) | MARKHAM, Canada |
 | 2026-10-16 | AMD | [SoC Data Path Engineer](https://careers.amd.com/jobs/88677?lang=en-us) | MARKHAM, Canada |
