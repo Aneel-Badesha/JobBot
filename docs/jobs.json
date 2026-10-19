@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T21:32:07.765990+00:00",
+  "updated": "2026-10-19T21:31:49.293000+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----Intern_R03324",
@@ -16,6 +16,22 @@
       "location": "Vancouver, British Columbia, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10573999",
       "posted": "2026-10-08"
+    },
+    {
+      "id": "amd-93474",
+      "company": "AMD",
+      "title": "Systems Design Engineer",
+      "location": "VANCOUVER, Canada",
+      "link": "https://careers.amd.com/jobs/93474?lang=en-us",
+      "posted": "2026-10-19"
+    },
+    {
+      "id": "amd-93955",
+      "company": "AMD",
+      "title": "Design Verification Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93955?lang=en-us",
+      "posted": "2026-10-19"
     },
     {
       "id": "amd-88677",
@@ -71,7 +87,15 @@
       "title": "Wavelogic Embedded Software Developer Intern (Winter 2027)",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
-      "posted": "2026-10-15"
+      "posted": "2026-10-19"
+    },
+    {
+      "id": "ericsson-792082",
+      "company": "Ericsson",
+      "title": "RAN System Verification Professional",
+      "location": "Ottawa, ON, CA",
+      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
+      "posted": "2026-10-19"
     },
     {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
@@ -106,14 +130,6 @@
       "posted": "2026-10-16"
     },
     {
-      "id": "microsoft-200058400",
-      "company": "Microsoft",
-      "title": "Innovative Data Platform Solution Engineer",
-      "location": "Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
-      "posted": "2026-10-17"
-    },
-    {
       "id": "nokia-40797",
       "company": "Nokia",
       "title": "DSP Firmware Engineer",
@@ -128,6 +144,14 @@
       "location": "Ottawa, Ontario",
       "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41311",
       "posted": "2026-10-15"
+    },
+    {
+      "id": "workday-nvidia-job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
+      "company": "NVIDIA",
+      "title": "ASIC Verification Intern - Summer 2027",
+      "location": "Canada, Toronto",
+      "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
+      "posted": "2026-10-19"
     },
     {
       "id": "greenhouse-tenstorrent-5260226007",
