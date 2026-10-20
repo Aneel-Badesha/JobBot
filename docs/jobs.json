@@ -1,14 +1,6 @@
 {
-  "updated": "2026-10-19T21:31:49.293000+00:00",
+  "updated": "2026-10-20T21:31:50.380937+00:00",
   "jobs": [
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----Intern_R03324",
-      "company": "Altera",
-      "title": "FPGA IP Design Engineer -  Intern",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----Intern_R03324",
-      "posted": "2026-10-15"
-    },
     {
       "id": "amazon-10573999",
       "company": "Amazon",
@@ -16,6 +8,14 @@
       "location": "Vancouver, British Columbia, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10573999",
       "posted": "2026-10-08"
+    },
+    {
+      "id": "amd-93231",
+      "company": "AMD",
+      "title": "Silicon Design Engineer (1 year contract)",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93231?lang=en-us",
+      "posted": "2026-10-19"
     },
     {
       "id": "amd-93474",
@@ -90,14 +90,6 @@
       "posted": "2026-10-19"
     },
     {
-      "id": "ericsson-792082",
-      "company": "Ericsson",
-      "title": "RAN System Verification Professional",
-      "location": "Ottawa, ON, CA",
-      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
-      "posted": "2026-10-19"
-    },
-    {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
       "company": "GM",
       "title": "Test Engineering, Data Engineering - Systems QA",
@@ -160,14 +152,6 @@
       "location": "Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5260226007",
       "posted": "2026-10-07"
-    },
-    {
-      "id": "greenhouse-tenstorrent-5143663007",
-      "company": "Tenstorrent",
-      "title": "Systems Engineer, Data Center Debug",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5143663007",
-      "posted": "2026-10-05"
     }
   ]
 }
