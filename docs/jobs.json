@@ -1,6 +1,14 @@
 {
-  "updated": "2026-10-20T21:31:50.380937+00:00",
+  "updated": "2026-10-21T21:32:29.599238+00:00",
   "jobs": [
+    {
+      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299",
+      "company": "Altera",
+      "title": "FPGA IP Design Engineer - Intern",
+      "location": "Toronto, Ontario, Canada",
+      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299",
+      "posted": "2026-10-20"
+    },
     {
       "id": "amazon-10573999",
       "company": "Amazon",
@@ -8,6 +16,22 @@
       "location": "Vancouver, British Columbia, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10573999",
       "posted": "2026-10-08"
+    },
+    {
+      "id": "amd-93791",
+      "company": "AMD",
+      "title": "RTL Design Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93791?lang=en-us",
+      "posted": "2026-10-21"
+    },
+    {
+      "id": "amd-93547",
+      "company": "AMD",
+      "title": "ASIC Design Engineer, PCIe IP Enablement",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93547?lang=en-us",
+      "posted": "2026-10-21"
     },
     {
       "id": "amd-93231",
@@ -74,12 +98,12 @@
       "posted": "2026-10-07"
     },
     {
-      "id": "workday-ciena-job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782",
+      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031911",
       "company": "Ciena",
-      "title": "Hardware Design Co-Op (Winter 2027 - 4 Months)",
+      "title": "Hardware Engineer - New Grad",
       "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782",
-      "posted": "2026-10-06"
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031911",
+      "posted": "2026-10-21"
     },
     {
       "id": "workday-ciena-job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
@@ -114,6 +138,14 @@
       "posted": "2026-10-13"
     },
     {
+      "id": "huawei-2604025",
+      "company": "Huawei",
+      "title": "Research Engineer - Agentic Software Systems Engineering",
+      "location": "Markham, Ontario, Canada",
+      "link": "https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering",
+      "posted": "2026-10-21"
+    },
+    {
       "id": "workday-intel-job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
       "company": "Intel",
       "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
@@ -122,12 +154,12 @@
       "posted": "2026-10-16"
     },
     {
-      "id": "nokia-40797",
-      "company": "Nokia",
-      "title": "DSP Firmware Engineer",
-      "location": "Ottawa, Ontario",
-      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40797",
-      "posted": "2026-10-06"
+      "id": "microsoft-200058400",
+      "company": "Microsoft",
+      "title": "Innovative Data Platform Solution Engineer",
+      "location": "Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
+      "posted": "2026-10-21"
     },
     {
       "id": "nokia-41311",

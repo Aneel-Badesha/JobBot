@@ -23,23 +23,28 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-10-20 21:31 UTC — 19 jobs posted in the last 14 days_
+_Updated 2026-10-21 21:32 UTC — 23 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (6)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-20 | Altera | [FPGA IP Design Engineer - Intern](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299) | Toronto, Ontario, Canada |
 | 2026-10-19 | Ciena | [Wavelogic Embedded Software Developer Intern (Winter 2027)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890) | Ottawa |
 | 2026-10-19 | NVIDIA | [ASIC Verification Intern - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982) | Canada, Toronto |
 | 2026-10-16 | Intel | [GPU & AI Accelerator Hardware Design Undergraduate Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539) | Canada, Toronto |
 | 2026-10-15 | Nokia | [Embedded C/C++ SW Developer Co-op/Intern](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41311) | Ottawa, Ontario |
 | 2026-10-08 | Amazon | [Systems Development Engineer Intern, Canada 2027](https://www.amazon.jobs/en/jobs/10573999) | Vancouver, British Columbia, CAN |
-| 2026-10-06 | Ciena | [Hardware Design Co-Op (Winter 2027 - 4 Months)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Design-Co-Op--Winter-2027---4-Months-_R031782) | Ottawa |
 
-### Full-time (13)
+### Full-time (17)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-10-21 | AMD | [ASIC Design Engineer, PCIe IP Enablement](https://careers.amd.com/jobs/93547?lang=en-us) | MARKHAM, Canada |
+| 2026-10-21 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/93791?lang=en-us) | MARKHAM, Canada |
+| 2026-10-21 | Ciena | [Hardware Engineer - New Grad](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031911) | Ottawa |
+| 2026-10-21 | Huawei | [Research Engineer - Agentic Software Systems Engineering](https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering) | Markham, Ontario, Canada |
+| 2026-10-21 | Microsoft | [Innovative Data Platform Solution Engineer](https://apply.careers.microsoft.com/careers/job/1970393557008790) | Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA |
 | 2026-10-19 | AMD | [Design Verification Engineer](https://careers.amd.com/jobs/93955?lang=en-us) | MARKHAM, Canada |
 | 2026-10-19 | AMD | [Silicon Design Engineer (1 year contract)](https://careers.amd.com/jobs/93231?lang=en-us) | MARKHAM, Canada |
 | 2026-10-19 | AMD | [Systems Design Engineer](https://careers.amd.com/jobs/93474?lang=en-us) | VANCOUVER, Canada |
@@ -52,5 +57,4 @@ _Updated 2026-10-20 21:31 UTC — 19 jobs posted in the last 14 days_
 | 2026-10-08 | AMD | [Systems Design Engineer (New Grad)](https://careers.amd.com/jobs/92338?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | AMD | [Systems Validation Engineer - Data Center GPU](https://careers.amd.com/jobs/93052?lang=en-us) | MARKHAM, Canada |
 | 2026-10-07 | Tenstorrent | [Low-Level Software Engineer, LLK](https://job-boards.greenhouse.io/tenstorrent/jobs/5260226007) | Toronto, Ontario, Canada |
-| 2026-10-06 | Nokia | [DSP Firmware Engineer](https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/40797) | Ottawa, Ontario |
 <!-- JOBS:END -->
