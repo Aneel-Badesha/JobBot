@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T21:32:23.743025+00:00",
+  "updated": "2026-10-23T21:31:54.104319+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299",
@@ -10,12 +10,20 @@
       "posted": "2026-10-20"
     },
     {
-      "id": "amazon-10573999",
-      "company": "Amazon",
-      "title": "Systems Development Engineer Intern, Canada 2027 ",
-      "location": "Vancouver, British Columbia, CAN",
-      "link": "https://www.amazon.jobs/en/jobs/10573999",
-      "posted": "2026-10-08"
+      "id": "amd-93714",
+      "company": "AMD",
+      "title": "ASIC Verification Engineer, AI Networking IP",
+      "location": "OTTAWA, Canada",
+      "link": "https://careers.amd.com/jobs/93714?lang=en-us",
+      "posted": "2026-10-23"
+    },
+    {
+      "id": "amd-93922",
+      "company": "AMD",
+      "title": "RTL Design Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93922?lang=en-us",
+      "posted": "2026-10-23"
     },
     {
       "id": "amd-93791",
@@ -82,14 +90,6 @@
       "posted": "2026-10-09"
     },
     {
-      "id": "amd-92338",
-      "company": "AMD",
-      "title": "Systems Design Engineer (New Grad)",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92338?lang=en-us",
-      "posted": "2026-10-08"
-    },
-    {
       "id": "workday-ciena-job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
       "company": "Ciena",
       "title": "Wavelogic Embedded Software Developer Intern (Winter 2027)",
@@ -98,12 +98,12 @@
       "posted": "2026-10-19"
     },
     {
-      "id": "ericsson-792082",
-      "company": "Ericsson",
-      "title": "RAN System Verification Professional",
-      "location": "Ottawa, ON, CA",
-      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
-      "posted": "2026-10-22"
+      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914",
+      "company": "Ciena",
+      "title": "Hardware Engineer - New Grad",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914",
+      "posted": "2026-10-23"
     },
     {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
@@ -146,12 +146,20 @@
       "posted": "2026-10-16"
     },
     {
-      "id": "microsoft-200058400",
-      "company": "Microsoft",
-      "title": "Innovative Data Platform Solution Engineer",
-      "location": "Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
-      "posted": "2026-10-21"
+      "id": "workday-intel-job/Canada-Toronto/Verification-Engineer---AI-SoC-Development_JR0287994",
+      "company": "Intel",
+      "title": "Verification Engineer \u2013 AI SoC Development",
+      "location": "Canada, Toronto",
+      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Verification-Engineer---AI-SoC-Development_JR0287994",
+      "posted": "2026-10-23"
+    },
+    {
+      "id": "workday-marvell-job/CA-ON---Ontario---Toronto/Design-Verification-Intern_2603984",
+      "company": "Marvell",
+      "title": "Design Verification Intern",
+      "location": "CA-ON - Ontario - Toronto",
+      "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/CA-ON---Ontario---Toronto/Design-Verification-Intern_2603984",
+      "posted": "2026-10-23"
     },
     {
       "id": "nokia-41311",
