@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T21:31:54.104319+00:00",
+  "updated": "2026-10-24T21:32:03.337589+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299",
@@ -82,12 +82,12 @@
       "posted": "2026-10-16"
     },
     {
-      "id": "amd-92834",
-      "company": "AMD",
-      "title": "IOHUB Design Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/92834?lang=en-us",
-      "posted": "2026-10-09"
+      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914",
+      "company": "Ciena",
+      "title": "Hardware Engineer - New Grad",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914",
+      "posted": "2026-10-23"
     },
     {
       "id": "workday-ciena-job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
@@ -98,12 +98,12 @@
       "posted": "2026-10-19"
     },
     {
-      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914",
-      "company": "Ciena",
-      "title": "Hardware Engineer - New Grad",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914",
-      "posted": "2026-10-23"
+      "id": "ericsson-792082",
+      "company": "Ericsson",
+      "title": "RAN System Verification Professional",
+      "location": "Ottawa, ON, CA",
+      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
+      "posted": "2026-10-24"
     },
     {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
@@ -136,14 +136,6 @@
       "location": "Markham, Ontario, Canada",
       "link": "https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering",
       "posted": "2026-10-21"
-    },
-    {
-      "id": "workday-intel-job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
-      "company": "Intel",
-      "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
-      "location": "Canada, Toronto",
-      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
-      "posted": "2026-10-16"
     },
     {
       "id": "workday-intel-job/Canada-Toronto/Verification-Engineer---AI-SoC-Development_JR0287994",
