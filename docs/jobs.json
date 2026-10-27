@@ -1,14 +1,6 @@
 {
-  "updated": "2026-10-26T21:31:51.126021+00:00",
+  "updated": "2026-10-27T21:32:05.780196+00:00",
   "jobs": [
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299",
-      "company": "Altera",
-      "title": "FPGA IP Design Engineer - Intern",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer---Intern_R03299",
-      "posted": "2026-10-20"
-    },
     {
       "id": "amazon-10588632",
       "company": "Amazon",
@@ -48,6 +40,14 @@
       "location": "Vancouver, British Columbia, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10588643",
       "posted": "2026-10-26"
+    },
+    {
+      "id": "amazon-10588644",
+      "company": "Amazon",
+      "title": "Software Dev Engineer, Pricing Shared Platform",
+      "location": "Vancouver, British Columbia, CAN",
+      "link": "https://www.amazon.jobs/en/jobs/10588644",
+      "posted": "2026-10-27"
     },
     {
       "id": "amazon-10588635",
@@ -154,6 +154,22 @@
       "posted": "2026-10-19"
     },
     {
+      "id": "workday-ciena-job/Ottawa/Optical-Performance-Lab-Verification-and-Testing-Co-op_R031991",
+      "company": "Ciena",
+      "title": "Optical Performance Lab Verification and Testing Co-op",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Optical-Performance-Lab-Verification-and-Testing-Co-op_R031991",
+      "posted": "2026-10-27"
+    },
+    {
+      "id": "ericsson-792082",
+      "company": "Ericsson",
+      "title": "RAN System Verification Professional",
+      "location": "Ottawa, ON, CA",
+      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
+      "posted": "2026-10-27"
+    },
+    {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
       "company": "GM",
       "title": "Test Engineering, Data Engineering - Systems QA",
@@ -178,12 +194,28 @@
       "posted": "2026-10-13"
     },
     {
+      "id": "huawei-2796264",
+      "company": "Huawei",
+      "title": "Hardware & Embedded Systems Engineer - AI-Edge Devices",
+      "location": "Markham, Ontario, Canada",
+      "link": "https://huaweicanada.recruitee.com/o/hardware-embedded-systems-engineer-ai-edge-devices",
+      "posted": "2026-10-27"
+    },
+    {
       "id": "huawei-2604025",
       "company": "Huawei",
       "title": "Research Engineer - Agentic Software Systems Engineering",
       "location": "Markham, Ontario, Canada",
       "link": "https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering",
       "posted": "2026-10-21"
+    },
+    {
+      "id": "workday-intel-job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+      "company": "Intel",
+      "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
+      "location": "Canada, Toronto",
+      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+      "posted": "2026-10-27"
     },
     {
       "id": "workday-intel-job/Canada-Toronto/Verification-Engineer---AI-SoC-Development_JR0287994",
