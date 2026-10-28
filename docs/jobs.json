@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T21:32:05.780196+00:00",
+  "updated": "2026-10-28T21:32:16.950581+00:00",
   "jobs": [
     {
       "id": "amazon-10588632",
@@ -138,6 +138,14 @@
       "posted": "2026-10-16"
     },
     {
+      "id": "workday-bb-job/Ottawa-Ontario/QNX-Systems-Software-Developer_20260323-1",
+      "company": "BlackBerry QNX",
+      "title": "QNX Systems Software Developer",
+      "location": "Ottawa, Ontario",
+      "link": "https://bb.wd3.myworkdayjobs.com/QNX/job/Ottawa-Ontario/QNX-Systems-Software-Developer_20260323-1",
+      "posted": "2026-10-28"
+    },
+    {
       "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914",
       "company": "Ciena",
       "title": "Hardware Engineer - New Grad",
@@ -170,28 +178,20 @@
       "posted": "2026-10-27"
     },
     {
+      "id": "ford-72899",
+      "company": "Ford",
+      "title": "Embedded Software Developer",
+      "location": "Ottawa, ON, Canada",
+      "link": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72899",
+      "posted": "2026-10-28"
+    },
+    {
       "id": "workday-generalmotors-job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
       "company": "GM",
       "title": "Test Engineering, Data Engineering - Systems QA",
       "location": "Markham, Ontario, Canada; Oshawa, Ontario, Canada",
       "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/Test-Engineering--Data-Engineering---Systems-QA_JR-202622079",
       "posted": "2026-10-14"
-    },
-    {
-      "id": "workday-generalmotors-job/Markham-Ontario-Canada/Embedded-Simulation-Developer---SIL-and-Virtualization_JR-202622345-1",
-      "company": "GM",
-      "title": "Embedded Simulation Developer - SIL and Virtualization",
-      "location": "Markham, Ontario, Canada",
-      "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Markham-Ontario-Canada/Embedded-Simulation-Developer---SIL-and-Virtualization_JR-202622345-1",
-      "posted": "2026-10-13"
-    },
-    {
-      "id": "google-83138342891201222",
-      "company": "Google",
-      "title": "Customer Engineer, Platform, Google Cloud (English, French)",
-      "location": "Montreal, QC, Canada",
-      "link": "https://www.google.com/about/careers/applications/jobs/results/83138342891201222",
-      "posted": "2026-10-13"
     },
     {
       "id": "huawei-2796264",
@@ -224,6 +224,14 @@
       "location": "Canada, Toronto",
       "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Verification-Engineer---AI-SoC-Development_JR0287994",
       "posted": "2026-10-23"
+    },
+    {
+      "id": "workday-microchiphr-job/Canada---Burnaby/SoC-Design-Engineer_R4486-26",
+      "company": "Microchip",
+      "title": "SoC Design Engineer",
+      "location": "Canada - Burnaby",
+      "link": "https://microchiphr.wd5.myworkdayjobs.com/External/job/Canada---Burnaby/SoC-Design-Engineer_R4486-26",
+      "posted": "2026-10-27"
     },
     {
       "id": "nokia-41311",
