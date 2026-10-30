@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-29T21:32:22.310765+00:00",
+  "updated": "2026-10-30T21:31:49.390420+00:00",
   "jobs": [
+    {
+      "id": "workday-altera-job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
+      "company": "Altera",
+      "title": "Hardware Design Engineer - Intern",
+      "location": "Toronto, Ontario, Canada",
+      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
+      "posted": "2026-10-30"
+    },
+    {
+      "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394",
+      "company": "Altera",
+      "title": "FPGA Development Tools - Intern",
+      "location": "Toronto, Ontario, Canada",
+      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394",
+      "posted": "2026-10-30"
+    },
     {
       "id": "amazon-10588632",
       "company": "Amazon",
@@ -64,6 +80,14 @@
       "location": "Vancouver, British Columbia, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10588630",
       "posted": "2026-10-26"
+    },
+    {
+      "id": "amd-93526",
+      "company": "AMD",
+      "title": "Systems Design Engineer 2",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93526?lang=en-us",
+      "posted": "2026-10-30"
     },
     {
       "id": "amd-93714",
@@ -162,6 +186,14 @@
       "posted": "2026-10-23"
     },
     {
+      "id": "workday-ciena-job/Ottawa/ASIC-Engineer-Intern_R031750",
+      "company": "Ciena",
+      "title": "ASIC Engineer Intern",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750",
+      "posted": "2026-10-30"
+    },
+    {
       "id": "workday-ciena-job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
       "company": "Ciena",
       "title": "Wavelogic Embedded Software Developer Intern (Winter 2027)",
@@ -250,36 +282,20 @@
       "posted": "2026-10-27"
     },
     {
-      "id": "microsoft-200058400",
-      "company": "Microsoft",
-      "title": "Innovative Data Platform Solution Engineer",
-      "location": "Toronto, ON, CA; Calgary, AB, CA; Vancouver, BC, CA; Ottawa, ON, CA",
-      "link": "https://apply.careers.microsoft.com/careers/job/1970393557008790",
-      "posted": "2026-10-29"
-    },
-    {
-      "id": "nokia-32826",
-      "company": "Nokia",
-      "title": "Electrical Engineering Student",
-      "location": "Ottawa, Ontario",
-      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/32826",
-      "posted": "2026-10-29"
-    },
-    {
-      "id": "nokia-41311",
-      "company": "Nokia",
-      "title": "Embedded C/C++ SW Developer Co-op/Intern",
-      "location": "Ottawa, Ontario",
-      "link": "https://fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/41311",
-      "posted": "2026-10-15"
-    },
-    {
       "id": "workday-nvidia-job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
       "company": "NVIDIA",
       "title": "ASIC Verification Intern - Summer 2027",
       "location": "Canada, Toronto",
       "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
       "posted": "2026-10-19"
+    },
+    {
+      "id": "greenhouse-tenstorrent-4155609007",
+      "company": "Tenstorrent",
+      "title": "Software Engineer, Acceleration Kernel Development",
+      "location": "Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4155609007",
+      "posted": "2026-10-30"
     }
   ]
 }
