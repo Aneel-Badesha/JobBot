@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:31:49.390420+00:00",
+  "updated": "2026-10-31T21:31:43.304300+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
@@ -82,6 +82,14 @@
       "posted": "2026-10-26"
     },
     {
+      "id": "amd-93586",
+      "company": "AMD",
+      "title": "IP Silicon Validation Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93586?lang=en-us",
+      "posted": "2026-10-30"
+    },
+    {
       "id": "amd-93526",
       "company": "AMD",
       "title": "Systems Design Engineer 2",
@@ -144,22 +152,6 @@
       "location": "MARKHAM, Canada",
       "link": "https://careers.amd.com/jobs/93955?lang=en-us",
       "posted": "2026-10-19"
-    },
-    {
-      "id": "amd-88677",
-      "company": "AMD",
-      "title": "SoC Data Path Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/88677?lang=en-us",
-      "posted": "2026-10-16"
-    },
-    {
-      "id": "amd-93729",
-      "company": "AMD",
-      "title": "GPU Design Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/93729?lang=en-us",
-      "posted": "2026-10-16"
     },
     {
       "id": "arm-102559123680",
@@ -258,14 +250,6 @@
       "posted": "2026-10-21"
     },
     {
-      "id": "workday-intel-job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
-      "company": "Intel",
-      "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
-      "location": "Canada, Toronto",
-      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
-      "posted": "2026-10-27"
-    },
-    {
       "id": "workday-intel-job/Canada-Toronto/Verification-Engineer---AI-SoC-Development_JR0287994",
       "company": "Intel",
       "title": "Verification Engineer \u2013 AI SoC Development",
@@ -287,7 +271,7 @@
       "title": "ASIC Verification Intern - Summer 2027",
       "location": "Canada, Toronto",
       "link": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982",
-      "posted": "2026-10-19"
+      "posted": "2026-10-30"
     },
     {
       "id": "greenhouse-tenstorrent-4155609007",
