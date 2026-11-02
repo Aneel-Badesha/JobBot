@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T22:31:41.643532+00:00",
+  "updated": "2026-11-02T22:31:43.617047+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
@@ -80,6 +80,14 @@
       "location": "Vancouver, British Columbia, CAN",
       "link": "https://www.amazon.jobs/en/jobs/10588630",
       "posted": "2026-10-26"
+    },
+    {
+      "id": "amd-87376",
+      "company": "AMD",
+      "title": "RTL Design Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/87376?lang=en-us",
+      "posted": "2026-11-02"
     },
     {
       "id": "amd-93586",
@@ -175,7 +183,31 @@
       "title": "Hardware Engineer - New Grad",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914",
-      "posted": "2026-10-23"
+      "posted": "2026-11-02"
+    },
+    {
+      "id": "workday-ciena-job/Ottawa/Mixed-Signal-Design-Engineer_R030994",
+      "company": "Ciena",
+      "title": "Mixed Signal Design Engineer",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Mixed-Signal-Design-Engineer_R030994",
+      "posted": "2026-11-02"
+    },
+    {
+      "id": "workday-ciena-job/Ottawa/Embedded-software-engineer_R031266",
+      "company": "Ciena",
+      "title": "Embedded Software Engineer",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-software-engineer_R031266",
+      "posted": "2026-11-02"
+    },
+    {
+      "id": "workday-ciena-job/Ottawa/Senior-Physical-Design-Engineer_R031691",
+      "company": "Ciena",
+      "title": "ASIC Front End Implementation Engineer",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Senior-Physical-Design-Engineer_R031691",
+      "posted": "2026-11-02"
     },
     {
       "id": "workday-ciena-job/Ottawa/ASIC-Engineer-Intern_R031750",
@@ -242,12 +274,28 @@
       "posted": "2026-10-27"
     },
     {
+      "id": "huawei-2638789",
+      "company": "Huawei",
+      "title": "Engineer - Optical Communication Systems (Test, Modeling & Sensing)",
+      "location": "Ottawa, Ontario, Canada",
+      "link": "https://huaweicanada.recruitee.com/o/engineer-optical-communication-systems-test-modeling-sensing",
+      "posted": "2026-11-02"
+    },
+    {
       "id": "huawei-2604025",
       "company": "Huawei",
       "title": "Research Engineer - Agentic Software Systems Engineering",
       "location": "Markham, Ontario, Canada",
       "link": "https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering",
       "posted": "2026-10-21"
+    },
+    {
+      "id": "workday-intel-job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+      "company": "Intel",
+      "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
+      "location": "Canada, Toronto",
+      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
+      "posted": "2026-11-02"
     },
     {
       "id": "workday-intel-job/Canada-Toronto/Verification-Engineer---AI-SoC-Development_JR0287994",
