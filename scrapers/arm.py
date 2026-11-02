@@ -27,9 +27,9 @@ HEADERS = {
 TIMEOUT = 20
 
 
-def scrape_arm() -> list[dict]:
+def _scrape_arm(search_path: str) -> list[dict]:
     jobs = []
-    resp = requests.get(f"{BASE_URL}{SEARCH_PATH}", headers=HEADERS, timeout=TIMEOUT)
+    resp = requests.get(f"{BASE_URL}{search_path}", headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
     soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -62,4 +62,16 @@ def scrape_arm() -> list[dict]:
             "posted": "",
         })
 
+    return jobs
+
+
+def scrape_arm() -> list[dict]:
+    # The "intern" keyword page is relevance-sorted; only its first page is
+    # reachable (see module docstring), which covers the top intern postings.
+    jobs, seen = [], set()
+    for path in (SEARCH_PATH, SEARCH_PATH.replace("/canada", "/intern")):
+        for job in _scrape_arm(path):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

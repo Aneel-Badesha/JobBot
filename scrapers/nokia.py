@@ -50,13 +50,13 @@ def _detail_location(job_id: str) -> str:
         return ""
 
 
-def scrape_nokia() -> list[dict]:
+def _scrape_nokia(keyword: str) -> list[dict]:
     jobs = []
     offset = 0
     page = 0
     while page < MAX_PAGES:
         finder = (f"findReqs;siteNumber={SITE_NUMBER},limit={LIMIT},offset={offset},"
-                  f"keyword=Canada")
+                  f"keyword={keyword}")
         resp = requests.get(LIST_URL, params={"onlyData": "true", "expand": "requisitionList.secondaryLocations", "finder": finder},
                              headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
@@ -94,4 +94,14 @@ def scrape_nokia() -> list[dict]:
             break
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_nokia() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in ("Canada", "intern"):
+        for job in _scrape_nokia(scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

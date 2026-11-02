@@ -11,6 +11,8 @@ ROLE_KEYWORDS = [
     # Systems / low-level
     "systems", "system software", "kernel", "driver", "drivers", "platform",
     "low-level", "low level", "linux", "bsp",
+    # Robotics / electronics
+    "robotics", "electronics",
 ]
 
 # Level markers — informational only; they do not qualify a title on their own
@@ -35,12 +37,13 @@ ROLE_EXCLUSIONS = [
     "customer success", "technician", "truck", "delivery driver",
 ]
 
+# Canadian cities: any target role (intern, co-op, new grad).
 TARGET_LOCATIONS = [
     # Toronto + suburbs
     "toronto", "north york", "scarborough", "etobicoke", "mississauga",
     "markham", "richmond hill", "vaughan", "brampton", "gta",
     # Montreal + suburbs
-    "montreal", "montréal", "laval", "longueuil",
+    "montreal", "montréal", "laval", "longueuil", "sainte-anne-de-bellevue",
     # Ottawa + suburbs
     "ottawa", "kanata", "nepean", "gatineau",
     # Vancouver + suburbs
@@ -53,8 +56,44 @@ def _kw_pattern(words: list[str]) -> re.Pattern:
     return re.compile(r'\b(?:' + '|'.join(re.escape(w) for w in words) + r')\b', re.IGNORECASE)
 
 
+# United States: anywhere, but internships/co-ops only (see is_target_job).
+US_STATES = [
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado",
+    "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho",
+    "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine",
+    "maryland", "massachusetts", "michigan", "minnesota", "mississippi",
+    "missouri", "montana", "nebraska", "nevada", "new hampshire", "new jersey",
+    "new mexico", "new york", "north carolina", "north dakota", "ohio",
+    "oklahoma", "oregon", "pennsylvania", "rhode island", "south carolina",
+    "south dakota", "tennessee", "texas", "utah", "vermont", "virginia",
+    "washington", "west virginia", "wisconsin", "wyoming", "district of columbia",
+]
+# Startup boards often list a bare city ("Austin", "San Francisco Office").
+US_CITIES = [
+    "san francisco", "san jose", "santa clara", "sunnyvale", "mountain view",
+    "palo alto", "menlo park", "foster city", "san mateo", "san carlos",
+    "redwood city", "fremont", "milpitas", "cupertino", "los angeles",
+    "long beach", "hawthorne", "torrance", "el segundo", "irvine", "san diego",
+    "seattle", "redmond", "bellevue, wa", "austin", "dallas", "houston",
+    "boston", "new york", "pittsburgh", "detroit", "ann arbor", "chicago",
+    "denver", "boulder", "atlanta", "phoenix", "salt lake city", "portland",
+]
+# Two-letter codes, matched case-sensitively as "City, ST". IL/IN/DE are left
+# out — they collide with Israel/India/Germany country codes on many boards.
+US_STATE_CODES = [
+    "AL", "AK", "AZ", "AR", "CA", "CO", "CT", "FL", "GA", "HI", "ID", "IA",
+    "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE",
+    "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI",
+    "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY", "DC",
+]
+
 _ROLE_RE = _kw_pattern(ROLE_KEYWORDS)
 _LOCATION_RE = _kw_pattern(TARGET_LOCATIONS)
+_US_NAME_RE = re.compile(
+    r'\b(?:united states|usa|u\.s\.a?\.?|' + '|'.join(US_STATES + US_CITIES) + r')\b', re.IGNORECASE)
+_US_MARKER_RE = re.compile(r'\bUS\b')
+_US_CODE_RE = re.compile(r',\s*(?:' + '|'.join(US_STATE_CODES) + r')\b')
+_NOT_US_RE = re.compile(r'\bcanada\b', re.IGNORECASE)
 
 # Workday postedOn strings within 48 hours
 _RECENT_WORKDAY = {"posted today", "posted yesterday", "posted 1 day ago", "posted 2 days ago"}
@@ -71,8 +110,23 @@ def is_target_role(title: str) -> bool:
     return bool(_ROLE_RE.search(title))
 
 
-def is_target_location(text: str) -> bool:
+def is_canada_location(text: str) -> bool:
     return bool(_LOCATION_RE.search(text or ""))
+
+
+def is_us_location(text: str) -> bool:
+    for seg in re.split(r'[;|]', text or ""):
+        if _NOT_US_RE.search(seg):
+            continue
+        if _US_NAME_RE.search(seg) or _US_MARKER_RE.search(seg) or _US_CODE_RE.search(seg):
+            return True
+    return False
+
+
+def is_target_location(text: str) -> bool:
+    """Coarse location gate used inside scrapers; is_target_job applies the
+    US interns-only rule once the title is known."""
+    return is_canada_location(text) or is_us_location(text)
 
 
 def is_recent(posted_on: str) -> bool:
@@ -85,3 +139,12 @@ _INTERN_RE = _kw_pattern(["intern", "interns", "internship", "co-op", "coop", "s
 def is_intern(title: str) -> bool:
     """Intern/co-op postings (vs. full-time) — used to split the README tables."""
     return bool(_INTERN_RE.search(title))
+
+
+def is_target_job(title: str, location: str) -> bool:
+    """Target role in a Canadian target city, or a target internship in the US."""
+    if not is_target_role(title):
+        return False
+    if is_canada_location(location):
+        return True
+    return is_us_location(location) and is_intern(title)

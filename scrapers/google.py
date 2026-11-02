@@ -54,12 +54,12 @@ def _extract_ds1(html: str):
     return None
 
 
-def scrape_google() -> list[dict]:
+def _scrape_google(scope: dict) -> list[dict]:
     jobs = []
     page = 1
 
     while page <= MAX_PAGES:
-        params = {"location": "Canada", "page": page}
+        params = {**scope, "page": page}
         resp = requests.get(RESULTS_URL, params=params, headers=HEADERS, timeout=20)
         if resp.status_code != 200:
             logger.warning(f"Google careers page fetch failed: {resp.status_code}")
@@ -105,4 +105,14 @@ def scrape_google() -> list[dict]:
         page += 1
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_google() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in [{"location": "Canada"}, {"location": "United States", "q": "intern"}]:
+        for job in _scrape_google(scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

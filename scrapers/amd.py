@@ -22,11 +22,11 @@ TIMEOUT = 20
 MAX_PAGES = 20
 
 
-def scrape_amd() -> list[dict]:
+def _scrape_amd(scope: dict) -> list[dict]:
     jobs = []
     page = 1
     while page <= MAX_PAGES:
-        resp = requests.get(API_URL, params={"country": "Canada", "page": page},
+        resp = requests.get(API_URL, params={**scope, "page": page},
                              headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
         data = resp.json()
@@ -57,4 +57,14 @@ def scrape_amd() -> list[dict]:
         page += 1
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_amd() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in [{"country": "Canada"}, {"country": "United States", "keywords": "intern"}]:
+        for job in _scrape_amd(scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

@@ -8,7 +8,7 @@ import logging
 import time
 
 import requests
-from scrapers.filters import is_target_role, is_target_location
+from scrapers.filters import is_target_role, is_target_location, is_us_location
 
 logger = logging.getLogger(__name__)
 
@@ -33,19 +33,61 @@ def _job(job_id: str, company: str, title: str, location: str, link: str, posted
 # --- Workday -----------------------------------------------------------------
 
 def scrape_workday(company: str, tenant: str, wd_instance: str, site: str,
-                   search_text: str = "Canada") -> list[dict]:
+                   search_text: str = "Canada", us_interns: bool = True) -> list[dict]:
     """Workday CXS API. search_text scopes results server-side (default "Canada"),
-    which keeps big boards (NVIDIA ~2000 postings) to a handful of pages."""
+    which keeps big boards (NVIDIA ~2000 postings) to a handful of pages. A second
+    pass searches "intern" filtered to the board's United States location facet."""
     base_url = f"https://{tenant}.{wd_instance}.myworkdayjobs.com"
     api_url = f"{base_url}/wday/cxs/{tenant}/{site}/jobs"
     headers = {**HEADERS, "Content-Type": "application/json"}
 
+    jobs = _workday_pass(company, tenant, site, base_url, api_url, headers, search_text, {})
+    # An empty search_text already covers the whole board
+    if us_interns and search_text:
+        us_facets = _workday_us_facets(api_url, headers)
+        seen = {j["id"] for j in jobs}
+        jobs += [j for j in _workday_pass(company, tenant, site, base_url, api_url, headers, "intern", us_facets)
+                 if j["id"] not in seen]
+    return jobs
+
+
+def _workday_us_facets(api_url: str, headers: dict) -> dict:
+    """Find the board's facet values for United States. Facet names and ids vary
+    by tenant (locationCountry, Location_Country, locationHierarchy1, ...). Boards
+    with only a per-city "locations" facet get every US-looking city instead, and
+    boards with neither get no facet (the "intern" search is small enough)."""
+    resp = requests.post(api_url, json={"appliedFacets": {}, "limit": 1, "offset": 0, "searchText": "intern"},
+                         headers=headers, timeout=TIMEOUT)
+    resp.raise_for_status()
+
+    country, cities = {}, {}
+
+    def walk(facets):
+        for f in facets:
+            param = f.get("facetParameter", "")
+            for v in f.get("values", []) or []:
+                if "values" in v:
+                    walk([v])
+                    continue
+                desc = v.get("descriptor", "")
+                if "country" in param.lower() or "hierarchy1" in param.lower():
+                    if desc in ("United States", "United States of America", "USA"):
+                        country.setdefault(param, []).append(v["id"])
+                elif "location" in param.lower() and is_us_location(desc):
+                    cities.setdefault(param, []).append(v["id"])
+
+    walk(resp.json().get("facets", []))
+    return country or cities
+
+
+def _workday_pass(company: str, tenant: str, site: str, base_url: str, api_url: str,
+                  headers: dict, search_text: str, facets: dict) -> list[dict]:
     jobs = []
     limit = 20
     offset = 0
 
     while True:
-        payload = {"appliedFacets": {}, "limit": limit, "offset": offset, "searchText": search_text}
+        payload = {"appliedFacets": facets, "limit": limit, "offset": offset, "searchText": search_text}
         resp = requests.post(api_url, json=payload, headers=headers, timeout=TIMEOUT)
         resp.raise_for_status()
         data = resp.json()
@@ -190,7 +232,14 @@ def scrape_workable(company: str, slug: str) -> list[dict]:
 
 # --- SmartRecruiters ---------------------------------------------------------
 
-def scrape_smartrecruiters(company: str, slug: str, country: str = "ca") -> list[dict]:
+def scrape_smartrecruiters(company: str, slug: str, countries: tuple = ("ca", "us")) -> list[dict]:
+    jobs = []
+    for country in countries:
+        jobs += _smartrecruiters_country(company, slug, country)
+    return jobs
+
+
+def _smartrecruiters_country(company: str, slug: str, country: str) -> list[dict]:
     url = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings"
     jobs = []
     offset = 0
@@ -216,4 +265,47 @@ def scrape_smartrecruiters(company: str, slug: str, country: str = "ca") -> list
         if not content or offset >= data.get("totalFound", 0):
             break
         time.sleep(0.5)
+    return jobs
+
+
+# --- UltiPro (UKG Pro Recruiting) --------------------------------------------
+
+def scrape_ultipro(company: str, host: str, tenant: str, boards: list[str]) -> list[dict]:
+    """UKG job boards POST their search to JobBoardView/LoadSearchResults; no auth."""
+    headers = {**HEADERS, "Content-Type": "application/json"}
+    jobs, seen = [], set()
+    for board in boards:
+        board_url = f"https://{host}/{tenant}/JobBoard/{board}"
+        skip = 0
+        while True:
+            payload = {"opportunitySearch": {
+                "Top": 50, "Skip": skip, "QueryString": "", "Filters": [],
+                "OrderBy": [{"Value": "postedDateDesc", "PropertyName": "PostedDate", "Ascending": False}],
+            }}
+            resp = requests.post(f"{board_url}/JobBoardView/LoadSearchResults", json=payload,
+                                 headers=headers, timeout=TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+            ops = data.get("opportunities", [])
+            for o in ops:
+                title = o.get("Title", "")
+                locs = []
+                for l in o.get("Locations", []) or []:
+                    a = l.get("Address") or {}
+                    locs.append(", ".join(x for x in (a.get("City"), (a.get("State") or {}).get("Name"),
+                                                      (a.get("Country") or {}).get("Name")) if x))
+                loc_text = "; ".join(l for l in locs if l)
+                if o.get("Id") in seen or not is_target_role(title) or not is_target_location(loc_text):
+                    continue
+                seen.add(o.get("Id"))
+                jobs.append(_job(
+                    f"ultipro-{tenant}-{o.get('Id')}",
+                    company, title, loc_text,
+                    f"{board_url}/OpportunityDetail?opportunityId={o.get('Id')}",
+                    o.get("PostedDate", ""),
+                ))
+            skip += len(ops)
+            if not ops or skip >= data.get("totalCount", 0):
+                break
+            time.sleep(0.5)
     return jobs

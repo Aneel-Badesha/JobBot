@@ -128,7 +128,7 @@ def _build_html(jobs: list[dict]) -> str:
   <h3 style="margin-top:28px">Full-time ({len(full_time)})</h3>
   {_html_table(full_time)}
   <p style="color:#888;font-size:12px;margin-top:24px">
-    Automated digest from FinancialBot. Jobs filtered for Toronto/Montreal/Ottawa/Vancouver + firmware/embedded/systems keywords, posted in the last 14 days.<br>
+    Automated digest from FinancialBot. Jobs filtered for firmware/embedded/systems keywords in Toronto/Montreal/Ottawa/Vancouver, plus US internships, posted in the last 14 days.<br>
     <a href="{README_URL}" style="color:#1a0dab">View all current jobs →</a>
   </p>
 </body>
