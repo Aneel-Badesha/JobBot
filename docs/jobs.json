@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T22:31:43.617047+00:00",
+  "updated": "2026-11-03T22:31:46.523946+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
@@ -82,6 +82,14 @@
       "posted": "2026-10-26"
     },
     {
+      "id": "amd-97103",
+      "company": "AMD",
+      "title": "IP Silicon Validation Engineer",
+      "location": "VANCOUVER, Canada",
+      "link": "https://careers.amd.com/jobs/97103?lang=en-us",
+      "posted": "2026-11-03"
+    },
+    {
       "id": "amd-87376",
       "company": "AMD",
       "title": "RTL Design Engineer",
@@ -136,30 +144,6 @@
       "location": "MARKHAM, Canada",
       "link": "https://careers.amd.com/jobs/93547?lang=en-us",
       "posted": "2026-10-21"
-    },
-    {
-      "id": "amd-93231",
-      "company": "AMD",
-      "title": "Silicon Design Engineer (1 year contract)",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/93231?lang=en-us",
-      "posted": "2026-10-19"
-    },
-    {
-      "id": "amd-93474",
-      "company": "AMD",
-      "title": "Systems Design Engineer",
-      "location": "VANCOUVER, Canada",
-      "link": "https://careers.amd.com/jobs/93474?lang=en-us",
-      "posted": "2026-10-19"
-    },
-    {
-      "id": "amd-93955",
-      "company": "AMD",
-      "title": "Design Verification Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/93955?lang=en-us",
-      "posted": "2026-10-19"
     },
     {
       "id": "arm-102559123680",
@@ -218,14 +202,6 @@
       "posted": "2026-10-30"
     },
     {
-      "id": "workday-ciena-job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
-      "company": "Ciena",
-      "title": "Wavelogic Embedded Software Developer Intern (Winter 2027)",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890",
-      "posted": "2026-10-19"
-    },
-    {
       "id": "workday-ciena-job/Ottawa/Optical-Performance-Lab-Verification-and-Testing-Co-op_R031991",
       "company": "Ciena",
       "title": "Optical Performance Lab Verification and Testing Co-op",
@@ -248,6 +224,14 @@
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Software-Engineer---Co-op-Winter-2027_R032005",
       "posted": "2026-10-29"
+    },
+    {
+      "id": "workday-ciena-job/Ottawa/Hardware-Engineering-Co-op--Winter-2027-_R032054",
+      "company": "Ciena",
+      "title": "Hardware Engineering Co-op (Winter 2027)",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineering-Co-op--Winter-2027-_R032054",
+      "posted": "2026-11-03"
     },
     {
       "id": "ericsson-792082",

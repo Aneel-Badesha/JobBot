@@ -23,12 +23,13 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-11-02 22:31 UTC — 41 jobs posted in the last 14 days_
+_Updated 2026-11-03 22:31 UTC — 39 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (9)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-11-03 | Ciena | [Hardware Engineering Co-op (Winter 2027)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineering-Co-op--Winter-2027-_R032054) | Ottawa |
 | 2026-11-02 | Intel | [GPU & AI Accelerator Hardware Design Undergraduate Intern](https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539) | Canada, Toronto |
 | 2026-10-30 | Altera | [FPGA Development Tools - Intern](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394) | Toronto, Ontario, Canada |
 | 2026-10-30 | Altera | [Hardware Design Engineer - Intern](https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367) | Toronto, Ontario, Canada |
@@ -37,12 +38,12 @@ _Updated 2026-11-02 22:31 UTC — 41 jobs posted in the last 14 days_
 | 2026-10-29 | Ciena | [Embedded Software Engineer – Co-op Winter 2027](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Software-Engineer---Co-op-Winter-2027_R032005) | Ottawa |
 | 2026-10-29 | Ciena | [Hardware Characterization Automation Co-op (Winter 2027)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Characterization-Automation-Co-op--Winter-2027-_R032014) | Ottawa |
 | 2026-10-27 | Ciena | [Optical Performance Lab Verification and Testing Co-op](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Optical-Performance-Lab-Verification-and-Testing-Co-op_R031991) | Ottawa |
-| 2026-10-19 | Ciena | [Wavelogic Embedded Software Developer Intern (Winter 2027)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Wavelogic-Embedded-Software-Developer-Intern--Winter-2027-_R031890) | Ottawa |
 
-### Full-time (32)
+### Full-time (30)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
+| 2026-11-03 | AMD | [IP Silicon Validation Engineer](https://careers.amd.com/jobs/97103?lang=en-us) | VANCOUVER, Canada |
 | 2026-11-02 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/87376?lang=en-us) | MARKHAM, Canada |
 | 2026-11-02 | Ciena | [ASIC Front End Implementation Engineer](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Senior-Physical-Design-Engineer_R031691) | Ottawa |
 | 2026-11-02 | Ciena | [Embedded Software Engineer](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-software-engineer_R031266) | Ottawa |
@@ -72,7 +73,4 @@ _Updated 2026-11-02 22:31 UTC — 41 jobs posted in the last 14 days_
 | 2026-10-21 | AMD | [ASIC Design Engineer, PCIe IP Enablement](https://careers.amd.com/jobs/93547?lang=en-us) | MARKHAM, Canada |
 | 2026-10-21 | AMD | [RTL Design Engineer](https://careers.amd.com/jobs/93791?lang=en-us) | MARKHAM, Canada |
 | 2026-10-21 | Huawei | [Research Engineer - Agentic Software Systems Engineering](https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering) | Markham, Ontario, Canada |
-| 2026-10-19 | AMD | [Design Verification Engineer](https://careers.amd.com/jobs/93955?lang=en-us) | MARKHAM, Canada |
-| 2026-10-19 | AMD | [Silicon Design Engineer (1 year contract)](https://careers.amd.com/jobs/93231?lang=en-us) | MARKHAM, Canada |
-| 2026-10-19 | AMD | [Systems Design Engineer](https://careers.amd.com/jobs/93474?lang=en-us) | VANCOUVER, Canada |
 <!-- JOBS:END -->
