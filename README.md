@@ -23,7 +23,7 @@ python main.py
 ## Current jobs
 
 <!-- JOBS:START -->
-_Updated 2026-11-03 22:31 UTC — 39 jobs posted in the last 14 days_
+_Updated 2026-11-04 22:32 UTC — 38 jobs posted in the last 14 days_
 
 ### Internships & Co-ops (9)
 
@@ -39,7 +39,7 @@ _Updated 2026-11-03 22:31 UTC — 39 jobs posted in the last 14 days_
 | 2026-10-29 | Ciena | [Hardware Characterization Automation Co-op (Winter 2027)](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Characterization-Automation-Co-op--Winter-2027-_R032014) | Ottawa |
 | 2026-10-27 | Ciena | [Optical Performance Lab Verification and Testing Co-op](https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Optical-Performance-Lab-Verification-and-Testing-Co-op_R031991) | Ottawa |
 
-### Full-time (30)
+### Full-time (29)
 
 | Posted | Company | Role | Location |
 |--------|---------|------|----------|
@@ -53,8 +53,8 @@ _Updated 2026-11-03 22:31 UTC — 39 jobs posted in the last 14 days_
 | 2026-10-30 | AMD | [IP Silicon Validation Engineer](https://careers.amd.com/jobs/93586?lang=en-us) | MARKHAM, Canada |
 | 2026-10-30 | AMD | [Systems Design Engineer 2](https://careers.amd.com/jobs/93526?lang=en-us) | MARKHAM, Canada |
 | 2026-10-30 | Tenstorrent | [Software Engineer, Acceleration Kernel Development](https://job-boards.greenhouse.io/tenstorrent/jobs/4155609007) | Santa Clara, California, United States; Toronto, Ontario, Canada |
-| 2026-10-29 | Arm | [IP Verification Engineer](https://careers.arm.com/job/toronto/ip-verification-engineer/33099/102559123680) | Toronto, Canada |
 | 2026-10-28 | BlackBerry QNX | [QNX Systems Software Developer](https://bb.wd3.myworkdayjobs.com/QNX/job/Ottawa-Ontario/QNX-Systems-Software-Developer_20260323-1) | Ottawa, Ontario |
+| 2026-10-28 | Ford | [Embedded Software Developer](https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72899) | Ottawa, ON, Canada |
 | 2026-10-28 | Ford | [Embedded Software Developer](https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72899) | Ottawa, ON, Canada |
 | 2026-10-27 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588644) | Vancouver, British Columbia, CAN |
 | 2026-10-27 | Ericsson | [RAN System Verification Professional](https://jobs.ericsson.com/careers/job/563121777356246) | Ottawa, ON, CA |
@@ -63,7 +63,6 @@ _Updated 2026-11-03 22:31 UTC — 39 jobs posted in the last 14 days_
 | 2026-10-26 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588632) | Vancouver, British Columbia, CAN |
 | 2026-10-26 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588637) | Vancouver, British Columbia, CAN |
 | 2026-10-26 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588639) | Vancouver, British Columbia, CAN |
-| 2026-10-26 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588640) | Vancouver, British Columbia, CAN |
 | 2026-10-26 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588643) | Vancouver, British Columbia, CAN |
 | 2026-10-26 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588635) | Vancouver, British Columbia, CAN |
 | 2026-10-26 | Amazon | [Software Dev Engineer, Pricing Shared Platform](https://www.amazon.jobs/en/jobs/10588630) | Vancouver, British Columbia, CAN |
