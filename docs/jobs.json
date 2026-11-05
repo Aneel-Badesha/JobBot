@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T22:32:09.172032+00:00",
+  "updated": "2026-11-05T22:31:40.118229+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
@@ -74,6 +74,22 @@
       "posted": "2026-10-26"
     },
     {
+      "id": "amd-97341",
+      "company": "AMD",
+      "title": "IP-Post Silicon Validation Engineer",
+      "location": "VANCOUVER, Canada",
+      "link": "https://careers.amd.com/jobs/97341?lang=en-us",
+      "posted": "2026-11-05"
+    },
+    {
+      "id": "amd-96261",
+      "company": "AMD",
+      "title": "IP-Post Silicon Validation Engineer",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/96261?lang=en-us",
+      "posted": "2026-11-05"
+    },
+    {
       "id": "amd-97103",
       "company": "AMD",
       "title": "IP Silicon Validation Engineer",
@@ -122,20 +138,12 @@
       "posted": "2026-10-23"
     },
     {
-      "id": "amd-93791",
-      "company": "AMD",
-      "title": "RTL Design Engineer",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/93791?lang=en-us",
-      "posted": "2026-10-21"
-    },
-    {
-      "id": "amd-93547",
-      "company": "AMD",
-      "title": "ASIC Design Engineer, PCIe IP Enablement",
-      "location": "MARKHAM, Canada",
-      "link": "https://careers.amd.com/jobs/93547?lang=en-us",
-      "posted": "2026-10-21"
+      "id": "arm-102559123680",
+      "company": "Arm",
+      "title": "IP Verification Engineer",
+      "location": "Toronto, Canada",
+      "link": "https://careers.arm.com/job/toronto/ip-verification-engineer/33099/102559123680",
+      "posted": "2026-11-05"
     },
     {
       "id": "workday-bb-job/Ottawa-Ontario/QNX-Systems-Software-Developer_20260323-1",
@@ -234,14 +242,6 @@
       "posted": "2026-10-28"
     },
     {
-      "id": "ford-72899",
-      "company": "Ford",
-      "title": "Embedded Software Developer",
-      "location": "Ottawa, ON, Canada",
-      "link": "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/72899",
-      "posted": "2026-10-28"
-    },
-    {
       "id": "huawei-2796264",
       "company": "Huawei",
       "title": "Hardware & Embedded Systems Engineer - AI-Edge Devices",
@@ -258,12 +258,12 @@
       "posted": "2026-11-02"
     },
     {
-      "id": "huawei-2604025",
-      "company": "Huawei",
-      "title": "Research Engineer - Agentic Software Systems Engineering",
-      "location": "Markham, Ontario, Canada",
-      "link": "https://huaweicanada.recruitee.com/o/research-engineer-agentic-software-systems-engineering",
-      "posted": "2026-10-21"
+      "id": "workday-intel-job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
+      "company": "Intel",
+      "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
+      "location": "Canada, Toronto",
+      "link": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535",
+      "posted": "2026-11-05"
     },
     {
       "id": "workday-intel-job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539",
