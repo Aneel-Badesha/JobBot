@@ -1,14 +1,6 @@
 {
-  "updated": "2026-11-05T22:31:40.118229+00:00",
+  "updated": "2026-11-06T22:31:42.332673+00:00",
   "jobs": [
-    {
-      "id": "workday-altera-job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
-      "company": "Altera",
-      "title": "Hardware Design Engineer - Intern",
-      "location": "Toronto, Ontario, Canada",
-      "link": "https://altera.wd1.myworkdayjobs.com/altera/job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367",
-      "posted": "2026-10-30"
-    },
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394",
       "company": "Altera",
@@ -74,6 +66,14 @@
       "posted": "2026-10-26"
     },
     {
+      "id": "amd-93711",
+      "company": "AMD",
+      "title": "Mixed Signal Custom Layout  - Temporary/Seasonal",
+      "location": "MARKHAM, Canada",
+      "link": "https://careers.amd.com/jobs/93711?lang=en-us",
+      "posted": "2026-11-06"
+    },
+    {
       "id": "amd-97341",
       "company": "AMD",
       "title": "IP-Post Silicon Validation Engineer",
@@ -116,10 +116,18 @@
     {
       "id": "amd-93526",
       "company": "AMD",
-      "title": "Systems Design Engineer 2",
+      "title": "Systems Design Engineer",
       "location": "MARKHAM, Canada",
       "link": "https://careers.amd.com/jobs/93526?lang=en-us",
       "posted": "2026-10-30"
+    },
+    {
+      "id": "amd-93754",
+      "company": "AMD",
+      "title": "DSP Systems Engineer",
+      "location": "OTTAWA, Canada",
+      "link": "https://careers.amd.com/jobs/93754?lang=en-us",
+      "posted": "2026-10-29"
     },
     {
       "id": "amd-93714",
@@ -154,14 +162,6 @@
       "posted": "2026-10-28"
     },
     {
-      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914",
-      "company": "Ciena",
-      "title": "Hardware Engineer - New Grad",
-      "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914",
-      "posted": "2026-11-02"
-    },
-    {
       "id": "workday-ciena-job/Ottawa/Mixed-Signal-Design-Engineer_R030994",
       "company": "Ciena",
       "title": "Mixed Signal Design Engineer",
@@ -191,6 +191,14 @@
       "title": "ASIC Front End Implementation Engineer",
       "location": "Ottawa",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Senior-Physical-Design-Engineer_R031691",
+      "posted": "2026-11-02"
+    },
+    {
+      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914",
+      "company": "Ciena",
+      "title": "Hardware Engineer - New Grad",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914",
       "posted": "2026-11-02"
     },
     {
@@ -226,12 +234,20 @@
       "posted": "2026-11-03"
     },
     {
-      "id": "ericsson-792082",
+      "id": "workday-ciena-job/Ottawa/Embedded-Security-Software-Developer---New-Grad_R032066",
+      "company": "Ciena",
+      "title": "Embedded Security Software Developer - New Grad",
+      "location": "Ottawa",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Embedded-Security-Software-Developer---New-Grad_R032066",
+      "posted": "2026-11-06"
+    },
+    {
+      "id": "ericsson-793607",
       "company": "Ericsson",
       "title": "RAN System Verification Professional",
       "location": "Ottawa, ON, CA",
-      "link": "https://jobs.ericsson.com/careers/job/563121777356246",
-      "posted": "2026-10-27"
+      "link": "https://jobs.ericsson.com/careers/job/563121777519784",
+      "posted": "2026-11-06"
     },
     {
       "id": "ford-72899",
