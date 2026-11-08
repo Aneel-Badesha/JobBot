@@ -20,14 +20,14 @@ HEADERS = {
 }
 
 
-def scrape_onsemi() -> list[dict]:
+def _scrape_onsemi(keyword: str) -> list[dict]:
     jobs = []
     offset = 0
 
     for _ in range(MAX_PAGES):
         finder = (
             f"findReqs;siteNumber={SITE_NUMBER},facetsList=LOCATIONS,"
-            f"limit={PAGE_SIZE},offset={offset},sortBy=POSTING_DATES_DESC,keyword=Canada"
+            f"limit={PAGE_SIZE},offset={offset},sortBy=POSTING_DATES_DESC,keyword={keyword}"
         )
         params = {
             "onlyData": "true",
@@ -73,4 +73,14 @@ def scrape_onsemi() -> list[dict]:
             break
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_onsemi() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in ("Canada", "intern"):
+        for job in _scrape_onsemi(scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

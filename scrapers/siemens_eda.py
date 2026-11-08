@@ -31,12 +31,12 @@ PER_PAGE = 50
 MAX_PAGES = 20
 
 
-def scrape_siemens_eda() -> list[dict]:
+def _scrape_siemens_eda(search_path: str) -> list[dict]:
     jobs = []
     offset = 0
     page = 0
     while page < MAX_PAGES:
-        resp = requests.get(f"{BASE_URL}{SEARCH_PATH}",
+        resp = requests.get(f"{BASE_URL}{search_path}",
                              params={"jobRecordsPerPage": PER_PAGE, "jobOffset": offset},
                              headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
@@ -80,4 +80,14 @@ def scrape_siemens_eda() -> list[dict]:
             break
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_siemens_eda() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in (SEARCH_PATH, SEARCH_PATH.replace("/Canada", "/intern")):
+        for job in _scrape_siemens_eda(scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

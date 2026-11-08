@@ -30,12 +30,12 @@ _STATE_RE = re.compile(r'"State\\?/Province":"([^"]*)"')
 _TITLE_SUFFIX_RE = re.compile(r'\s*-\s*\d+$')
 
 
-def scrape_synopsys() -> list[dict]:
+def _scrape_synopsys(search_path: str) -> list[dict]:
     jobs = []
     offset = 0
     page = 0
     while page < MAX_PAGES:
-        resp = requests.get(f"{BASE_URL}{SEARCH_PATH}",
+        resp = requests.get(f"{BASE_URL}{search_path}",
                              params={"jobRecordsPerPage": PER_PAGE, "jobOffset": offset},
                              headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
@@ -95,3 +95,13 @@ def _detail_location(link: str) -> str:
     except Exception as e:
         logger.warning(f"Synopsys detail fetch failed for {link}: {e}")
         return ""
+
+
+def scrape_synopsys() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in (SEARCH_PATH, SEARCH_PATH.replace("/Canada", "/intern")):
+        for job in _scrape_synopsys(scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
+    return jobs

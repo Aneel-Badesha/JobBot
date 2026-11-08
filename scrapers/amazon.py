@@ -22,15 +22,15 @@ HEADERS = {
 }
 
 
-def scrape_amazon() -> list[dict]:
+def _scrape_amazon(query: str, country: str) -> list[dict]:
     jobs = []
     offset = 0
     pages = 0
 
     while pages < MAX_PAGES:
         params = {
-            "base_query": "",
-            "normalized_country_code[]": "CAN",
+            "base_query": query,
+            "normalized_country_code[]": country,
             "job_count": PAGE_SIZE,
             "result_limit": PAGE_SIZE,
             "sort": "recent",
@@ -75,4 +75,14 @@ def scrape_amazon() -> list[dict]:
             break
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_amazon() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in [("", "CAN"), ("intern", "USA")]:
+        for job in _scrape_amazon(*scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

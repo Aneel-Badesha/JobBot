@@ -23,13 +23,13 @@ LIMIT = 25
 MAX_PAGES = 20
 
 
-def scrape_ford() -> list[dict]:
+def _scrape_ford(keyword: str) -> list[dict]:
     jobs = []
     offset = 0
     page = 0
     while page < MAX_PAGES:
         finder = (f"findReqs;siteNumber={SITE_NUMBER},limit={LIMIT},offset={offset},"
-                  f"keyword=Canada")
+                  f"keyword={keyword}")
         resp = requests.get(API_URL, params={"onlyData": "true", "expand": "requisitionList.secondaryLocations", "finder": finder},
                              headers=HEADERS, timeout=TIMEOUT)
         resp.raise_for_status()
@@ -64,4 +64,14 @@ def scrape_ford() -> list[dict]:
             break
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_ford() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in ("Canada", "intern"):
+        for job in _scrape_ford(scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

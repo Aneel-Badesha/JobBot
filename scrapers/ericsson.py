@@ -21,15 +21,15 @@ HEADERS = {
 }
 
 
-def scrape_ericsson() -> list[dict]:
+def _scrape_ericsson(query: str, location: str) -> list[dict]:
     jobs = []
     start = 0
 
     for _ in range(MAX_PAGES):
         params = {
             "domain": DOMAIN,
-            "query": "",
-            "location": "Canada",
+            "query": query,
+            "location": location,
             "start": start,
             "num": PAGE_SIZE,
         }
@@ -68,4 +68,14 @@ def scrape_ericsson() -> list[dict]:
             break
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_ericsson() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in [("", "Canada"), ("intern", "United States")]:
+        for job in _scrape_ericsson(*scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs

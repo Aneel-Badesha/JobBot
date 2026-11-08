@@ -22,15 +22,15 @@ HEADERS = {
 }
 
 
-def scrape_infineon() -> list[dict]:
+def _scrape_infineon(query: str, location: str) -> list[dict]:
     jobs = []
     start = 0
 
     for _ in range(MAX_PAGES):
         params = {
             "domain": DOMAIN,
-            "query": "",
-            "location": "Canada",
+            "query": query,
+            "location": location,
             "start": start,
             "num": PAGE_SIZE,
         }
@@ -69,4 +69,14 @@ def scrape_infineon() -> list[dict]:
             break
         time.sleep(0.5)
 
+    return jobs
+
+
+def scrape_infineon() -> list[dict]:
+    jobs, seen = [], set()
+    for scope in [("", "Canada"), ("intern", "United States")]:
+        for job in _scrape_infineon(*scope):
+            if job["id"] not in seen:
+                seen.add(job["id"])
+                jobs.append(job)
     return jobs
