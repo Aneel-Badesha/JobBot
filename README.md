@@ -5,6 +5,8 @@ A job scraper and Gmail digest bot for hardware/firmware/embedded systems roles.
 **Features:**
 - Scrapes ~80 hardware/semiconductor/robotics/space/automotive companies
 - Filters for firmware/embedded/hardware/systems roles in target Canadian cities (Toronto, Montreal, Ottawa, Vancouver), and internships/co-ops anywhere in the US
+- Adds active hardware internships from the [Simplify list](https://github.com/SimplifyJobs/Summer2027-Internships)
+- Shows each role's term and flags citizenship, sponsorship, and graduate-degree requirements where known
 - Sends daily Gmail digest with new postings
 - Rewrites the jobs table at the bottom of this README on every run
 - Runs daily on Raspberry Pi (no GitHub Actions)

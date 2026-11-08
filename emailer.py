@@ -12,7 +12,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
-from storage import split_jobs
+from storage import LEGEND, split_jobs
 
 logger = logging.getLogger(__name__)
 README_URL = "https://github.com/Aneel-Badesha/JobBot#current-jobs"
@@ -79,9 +79,11 @@ def _build_plain(jobs: list[dict]) -> str:
         if not rows:
             lines.append("None today.")
         for j in rows:
-            lines.append(f"{j.get('posted', '')} | {j['company']} | {j['title']} | {j['location']}")
+            lines.append(" | ".join(x for x in (j.get('posted', ''), j['company'], j['title'], j['location'],
+                                                j.get('term', ''), j.get('flags', '')) if x))
             lines.append(f"  {j['link']}")
         lines.append("")
+    lines.append(LEGEND)
     lines.append(f"All current jobs: {README_URL}")
     return "\n".join(lines)
 
@@ -98,6 +100,8 @@ def _html_table(rows: list[dict]) -> str:
         <td style="{_CELL};font-weight:bold;color:#0f766e">{escape(j['company'])}</td>
         <td style="{_CELL}"><a href="{escape(j['link'], quote=True)}" style="color:#1a0dab;text-decoration:none">{escape(j['title'])}</a></td>
         <td style="{_CELL};color:#555">{escape(j['location'])}</td>
+        <td style="{_CELL};color:#555">{escape(j.get('term', ''))}</td>
+        <td style="{_CELL};white-space:nowrap">{escape(j.get('flags', ''))}</td>
       </tr>""" for j in rows)
     return f"""<table style="width:100%;border-collapse:collapse">
     <thead>
@@ -106,6 +110,8 @@ def _html_table(rows: list[dict]) -> str:
         <th style="padding:8px;text-align:left">Company</th>
         <th style="padding:8px;text-align:left">Role</th>
         <th style="padding:8px;text-align:left">Location</th>
+        <th style="padding:8px;text-align:left">Term</th>
+        <th style="padding:8px;text-align:left">Flags</th>
       </tr>
     </thead>
     <tbody>{body}
@@ -128,7 +134,8 @@ def _build_html(jobs: list[dict]) -> str:
   <h3 style="margin-top:28px">Full-time ({len(full_time)})</h3>
   {_html_table(full_time)}
   <p style="color:#888;font-size:12px;margin-top:24px">
-    Automated digest from FinancialBot. Jobs filtered for firmware/embedded/systems keywords in Toronto/Montreal/Ottawa/Vancouver, plus US internships, posted in the last 14 days.<br>
+    Automated digest from FinancialBot. Jobs filtered for firmware/embedded/systems keywords in Toronto/Montreal/Ottawa/Vancouver, plus US internships.<br>
+    {LEGEND}<br>
     <a href="{README_URL}" style="color:#1a0dab">View all current jobs →</a>
   </p>
 </body>

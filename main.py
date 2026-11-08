@@ -83,6 +83,7 @@ from scrapers import (
     scrape_scout_motors,
     scrape_shield_ai,
     scrape_siemens_eda,
+    scrape_simplify,
     scrape_skydio,
     scrape_spacex,
     scrape_synopsys,
@@ -96,7 +97,7 @@ from scrapers import (
     scrape_waymo,
     scrape_zoox,
 )
-from storage import load_seen_ids, save_seen_ids, filter_new_jobs, add_to_seen, save_jobs_for_site, save_jobs_to_readme, apply_posted_dates
+from storage import load_seen_ids, save_seen_ids, filter_new_jobs, add_to_seen, save_jobs_for_site, save_jobs_to_readme, apply_posted_dates, merge_jobs
 from emailer import send_digest
 from scrapers.filters import is_target_job
 
@@ -178,6 +179,7 @@ SCRAPERS = [
     ("Scout Motors", scrape_scout_motors),
     ("Shield AI", scrape_shield_ai),
     ("Siemens EDA", scrape_siemens_eda),
+    ("Simplify list", scrape_simplify),
     ("Skydio", scrape_skydio),
     ("SpaceX", scrape_spacex),
     ("Synopsys", scrape_synopsys),
@@ -215,7 +217,7 @@ def main():
     # needs both, so it is applied once here.
     all_jobs = [j for j in all_jobs if is_target_job(j["title"], j["location"])]
     logger.info(f"Total jobs scraped (before dedup): {len(all_jobs)}")
-    all_jobs = apply_posted_dates(all_jobs)
+    all_jobs = merge_jobs(apply_posted_dates(all_jobs))
 
     new_jobs = filter_new_jobs(all_jobs, seen_ids)
     logger.info(f"New jobs (not previously seen): {len(new_jobs)}")

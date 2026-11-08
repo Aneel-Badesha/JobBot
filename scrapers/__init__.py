@@ -68,6 +68,7 @@ from .saronic import scrape_saronic
 from .scout_motors import scrape_scout_motors
 from .shield_ai import scrape_shield_ai
 from .siemens_eda import scrape_siemens_eda
+from .simplify import scrape_simplify
 from .skydio import scrape_skydio
 from .spacex import scrape_spacex
 from .synopsys import scrape_synopsys

@@ -148,3 +148,38 @@ def is_target_job(title: str, location: str) -> bool:
     if is_canada_location(location):
         return True
     return is_us_location(location) and is_intern(title)
+
+
+_TERM_RE = re.compile(r'\b(spring|summer|fall|autumn|winter)[\s\-/]*(20\d\d)\b|\b(20\d\d)[\s\-/]*(spring|summer|fall|autumn|winter)\b',
+                      re.IGNORECASE)
+_GRAD_RE = re.compile(r"\b(?:ph\.?\s?d|doctoral|master'?s?|ms)\b", re.IGNORECASE)
+_BACHELOR_RE = re.compile(r"\b(?:bachelor'?s?|undergrad(?:uate)?|bs)\b", re.IGNORECASE)
+_CITIZEN_RE = re.compile(r"\b(?:u\.?s\.? citizen|united states citizen|u\.?s\.? person|security clearance|itar)\b",
+                         re.IGNORECASE)
+_NO_SPONSOR_RE = re.compile(r"\b(?:not|unable to|cannot|can't|won't|no)\s+(?:\w+\s+){0,3}sponsor|"
+                            r"\bwithout\s+(?:\w+\s+){0,2}sponsorship", re.IGNORECASE)
+
+
+def title_terms(title: str) -> list[str]:
+    """Terms named in a title, e.g. "Summer 2027"."""
+    out = []
+    for season, year, year2, season2 in _TERM_RE.findall(title or ""):
+        season = (season or season2).capitalize().replace("Autumn", "Fall")
+        term = f"{season} {year or year2}"
+        if term not in out:
+            out.append(term)
+    return out
+
+
+def is_grad_title(title: str) -> bool:
+    """Title asks for a graduate degree and doesn't also accept undergrads."""
+    return bool(_GRAD_RE.search(title or "")) and not _BACHELOR_RE.search(title or "")
+
+
+def work_auth_flag(text: str) -> str:
+    """Scan posting text: "citizen", "no_sponsorship", or "" if nothing is stated."""
+    if _CITIZEN_RE.search(text or ""):
+        return "citizen"
+    if _NO_SPONSOR_RE.search(text or ""):
+        return "no_sponsorship"
+    return ""

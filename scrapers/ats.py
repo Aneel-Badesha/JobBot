@@ -4,11 +4,12 @@ Each per-company scraper is a thin wrapper that calls one of these with its
 board identifiers. Every helper applies is_target_role + is_target_location and
 returns the standard job dict: {id, company, title, location, link, posted}.
 """
+import html
 import logging
 import time
 
 import requests
-from scrapers.filters import is_target_role, is_target_location, is_us_location
+from scrapers.filters import is_target_role, is_target_location, is_us_location, work_auth_flag
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +20,8 @@ HEADERS = {
 TIMEOUT = 20
 
 
-def _job(job_id: str, company: str, title: str, location: str, link: str, posted: str = "") -> dict:
+def _job(job_id: str, company: str, title: str, location: str, link: str, posted: str = "",
+         description: str = "") -> dict:
     return {
         "id": job_id,
         "company": company,
@@ -27,6 +29,7 @@ def _job(job_id: str, company: str, title: str, location: str, link: str, posted
         "location": location,
         "link": link,
         "posted": posted,
+        "work_auth": work_auth_flag(description),
     }
 
 
@@ -44,10 +47,14 @@ def scrape_workday(company: str, tenant: str, wd_instance: str, site: str,
     jobs = _workday_pass(company, tenant, site, base_url, api_url, headers, search_text, {})
     # An empty search_text already covers the whole board
     if us_interns and search_text:
-        us_facets = _workday_us_facets(api_url, headers)
-        seen = {j["id"] for j in jobs}
-        jobs += [j for j in _workday_pass(company, tenant, site, base_url, api_url, headers, "intern", us_facets)
-                 if j["id"] not in seen]
+        try:
+            us_facets = _workday_us_facets(api_url, headers)
+            seen = {j["id"] for j in jobs}
+            jobs += [j for j in _workday_pass(company, tenant, site, base_url, api_url, headers, "intern", us_facets)
+                     if j["id"] not in seen]
+        except requests.RequestException as e:
+            # Keep the Canada results if only the US pass fails
+            logger.warning(f"{company}: US intern pass failed: {e}")
     return jobs
 
 
@@ -140,7 +147,7 @@ def _workday_locations(site_api: str, external_path: str, headers: dict) -> str:
 
 def scrape_greenhouse(company: str, slug: str) -> list[dict]:
     url = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"
-    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+    resp = requests.get(url, params={"content": "true"}, headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
 
     jobs = []
@@ -156,6 +163,7 @@ def scrape_greenhouse(company: str, slug: str) -> list[dict]:
             company, title, location or offices,
             p.get("absolute_url", ""),
             p.get("updated_at", ""),
+            html.unescape(p.get("content", "") or ""),
         ))
     return jobs
 
@@ -181,6 +189,7 @@ def scrape_ashby(company: str, slug: str) -> list[dict]:
             company, title, loc_text,
             p.get("jobUrl", ""),
             p.get("publishedAt", ""),
+            p.get("descriptionPlain", ""),
         ))
     return jobs
 
@@ -204,6 +213,8 @@ def scrape_lever(company: str, slug: str) -> list[dict]:
             company, title, cats.get("location", ""),
             p.get("hostedUrl", ""),
             str(p.get("createdAt", "")),
+            " ".join([p.get("descriptionPlain", "") or "", p.get("additionalPlain", "") or "",
+                      *(l.get("content", "") for l in p.get("lists", []) or [])]),
         ))
     return jobs
 
