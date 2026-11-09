@@ -272,22 +272,26 @@ fetch('jobs.json')
       return;
     }
 
-    const rows = jobs.map(j => `
+    const table = list => list.length === 0 ? '<div class="loading">None right now.</div>' : `
+      <table>
+        <thead><tr>
+          <th>Company</th><th>Role</th><th>Location</th><th>Term</th><th>Posted</th>
+        </tr></thead>
+        <tbody>${list.map(j => `
       <tr>
         <td><span class="company-badge">${esc(j.company)}</span></td>
         <td><a class="job-link" href="${esc(j.link)}" target="_blank" rel="noopener">${esc(j.title)}</a> ${esc(j.flags || '')}</td>
         <td>${esc(j.location)}</td>
         <td>${esc(j.term || '')}</td>
         <td><span class="posted-pill">${esc(j.posted)}</span></td>
-      </tr>`).join('');
-
-    document.getElementById('jobs-body').innerHTML = `
-      <table>
-        <thead><tr>
-          <th>Company</th><th>Role</th><th>Location</th><th>Term</th><th>Posted</th>
-        </tr></thead>
-        <tbody>${rows}</tbody>
+      </tr>`).join('')}</tbody>
       </table>`;
+
+    const canada = jobs.filter(j => j.region !== 'us');
+    const us = jobs.filter(j => j.region === 'us');
+    document.getElementById('jobs-body').innerHTML = `
+      <h3>Canada (${canada.length})</h3>${table(canada)}
+      <h3>United States (${us.length})</h3>${table(us)}`;
   })
   .catch(err => {
     document.getElementById('jobs-body').innerHTML =

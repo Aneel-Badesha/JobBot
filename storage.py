@@ -5,7 +5,7 @@ import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from scrapers.filters import is_grad_title, is_intern, title_terms
+from scrapers.filters import is_canada_location, is_grad_title, is_intern, title_terms
 
 logger = logging.getLogger(__name__)
 SEEN_JOBS_FILE = Path(__file__).parent / "seen_jobs.json"
@@ -99,6 +99,8 @@ def merge_jobs(jobs: list[dict]) -> list[dict]:
             "posted": max(row["posted"] for row in rows),
             "term": ", ".join(terms),
             "flags": flags,
+            # A role offered in both countries is listed under Canada
+            "region": "canada" if any(is_canada_location(row["location"]) for row in rows) else "us",
         })
     logger.info(f"Merged {len(jobs)} postings into {len(merged)} roles")
     return merged
@@ -123,14 +125,14 @@ _TABLE_END = "<!-- JOBS:END -->"
 
 
 def split_jobs(jobs: list[dict]) -> tuple[list[dict], list[dict]]:
-    """Split into (interns/co-ops, full-time), each sorted newest first then by company/title.
+    """Split into (Canada, US), each sorted newest first then by company/title.
     Shared by the README tables and the email digest so both look the same."""
     def ordered(rows: list[dict]) -> list[dict]:
         rows = sorted(rows, key=lambda j: (j["company"].lower(), j["title"].lower()))
         return sorted(rows, key=lambda j: j.get("posted", ""), reverse=True)
 
-    return (ordered([j for j in jobs if is_intern(j["title"])]),
-            ordered([j for j in jobs if not is_intern(j["title"])]))
+    return (ordered([j for j in jobs if j["region"] == "canada"]),
+            ordered([j for j in jobs if j["region"] == "us"]))
 
 
 def save_jobs_to_readme(jobs: list[dict]) -> None:
@@ -146,20 +148,20 @@ def save_jobs_to_readme(jobs: list[dict]) -> None:
                 for j in rows]
         return out
 
-    interns, full_time = split_jobs(jobs)
+    canada, us = split_jobs(jobs)
     lines = [
         _TABLE_START,
         f"_Updated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')} — {len(jobs)} roles. Internships stay until they leave the board; full-time roles for {MAX_AGE_DAYS} days_",
         "",
         f"_{LEGEND}_",
         "",
-        f"### Internships & Co-ops ({len(interns)})",
+        f"### Canada ({len(canada)})",
         "",
-        *table(interns),
+        *table(canada),
         "",
-        f"### Full-time ({len(full_time)})",
+        f"### United States ({len(us)})",
         "",
-        *table(full_time),
+        *table(us),
         _TABLE_END,
     ]
     block = "\n".join(lines)
@@ -172,7 +174,7 @@ def save_jobs_to_readme(jobs: list[dict]) -> None:
     else:
         text = text.rstrip() + "\n\n## Current jobs\n\n" + block + "\n"
     README_FILE.write_text(text, encoding="utf-8")
-    logger.info(f"Wrote {len(interns)} intern + {len(full_time)} full-time jobs to {README_FILE.name}")
+    logger.info(f"Wrote {len(canada)} Canada + {len(us)} US jobs to {README_FILE.name}")
 
 
 # --- Posted dates ------------------------------------------------------------

@@ -71,10 +71,10 @@ def send_digest(jobs: list[dict]) -> None:
 
 
 def _build_plain(jobs: list[dict]) -> str:
-    interns, full_time = split_jobs(jobs)
+    canada, us = split_jobs(jobs)
     lines = [f"New hardware/embedded jobs — {date.today().isoformat()} ({len(jobs)} new)", ""]
-    for heading, rows in ((f"Internships & Co-ops ({len(interns)})", interns),
-                          (f"Full-time ({len(full_time)})", full_time)):
+    for heading, rows in ((f"Canada ({len(canada)})", canada),
+                          (f"United States ({len(us)})", us)):
         lines += [heading, "-" * len(heading)]
         if not rows:
             lines.append("None today.")
@@ -120,7 +120,7 @@ def _html_table(rows: list[dict]) -> str:
 
 
 def _build_html(jobs: list[dict]) -> str:
-    interns, full_time = split_jobs(jobs)
+    canada, us = split_jobs(jobs)
     return f"""<!DOCTYPE html>
 <html>
 <body style="font-family:Arial,sans-serif;color:#333;max-width:800px;margin:auto">
@@ -129,10 +129,10 @@ def _build_html(jobs: list[dict]) -> str:
     <span style="font-size:14px;color:#666;font-weight:normal">— {date.today().isoformat()}</span>
   </h2>
   <p>{len(jobs)} new posting(s) added today.</p>
-  <h3>Internships &amp; Co-ops ({len(interns)})</h3>
-  {_html_table(interns)}
-  <h3 style="margin-top:28px">Full-time ({len(full_time)})</h3>
-  {_html_table(full_time)}
+  <h3>Canada ({len(canada)})</h3>
+  {_html_table(canada)}
+  <h3 style="margin-top:28px">United States ({len(us)})</h3>
+  {_html_table(us)}
   <p style="color:#888;font-size:12px;margin-top:24px">
     Automated digest from FinancialBot. Jobs filtered for firmware/embedded/systems keywords in Toronto/Montreal/Ottawa/Vancouver, plus US internships.<br>
     {LEGEND}<br>

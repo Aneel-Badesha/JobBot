@@ -32,6 +32,9 @@ SENIORITY_EXCLUSIONS = [
 _SR_PATTERN = re.compile(r'\bsr\.?\b', re.IGNORECASE)
 _LEAD_PATTERN = re.compile(r'\blead\b', re.IGNORECASE)
 
+_PHD_RE = re.compile(r"\bph\.?\s?d\b|\bdoctoral\b|\bdoctorate\b", re.IGNORECASE)
+_NON_PHD_DEGREE_RE = re.compile(r"\b(?:master'?s?|ms|bachelor'?s?|bs|undergrad(?:uate)?)\b", re.IGNORECASE)
+
 ROLE_EXCLUSIONS = [
     "sales", "marketing", "hr ", "human resources", "recruit", "account executive",
     "customer success", "technician", "truck", "delivery driver",
@@ -99,7 +102,14 @@ _NOT_US_RE = re.compile(r'\bcanada\b', re.IGNORECASE)
 _RECENT_WORKDAY = {"posted today", "posted yesterday", "posted 1 day ago", "posted 2 days ago"}
 
 
+def is_phd_only(title: str) -> bool:
+    """PhD/doctoral role that doesn't also accept bachelor's or master's students."""
+    return bool(_PHD_RE.search(title or "")) and not _NON_PHD_DEGREE_RE.search(title or "")
+
+
 def is_target_role(title: str) -> bool:
+    if is_phd_only(title):
+        return False
     t = f" {title.lower()} "
     if any(excl in t for excl in SENIORITY_EXCLUSIONS):
         return False

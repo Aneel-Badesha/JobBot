@@ -53,6 +53,8 @@ def scrape_simplify() -> list[dict]:
         if not is_target_role(title) or not is_target_location(location) or not _is_upcoming(row, today):
             continue
         degrees = row.get("degrees") or []
+        if degrees == ["PhD"]:
+            continue
         jobs.append({
             "id": f"simplify-{row.get('id')}",
             "company": row.get("company_name", ""),
