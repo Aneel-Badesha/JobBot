@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T22:40:16.131837+00:00",
+  "updated": "2026-11-18T22:39:53.237921+00:00",
   "jobs": [
     {
       "id": "workday-altera-job/Toronto-Ontario-Canada/FPGA-Development-Tools-Engineer_R03413",
@@ -333,31 +333,19 @@
       "region": "canada"
     },
     {
-      "id": "amd-97103",
-      "ids": [
-        "amd-97103"
-      ],
-      "company": "AMD",
-      "title": "IP Silicon Validation Engineer",
-      "location": "VANCOUVER, Canada",
-      "link": "https://careers.amd.com/jobs/97103?lang=en-us",
-      "posted": "2026-11-03",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
       "id": "workday-analogdevices-job/Canada-Ottawa/Analog-Design-Engineering-Intern_R267446",
       "ids": [
         "workday-analogdevices-job/Canada-Ottawa/Analog-Design-Engineering-Intern_R267446",
-        "workday-analogdevices-job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614"
+        "workday-analogdevices-job/US-CO-Colorado-Springs-Centennial/Analog-Design-Engineering-Intern---Summer-2027_R268077",
+        "workday-analogdevices-job/US-OR-Beaverton/Analog-Design-Engineering-Intern_R268078",
+        "workday-analogdevices-job/US-TX-Dallas-Tollway/Analog-Design-Engineering-Intern---Summer-2027_R268074"
       ],
       "company": "Analog Devices",
       "title": "Analog Design Engineering Intern",
-      "location": "Canada, Ottawa; Canada, Toronto",
+      "location": "Canada, Ottawa; US, CO, Colorado Springs, Centennial; US, OR, Beaverton; US, TX, Dallas, Tollway",
       "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Analog-Design-Engineering-Intern_R267446",
-      "posted": "2026-11-12",
-      "term": "",
+      "posted": "2026-11-18",
+      "term": "Summer 2027",
       "flags": "",
       "region": "canada"
     },
@@ -370,21 +358,22 @@
       "title": "Mixed Signal Engineer Intern",
       "location": "US, MA, Wilmington; US, NC, Durham",
       "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Mixed-Signal-Engineer-Intern_R265299",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
     },
     {
-      "id": "workday-analogdevices-job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297",
+      "id": "workday-analogdevices-job/US-CA-San-Jose-Rio-Robles/Analog-Design-Engineer-Intern_R269549",
       "ids": [
+        "workday-analogdevices-job/US-CA-San-Jose-Rio-Robles/Analog-Design-Engineer-Intern_R269549",
         "workday-analogdevices-job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297"
       ],
       "company": "Analog Devices",
       "title": "Analog Design Engineer Intern",
-      "location": "US, MA, Wilmington; US, CA, San Jose, Rio Robles; US, NC, Durham",
-      "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Analog-Design-Engineer-Intern_R265297",
-      "posted": "2026-10-18",
+      "location": "US, CA, San Jose, Rio Robles; US, MA, Wilmington; US, NC, Durham",
+      "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-CA-San-Jose-Rio-Robles/Analog-Design-Engineer-Intern_R269549",
+      "posted": "2026-11-18",
       "term": "",
       "flags": "",
       "region": "us"
@@ -398,7 +387,7 @@
       "title": "Digital Design Engineer Intern",
       "location": "US, NC, Durham; US, CA, San Jose, Rio Robles",
       "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
@@ -407,13 +396,14 @@
       "id": "workday-analogdevices-job/US-MA-Wilmington/Embedded-Software-Engineer-Intern_R266132",
       "ids": [
         "workday-analogdevices-job/US-MA-Wilmington/Embedded-Software-Engineer-Intern_R266132",
+        "workday-analogdevices-job/US-TX-Austin-Plaza-on-the-Lake/Embedded-Software-Engineer-Intern_R269548",
         "simplify-c88eff3d-aa92-400f-81af-bc057b38bc77"
       ],
       "company": "Analog Devices",
       "title": "Embedded Software Engineer Intern",
-      "location": "US, MA, Wilmington; US, CA, San Jose, Rio Robles; US, NC, Durham; Toronto, ON, Canada; Vancouver, BC, Canada",
+      "location": "US, MA, Wilmington; US, CA, San Jose, Rio Robles; US, NC, Durham; US, TX, Austin, Plaza on the Lake; Toronto, ON, Canada; Vancouver, BC, Canada",
       "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-MA-Wilmington/Embedded-Software-Engineer-Intern_R266132",
-      "posted": "2026-10-18",
+      "posted": "2026-11-18",
       "term": "",
       "flags": "",
       "region": "canada"
@@ -459,6 +449,34 @@
       "posted": "2026-11-16",
       "term": "",
       "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "workday-analogdevices-job/US-TX-Austin-Plaza-on-the-Lake/Digital-Design-Engineering-Intern---Summer-2027_R268548",
+      "ids": [
+        "workday-analogdevices-job/US-TX-Austin-Plaza-on-the-Lake/Digital-Design-Engineering-Intern---Summer-2027_R268548"
+      ],
+      "company": "Analog Devices",
+      "title": "Digital Design Engineering Intern - Summer 2027",
+      "location": "US, TX, Austin, Plaza on the Lake",
+      "link": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-TX-Austin-Plaza-on-the-Lake/Digital-Design-Engineering-Intern---Summer-2027_R268548",
+      "posted": "2026-11-18",
+      "term": "Summer 2027",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "greenhouse-andurilindustries-5300647007",
+      "ids": [
+        "greenhouse-andurilindustries-5300647007"
+      ],
+      "company": "Anduril",
+      "title": "2027 Business Systems Engineer Intern",
+      "location": "Costa Mesa, California, United States",
+      "link": "https://boards.greenhouse.io/andurilindustries/jobs/5300647007?gh_jid=5300647007",
+      "posted": "2026-11-18",
+      "term": "",
+      "flags": "\ud83c\uddfa\ud83c\uddf8",
       "region": "us"
     },
     {
@@ -557,7 +575,7 @@
       "title": "2027 Summer Electrical Engineer  Intern (Controls/PCB) - BS or MS (Gloucester, MA)",
       "location": "Gloucester,MA",
       "link": "https://amat.wd1.myworkdayjobs.com/External/job/GloucesterMA/XMLNAME-2027-Summer-Electrical-Engineer--Intern--Controls-PCB----BS-or-MS--Gloucester--MA-_R2630658",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -571,7 +589,7 @@
       "title": "2027 Summer Intern - Electrical Engineer - BS/MS Degree, (Santa Clara)",
       "location": "Santa Clara,CA",
       "link": "https://amat.wd1.myworkdayjobs.com/External/job/Santa-ClaraCA/XMLNAME-2027-Summer-Intern---Electrical-Engineer---BS-MS-Degree---Santa-Clara-_R2629428",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -774,7 +792,7 @@
       "title": "Analog/Mixed-Signal IC Design Co-Op/Intern  (Summer 2026) / Stage/Co-Op en Conception de CI Analogiques/Signal Mixte (\u00c9t\u00e9  2026)",
       "location": "MOUNT-ROYAL (Montreal)",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Analog-Mixed-Signal-IC-Design-Co-Op-Intern---Summer-2026----Stage-Co-Op-en-Conception-de-CI-Analogiques-Signal-Mixte--t--2026-_R53993-2",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2026",
       "flags": "",
       "region": "canada"
@@ -788,7 +806,7 @@
       "title": "Product Engineering Internship, Electronics Hardware Design (Fall 2026)",
       "location": "Burlington, MA",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/Burlington-MA/Product-Engineering-Internship--Electronics-Hardware-Design--Fall-2026-_R54158-2",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Fall 2026",
       "flags": "",
       "region": "us"
@@ -802,7 +820,7 @@
       "title": "CST Application Engineer Intern - Silicon",
       "location": "SAN JOSE",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Silicon_R56655-1",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
@@ -816,7 +834,7 @@
       "title": "CST Application Engineer Intern - Physical Systems",
       "location": "SAN JOSE",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Physical-Systems_R56702-2",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
@@ -830,21 +848,21 @@
       "title": "CST Application Engineer Intern - Systems ATX",
       "location": "SAN JOSE",
       "link": "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/CST-Application-Engineer-Intern---Systems-ATX_R56800-3",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
     },
     {
-      "id": "workday-ciena-job/Ottawa/Interconnect-Systems-Engineer---New-Grad_R031831",
+      "id": "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914",
       "ids": [
-        "workday-ciena-job/Ottawa/Interconnect-Systems-Engineer---New-Grad_R031831"
+        "workday-ciena-job/Ottawa/Hardware-Engineer---New-Grad_R031914"
       ],
       "company": "Ciena",
-      "title": "Interconnect Systems Engineer - New Grad",
+      "title": "Hardware Engineer - New Grad",
       "location": "Ottawa",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Interconnect-Systems-Engineer---New-Grad_R031831",
-      "posted": "2026-11-16",
+      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Hardware-Engineer---New-Grad_R031914",
+      "posted": "2026-11-18",
       "term": "",
       "flags": "",
       "region": "canada"
@@ -887,7 +905,7 @@
       "title": "ASIC Engineer Intern",
       "location": "Ottawa, ON, Canada",
       "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/ASIC-Engineer-Intern_R031750",
-      "posted": "2026-10-30",
+      "posted": "2026-11-18",
       "term": "Winter 2027",
       "flags": "",
       "region": "canada"
@@ -1148,20 +1166,6 @@
       "region": "us"
     },
     {
-      "id": "greenhouse-figureai-4613067006",
-      "ids": [
-        "greenhouse-figureai-4613067006"
-      ],
-      "company": "Figure AI",
-      "title": "Hardware Reliability Intern [Winter 2027]",
-      "location": "San Jose, CA",
-      "link": "https://job-boards.greenhouse.io/figureai/jobs/4613067006",
-      "posted": "2026-10-28",
-      "term": "Winter 2027",
-      "flags": "",
-      "region": "us"
-    },
-    {
       "id": "workday-generalmotors-job/Milford-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--Systems-Engineer--ASD_JR-202621989",
       "ids": [
         "workday-generalmotors-job/Milford-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern--Systems-Engineer--ASD_JR-202621989"
@@ -1198,7 +1202,7 @@
       "title": "2027 Summer Intern - Systems/Calibration Engineer, ADAS Drive",
       "location": "Milford, Michigan, United States of America",
       "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Milford-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Systems-Calibration-Engineer--ADAS-Drive_JR-202621623",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -1212,7 +1216,7 @@
       "title": "2027 Summer Intern - Digital Product: Embedded and Systems Engineering",
       "location": "Warren, Michigan, United States of America; Austin Technical Center - Austin Technical Center; Mountain View Technical Center - Mountain View Technical Center; Milford, Michigan, United States of America",
       "link": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/XMLNAME-2027-Summer-Intern---Digital-Product--Embedded-and-Systems-Engineering_JR-202620513",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -1260,6 +1264,48 @@
       "region": "us"
     },
     {
+      "id": "lever-hermeus-b7babdb5-64ee-49ad-a193-918d6a31c462",
+      "ids": [
+        "lever-hermeus-b7babdb5-64ee-49ad-a193-918d6a31c462"
+      ],
+      "company": "Hermeus",
+      "title": "Avionics Electrical Engineering Intern - Summer 2027",
+      "location": "Atlanta, GA",
+      "link": "https://jobs.lever.co/hermeus/b7babdb5-64ee-49ad-a193-918d6a31c462",
+      "posted": "2026-09-09",
+      "term": "Summer 2027",
+      "flags": "\ud83c\uddfa\ud83c\uddf8",
+      "region": "us"
+    },
+    {
+      "id": "lever-hermeus-78008094-ca81-4a0c-9a18-93b30f932acd",
+      "ids": [
+        "lever-hermeus-78008094-ca81-4a0c-9a18-93b30f932acd"
+      ],
+      "company": "Hermeus",
+      "title": "Flight Software Engineering Intern (Simulation/Hardware-In-The-Loop) - Spring & Summer 2027",
+      "location": "Los Angeles, CA",
+      "link": "https://jobs.lever.co/hermeus/78008094-ca81-4a0c-9a18-93b30f932acd",
+      "posted": "2026-09-29",
+      "term": "Summer 2027",
+      "flags": "\ud83c\uddfa\ud83c\uddf8",
+      "region": "us"
+    },
+    {
+      "id": "lever-hermeus-9229aa88-f54d-4ecd-85ee-b31f53b4207d",
+      "ids": [
+        "lever-hermeus-9229aa88-f54d-4ecd-85ee-b31f53b4207d"
+      ],
+      "company": "Hermeus",
+      "title": "Mission Systems Engineering Intern - Spring/Summer 2027",
+      "location": "Atlanta, GA",
+      "link": "https://jobs.lever.co/hermeus/9229aa88-f54d-4ecd-85ee-b31f53b4207d",
+      "posted": "2026-09-03",
+      "term": "Summer 2027",
+      "flags": "\ud83c\uddfa\ud83c\uddf8",
+      "region": "us"
+    },
+    {
       "id": "huawei-2796264",
       "ids": [
         "huawei-2796264"
@@ -1286,20 +1332,6 @@
       "term": "",
       "flags": "",
       "region": "canada"
-    },
-    {
-      "id": "infineon-HRC1798097",
-      "ids": [
-        "infineon-HRC1798097"
-      ],
-      "company": "Infineon",
-      "title": "Intern - Data Center Power Systems ",
-      "location": "El Segundo, CA, US",
-      "link": "https://jobs.infineon.com/careers/job/563808971984423",
-      "posted": "2026-11-08",
-      "term": "",
-      "flags": "",
-      "region": "us"
     },
     {
       "id": "infineon-HRC1870723",
@@ -1412,7 +1444,7 @@
       "title": "Mechatronics/Systems Engineering Internship",
       "location": "Milpitas, CA",
       "link": "https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Mechatronics-Systems-Engineering-Internship_2641532-1",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
@@ -1543,7 +1575,7 @@
       "title": "Hardware Engineer Intern, BS - Summer 2027",
       "location": "Santa Clara, CA",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Hardware-Engineer-Intern--BS---Summer-2027_2604975",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -1558,7 +1590,7 @@
       "title": "Firmware Engineer Intern, MS - Summer 2027",
       "location": "Santa Clara, CA",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Firmware-Engineer-Intern--MS---Summer-2027_2604513-1",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "\ud83c\udf93",
       "region": "us"
@@ -1572,7 +1604,7 @@
       "title": "Firmware Engineer Intern, BS - Summer 2027",
       "location": "Santa Clara, CA; Westlake Village, CA",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Firmware-Engineer-Intern--BS---Summer-2027_2604461-1",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -1586,7 +1618,7 @@
       "title": "AI-Native Development Platform Engineer Intern, MS - Summer 2027",
       "location": "Santa Clara, CA",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/AI-Native-Development-Platform-Engineer-Intern--MS---Summer-2027_2603848",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "\ud83c\udf93",
       "region": "us"
@@ -1600,7 +1632,7 @@
       "title": "Security Verification/Validation Engineer Intern, BS - Summer 2027",
       "location": "Chandler, AZ",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Chandler-AZ/Security-Verification-Validation-Engineer-Intern--BS---Summer-2027_2604148",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -1616,7 +1648,7 @@
       "title": "Electrical Validation Intern, BS - Summer 2027",
       "location": "Santa Clara, CA",
       "link": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers2/job/Santa-Clara-CA/Electrical-Validation-Intern--BS---Summer-2027_2603795",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "Summer 2027, Fall 2027, Winter 2028, Spring 2028, Summer 2028",
       "flags": "",
       "region": "us"
@@ -1777,21 +1809,6 @@
       "region": "us"
     },
     {
-      "id": "workday-micron-job/Boise-ID---Main-Site/Intern---SSD-Firmware_JR115210",
-      "ids": [
-        "workday-micron-job/Boise-ID---Main-Site/Intern---SSD-Firmware_JR115210",
-        "workday-micron-job/San-Jose-CA/Intern---SSD-Firmware_JR115209"
-      ],
-      "company": "Micron",
-      "title": "Intern - SSD Firmware",
-      "location": "Boise, ID - Main Site; San Jose, CA",
-      "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---SSD-Firmware_JR115210",
-      "posted": "2026-10-20",
-      "term": "",
-      "flags": "",
-      "region": "us"
-    },
-    {
       "id": "workday-micron-job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542",
       "ids": [
         "workday-micron-job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542"
@@ -1800,7 +1817,7 @@
       "title": "Intern - SSD Firmware - CICD",
       "location": "Longmont-MAX- Office, CO",
       "link": "https://micron.wd1.myworkdayjobs.com/External/job/Longmont-MAX--Office-CO/Intern---SSD-Firmware---CICD_JR114542",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
@@ -1814,7 +1831,7 @@
       "title": "Intern - Next Gen HBM Platform Arch",
       "location": "Folsom, CA",
       "link": "https://micron.wd1.myworkdayjobs.com/External/job/Folsom-CA/Intern---Next-Gen-HBM-Platform-Arch_JR112993",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
       "term": "",
       "flags": "",
       "region": "us"
@@ -1828,7 +1845,63 @@
       "title": "Intern \u2013 DRAM Technology Physical Design and Block-Level PPA Optimization",
       "location": "Boise, ID - Main Site",
       "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---DRAM-Technology-Physical-Design-and-Block-Level-PPA-Optimization_JR109584",
-      "posted": "2026-10-18",
+      "posted": "2026-10-19",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "microsoft-200067814",
+      "ids": [
+        "microsoft-200067814"
+      ],
+      "company": "Microsoft",
+      "title": "Research Intern - Firmware Security",
+      "location": "Redmond, WA, US",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557075140",
+      "posted": "2026-11-18",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "microsoft-200063363",
+      "ids": [
+        "microsoft-200063363"
+      ],
+      "company": "Microsoft",
+      "title": "Research Intern - Gray Systems Lab (GSL)",
+      "location": "Redmond, WA, US; Mountain View, CA, US",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557045445",
+      "posted": "2026-11-18",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "microsoft-200064379",
+      "ids": [
+        "microsoft-200064379"
+      ],
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Systems Research Group - Redmond",
+      "location": "Redmond, WA, US",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557050039",
+      "posted": "2026-11-18",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "microsoft-200067399",
+      "ids": [
+        "microsoft-200067399"
+      ],
+      "company": "Microsoft",
+      "title": "Research Intern - MSR Software-Hardware Co-design",
+      "location": "Redmond, WA, US",
+      "link": "https://apply.careers.microsoft.com/careers/job/1970393557073455",
+      "posted": "2026-11-18",
       "term": "",
       "flags": "",
       "region": "us"
@@ -2150,34 +2223,6 @@
       "region": "us"
     },
     {
-      "id": "qualcomm-3098738",
-      "ids": [
-        "qualcomm-3098738"
-      ],
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
-      "location": "Vancouver, BC, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446721829462",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
-      "id": "qualcomm-3095196",
-      "ids": [
-        "qualcomm-3095196"
-      ],
-      "company": "Qualcomm",
-      "title": "Design Verification Engineer \u2014 Memory Subsystem (Vancouver)",
-      "location": "Vancouver, BC, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446720445564",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
       "id": "qualcomm-3096543",
       "ids": [
         "qualcomm-3096543"
@@ -2192,14 +2237,14 @@
       "region": "canada"
     },
     {
-      "id": "qualcomm-3098850",
+      "id": "qualcomm-3098738",
       "ids": [
-        "qualcomm-3098850"
+        "qualcomm-3098738"
       ],
       "company": "Qualcomm",
-      "title": "FY27 Intern - Camera Systems Internship - Canada (16 months)",
+      "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
       "location": "Vancouver, BC, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446721876037",
+      "link": "https://careers.qualcomm.com/careers/job/446721829462",
       "posted": "2026-11-14",
       "term": "",
       "flags": "",
@@ -2220,6 +2265,34 @@
       "region": "canada"
     },
     {
+      "id": "qualcomm-3095196",
+      "ids": [
+        "qualcomm-3095196"
+      ],
+      "company": "Qualcomm",
+      "title": "Design Verification Engineer \u2014 Memory Subsystem (Vancouver)",
+      "location": "Vancouver, BC, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446720445564",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
+      "id": "qualcomm-3098850",
+      "ids": [
+        "qualcomm-3098850"
+      ],
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Camera Systems Internship - Canada (16 months)",
+      "location": "Vancouver, BC, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446721876037",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
       "id": "qualcomm-3096701",
       "ids": [
         "qualcomm-3096701"
@@ -2234,20 +2307,6 @@
       "region": "canada"
     },
     {
-      "id": "qualcomm-3097052",
-      "ids": [
-        "qualcomm-3097052"
-      ],
-      "company": "Qualcomm",
-      "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
-      "location": "Markham, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446721229661",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
       "id": "qualcomm-3094697",
       "ids": [
         "qualcomm-3094697"
@@ -2256,20 +2315,6 @@
       "title": "AI/Machine Learning Engineer (Embedded Systems, Inference Efficiency)",
       "location": "Markham, ON, CA",
       "link": "https://careers.qualcomm.com/careers/job/446720207388",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
-      "id": "qualcomm-3096703",
-      "ids": [
-        "qualcomm-3096703"
-      ],
-      "company": "Qualcomm",
-      "title": "Firmware Engineer, Edge AI Silicon Validation (Embedded C)",
-      "location": "Markham, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446721125876",
       "posted": "2026-11-14",
       "term": "",
       "flags": "",
@@ -2304,6 +2349,76 @@
       "region": "canada"
     },
     {
+      "id": "qualcomm-3089069",
+      "ids": [
+        "qualcomm-3089069"
+      ],
+      "company": "Qualcomm",
+      "title": "GPU Design Verification Engineer",
+      "location": "Markham, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446717807608",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
+      "id": "qualcomm-3096703",
+      "ids": [
+        "qualcomm-3096703"
+      ],
+      "company": "Qualcomm",
+      "title": "Firmware Engineer, Edge AI Silicon Validation (Embedded C)",
+      "location": "Markham, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446721125876",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
+      "id": "qualcomm-3097052",
+      "ids": [
+        "qualcomm-3097052"
+      ],
+      "company": "Qualcomm",
+      "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446721229661",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
+      "id": "qualcomm-3098413",
+      "ids": [
+        "qualcomm-3098413"
+      ],
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
+      "location": "Markham, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446721661677",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
+      "id": "qualcomm-3099136",
+      "ids": [
+        "qualcomm-3099136"
+      ],
+      "company": "Qualcomm",
+      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+      "location": "Markham, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446722001120",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
       "id": "qualcomm-3099058",
       "ids": [
         "qualcomm-3099058"
@@ -2332,48 +2447,6 @@
       "region": "canada"
     },
     {
-      "id": "qualcomm-3099136",
-      "ids": [
-        "qualcomm-3099136"
-      ],
-      "company": "Qualcomm",
-      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
-      "location": "Markham, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446722001120",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
-      "id": "qualcomm-3098413",
-      "ids": [
-        "qualcomm-3098413"
-      ],
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
-      "location": "Markham, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446721661677",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
-      "id": "qualcomm-3089069",
-      "ids": [
-        "qualcomm-3089069"
-      ],
-      "company": "Qualcomm",
-      "title": "GPU Design Verification Engineer",
-      "location": "Markham, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446717807608",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
       "id": "qualcomm-3098926",
       "ids": [
         "qualcomm-3098926"
@@ -2382,20 +2455,6 @@
       "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
       "location": "Markham, ON, CA",
       "link": "https://careers.qualcomm.com/careers/job/446721914045",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
-      "id": "qualcomm-3099180",
-      "ids": [
-        "qualcomm-3099180"
-      ],
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
-      "location": "Toronto, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446722038614",
       "posted": "2026-11-14",
       "term": "",
       "flags": "",
@@ -2416,42 +2475,14 @@
       "region": "canada"
     },
     {
-      "id": "qualcomm-3099142",
+      "id": "qualcomm-3099180",
       "ids": [
-        "qualcomm-3099142"
+        "qualcomm-3099180"
       ],
       "company": "Qualcomm",
-      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
       "location": "Toronto, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446722005254",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
-      "id": "qualcomm-3098824",
-      "ids": [
-        "qualcomm-3098824"
-      ],
-      "company": "Qualcomm",
-      "title": "FY27 Intern - AI Software Systems Co-op - Canada (4 months)",
-      "location": "Toronto, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446721862430",
-      "posted": "2026-11-14",
-      "term": "",
-      "flags": "",
-      "region": "canada"
-    },
-    {
-      "id": "qualcomm-3098920",
-      "ids": [
-        "qualcomm-3098920"
-      ],
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
-      "location": "Toronto, ON, CA",
-      "link": "https://careers.qualcomm.com/careers/job/446721913769",
+      "link": "https://careers.qualcomm.com/careers/job/446722038614",
       "posted": "2026-11-14",
       "term": "",
       "flags": "",
@@ -2472,6 +2503,48 @@
       "region": "canada"
     },
     {
+      "id": "qualcomm-3098920",
+      "ids": [
+        "qualcomm-3098920"
+      ],
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446721913769",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
+      "id": "qualcomm-3098824",
+      "ids": [
+        "qualcomm-3098824"
+      ],
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI Software Systems Co-op - Canada (4 months)",
+      "location": "Toronto, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446721862430",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
+      "id": "qualcomm-3099142",
+      "ids": [
+        "qualcomm-3099142"
+      ],
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, CA",
+      "link": "https://careers.qualcomm.com/careers/job/446722005254",
+      "posted": "2026-11-14",
+      "term": "",
+      "flags": "",
+      "region": "canada"
+    },
+    {
       "id": "qualcomm-3098845",
       "ids": [
         "qualcomm-3098845"
@@ -2484,6 +2557,20 @@
       "term": "",
       "flags": "",
       "region": "canada"
+    },
+    {
+      "id": "qualcomm-3095750",
+      "ids": [
+        "qualcomm-3095750"
+      ],
+      "company": "Qualcomm",
+      "title": "Wireless Systems Engineering Internship - Summer 2027",
+      "location": "San Diego, CA, US; Boxborough, MA, US; NJ,US; Santa Clara, CA, US",
+      "link": "https://careers.qualcomm.com/careers/job/446720740637",
+      "posted": "2026-11-14",
+      "term": "Summer 2027",
+      "flags": "",
+      "region": "us"
     },
     {
       "id": "qualcomm-3095732",
@@ -2542,20 +2629,6 @@
       "region": "us"
     },
     {
-      "id": "qualcomm-3095750",
-      "ids": [
-        "qualcomm-3095750"
-      ],
-      "company": "Qualcomm",
-      "title": "Wireless Systems Engineering Internship - Summer 2027",
-      "location": "San Diego, CA, US; Boxborough, MA, US; NJ,US; Santa Clara, CA, US",
-      "link": "https://careers.qualcomm.com/careers/job/446720740637",
-      "posted": "2026-11-14",
-      "term": "Summer 2027",
-      "flags": "",
-      "region": "us"
-    },
-    {
       "id": "rivian-33810",
       "ids": [
         "rivian-33810"
@@ -2566,6 +2639,20 @@
       "link": "https://careers.rivian.com/jobs/33810?lang=en-us",
       "posted": "2026-09-30",
       "term": "Spring 2027",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "rivian-36514",
+      "ids": [
+        "rivian-36514"
+      ],
+      "company": "Rivian",
+      "title": "UIUC Research Park Intern - ADAS HW Systems Validation",
+      "location": "Champaign, Illinois",
+      "link": "https://careers.rivian.com/jobs/36514?lang=en-us",
+      "posted": "2026-11-17",
+      "term": "",
       "flags": "",
       "region": "us"
     },
@@ -2640,6 +2727,20 @@
       "region": "us"
     },
     {
+      "id": "rivian-36268",
+      "ids": [
+        "rivian-36268"
+      ],
+      "company": "Rivian",
+      "title": "UIUC Research Park Intern - Power Electronics",
+      "location": "Champaign, Illinois",
+      "link": "https://careers.rivian.com/jobs/36268?lang=en-us",
+      "posted": "2026-11-17",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
       "id": "rivian-34059",
       "ids": [
         "rivian-34059"
@@ -2691,34 +2792,6 @@
       "location": "Champaign, Illinois",
       "link": "https://careers.rivian.com/jobs/34370?lang=en-us",
       "posted": "2026-10-13",
-      "term": "",
-      "flags": "",
-      "region": "us"
-    },
-    {
-      "id": "rivian-36268",
-      "ids": [
-        "rivian-36268"
-      ],
-      "company": "Rivian",
-      "title": "UIUC Research Park Intern - Power Electronics",
-      "location": "Champaign, Illinois",
-      "link": "https://careers.rivian.com/jobs/36268?lang=en-us",
-      "posted": "2026-11-17",
-      "term": "",
-      "flags": "",
-      "region": "us"
-    },
-    {
-      "id": "rivian-36514",
-      "ids": [
-        "rivian-36514"
-      ],
-      "company": "Rivian",
-      "title": "UIUC Research Park Intern - ADAS HW Systems Validation",
-      "location": "Champaign, Illinois",
-      "link": "https://careers.rivian.com/jobs/36514?lang=en-us",
-      "posted": "2026-11-17",
       "term": "",
       "flags": "",
       "region": "us"
@@ -3499,20 +3572,6 @@
       "region": "us"
     },
     {
-      "id": "simplify-240adc3d-e80f-42bc-9a7b-559c2acdc5f5",
-      "ids": [
-        "simplify-240adc3d-e80f-42bc-9a7b-559c2acdc5f5"
-      ],
-      "company": "Revel",
-      "title": "Embedded Software Engineer Intern",
-      "location": "San Francisco, CA; Los Angeles, CA",
-      "link": "https://jobs.ashbyhq.com/revel/f8eec1fd-da28-47ce-bca4-2fbe9c48a889/application?embed=true",
-      "posted": "2026-09-08",
-      "term": "Summer 2027",
-      "flags": "",
-      "region": "us"
-    },
-    {
       "id": "simplify-f05b7f44-4e4a-468b-a7a2-eacae2e87ff2",
       "ids": [
         "simplify-f05b7f44-4e4a-468b-a7a2-eacae2e87ff2"
@@ -4229,20 +4288,6 @@
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
-    },
-    {
-      "id": "simplify-afb85700-ea58-43bf-99ac-13cfaadcee3e",
-      "ids": [
-        "simplify-afb85700-ea58-43bf-99ac-13cfaadcee3e"
-      ],
-      "company": "Hitachi Energy",
-      "title": "Hardware Test Engineering Intern",
-      "location": "Toronto, ON, Canada",
-      "link": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Hardware-Test-Engineering-Intern--Summer-2027--16months-_R0142476",
-      "posted": "2026-10-02",
-      "term": "Summer 2027",
-      "flags": "",
-      "region": "canada"
     },
     {
       "id": "simplify-3547945d-8818-43f2-878c-5ba1e5fc23e5",
@@ -4989,20 +5034,6 @@
       "region": "us"
     },
     {
-      "id": "simplify-04abf4d8-48c2-4b8e-8ba1-c572d1072c66",
-      "ids": [
-        "simplify-04abf4d8-48c2-4b8e-8ba1-c572d1072c66"
-      ],
-      "company": "Meter",
-      "title": "Hardware Engineer Intern",
-      "location": "San Francisco, CA",
-      "link": "https://jobs.ashbyhq.com/meter/a5f1e4c3-2930-4933-ab38-8f600486494b/application?embed=true",
-      "posted": "2026-10-10",
-      "term": "",
-      "flags": "",
-      "region": "us"
-    },
-    {
       "id": "simplify-2913f51c-b047-4d51-9c43-d25fb9b7f7f0",
       "ids": [
         "simplify-2913f51c-b047-4d51-9c43-d25fb9b7f7f0"
@@ -5528,15 +5559,14 @@
       "region": "us"
     },
     {
-      "id": "simplify-732e9b27-e61f-4a44-b949-2206cbeb1c5f",
+      "id": "simplify-8f086315-a7fd-447d-a2e3-099f00ae946d",
       "ids": [
-        "simplify-732e9b27-e61f-4a44-b949-2206cbeb1c5f",
         "simplify-8f086315-a7fd-447d-a2e3-099f00ae946d"
       ],
       "company": "Micron Technology",
       "title": "SSD Firmware Intern",
       "location": "San Jose, CA; Boise, ID",
-      "link": "https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/Intern---SSD-Firmware_JR115209",
+      "link": "https://micron.wd1.myworkdayjobs.com/External/job/Boise-ID---Main-Site/Intern---SSD-Firmware_JR115210",
       "posted": "2026-10-20",
       "term": "",
       "flags": "\ud83c\udf93",
@@ -5737,20 +5767,6 @@
       "location": "San Francisco, CA; Austin, TX",
       "link": "https://jobs.ashbyhq.com/fab2/aec19ef8-2257-4295-abc2-87afd05224ae/application?embed=true",
       "posted": "2026-09-05",
-      "term": "Summer 2027",
-      "flags": "",
-      "region": "us"
-    },
-    {
-      "id": "simplify-125c32fc-ca61-4131-9772-9d02c97c7729",
-      "ids": [
-        "simplify-125c32fc-ca61-4131-9772-9d02c97c7729"
-      ],
-      "company": "GlobalFoundries",
-      "title": "Silicon Photonics Reliability Engineering Intern",
-      "location": "Malta, NY",
-      "link": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---New-York---Malta/Silicon-Photonics-Reliability-Engineering-Intern--Summer-2027-_JR-2604258",
-      "posted": "2026-09-28",
       "term": "Summer 2027",
       "flags": "",
       "region": "us"
@@ -5969,20 +5985,6 @@
       "region": "us"
     },
     {
-      "id": "simplify-c38dd12a-f9fd-4a0b-a05b-3cab487861a4",
-      "ids": [
-        "simplify-c38dd12a-f9fd-4a0b-a05b-3cab487861a4"
-      ],
-      "company": "Ciena",
-      "title": "Optical Performance Lab Verification and Testing Co-op",
-      "location": "Ottawa, ON, Canada",
-      "link": "https://ciena.wd5.myworkdayjobs.com/Careers/job/Ottawa/Optical-Performance-Lab-Verification-and-Testing-Co-op_R031991",
-      "posted": "2026-10-27",
-      "term": "Winter 2027",
-      "flags": "",
-      "region": "canada"
-    },
-    {
       "id": "simplify-07747630-b75c-477e-b9d3-9b3622b73e34",
       "ids": [
         "simplify-07747630-b75c-477e-b9d3-9b3622b73e34",
@@ -6167,6 +6169,20 @@
       "region": "us"
     },
     {
+      "id": "simplify-e925d6fc-4054-4d56-bd4b-a35f60724d50",
+      "ids": [
+        "simplify-e925d6fc-4054-4d56-bd4b-a35f60724d50"
+      ],
+      "company": "Indie",
+      "title": "Design Verification Engineer Intern",
+      "location": "Aliso Viejo, CA",
+      "link": "https://www.indie.inc/careers/internships/current-openings/?gh_jid=5265698007",
+      "posted": "2026-10-14",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
       "id": "simplify-e7fa5b45-20a7-4a37-b6f1-ba848c73ef32",
       "ids": [
         "simplify-e7fa5b45-20a7-4a37-b6f1-ba848c73ef32"
@@ -6262,20 +6278,6 @@
       "link": "https://careers.gov2x.com/jobs/63854?icims=1",
       "posted": "2026-10-29",
       "term": "Summer 2027",
-      "flags": "",
-      "region": "us"
-    },
-    {
-      "id": "simplify-42ce9d03-f003-41c2-bda0-34698bc83276",
-      "ids": [
-        "simplify-42ce9d03-f003-41c2-bda0-34698bc83276"
-      ],
-      "company": "Lunar Energy",
-      "title": "Hardware Test Engineer Intern",
-      "location": "Mountain View, CA",
-      "link": "https://job-boards.greenhouse.io/lunarenergy/jobs/6237015004",
-      "posted": "2026-10-29",
-      "term": "Spring 2027",
       "flags": "",
       "region": "us"
     },
@@ -6728,20 +6730,6 @@
       "location": "Middletown, RI",
       "link": "https://careers-gdms.icims.com/jobs/76081/job?mobile=true&needsRedirect=false",
       "posted": "2026-11-03",
-      "term": "",
-      "flags": "",
-      "region": "us"
-    },
-    {
-      "id": "simplify-3637c96b-e3a1-4ad6-9c56-e835096933dc",
-      "ids": [
-        "simplify-3637c96b-e3a1-4ad6-9c56-e835096933dc"
-      ],
-      "company": "General Dynamics Mission Systems",
-      "title": "Hardware/Electrical Engineer Intern",
-      "location": "Scottsdale, AZ",
-      "link": "https://careers-gdms.icims.com/jobs/75776/job?mobile=true&needsRedirect=false",
-      "posted": "2026-10-22",
       "term": "",
       "flags": "",
       "region": "us"
@@ -7592,6 +7580,76 @@
       "region": "us"
     },
     {
+      "id": "simplify-a776bd15-33f3-4c65-baf8-0ec4bdd364f5",
+      "ids": [
+        "simplify-a776bd15-33f3-4c65-baf8-0ec4bdd364f5"
+      ],
+      "company": "Basis Research Institute",
+      "title": "Electronics & Sensing Engineer Intern - Contractor",
+      "location": "New York, NY",
+      "link": "https://jobs.ashbyhq.com/basis-research/d3a40705-2e66-4ed0-8bf1-f5fe4bb6dfc3/application?embed=true",
+      "posted": "2026-11-17",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "simplify-fd1e375c-f802-422b-b643-8f43471c209b",
+      "ids": [
+        "simplify-fd1e375c-f802-422b-b643-8f43471c209b"
+      ],
+      "company": "Microchip Technology",
+      "title": "Engineering Intern - ASIC Verification",
+      "location": "San Jose, CA",
+      "link": "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4910-26",
+      "posted": "2026-11-17",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "simplify-44f6bc12-d112-439f-9405-f1b7da6201d2",
+      "ids": [
+        "simplify-44f6bc12-d112-439f-9405-f1b7da6201d2"
+      ],
+      "company": "Matic",
+      "title": "Electrical Design Engineer Intern",
+      "location": "Menlo Park, CA",
+      "link": "https://jobs.ashbyhq.com/MaticRobots/2f93fe19-0d71-4972-98da-8baf9d4ab05e/application?embed=true",
+      "posted": "2026-10-20",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "simplify-441a79ab-2aca-4ab8-899e-8cc4f757947d",
+      "ids": [
+        "simplify-441a79ab-2aca-4ab8-899e-8cc4f757947d"
+      ],
+      "company": "SRI International",
+      "title": "Electrical Engineering Co-op",
+      "location": "Princeton, NJ",
+      "link": "https://careers-sri.icims.com/jobs/6543/job?mobile=true&needsRedirect=false",
+      "posted": "2026-11-17",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
+      "id": "simplify-6d1ed40d-9902-423d-a91a-5ba7748ca158",
+      "ids": [
+        "simplify-6d1ed40d-9902-423d-a91a-5ba7748ca158"
+      ],
+      "company": "Texas Instruments",
+      "title": "Analog IC Design Engineer Intern - AI/ML",
+      "location": "Dallas, TX",
+      "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25020319",
+      "posted": "2026-11-17",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
       "id": "ashby-skydio-1ac972b1-8094-4765-8869-63e1c4d50dea",
       "ids": [
         "ashby-skydio-1ac972b1-8094-4765-8869-63e1c4d50dea"
@@ -7656,7 +7714,7 @@
       "title": "Propulsion Engineer, Stage Systems (Starship)",
       "location": "Starbase, TX",
       "link": "https://boards.greenhouse.io/spacex/jobs/8901004002?gh_jid=8901004002",
-      "posted": "2026-11-13",
+      "posted": "2026-11-18",
       "term": "",
       "flags": "\ud83c\uddfa\ud83c\uddf8",
       "region": "us"
@@ -7670,10 +7728,24 @@
       "title": "Systems Engineer, Data Center Debug",
       "location": "Santa Clara, California, United States; Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5143663007",
-      "posted": "2026-11-16",
+      "posted": "2026-11-17",
       "term": "",
       "flags": "",
       "region": "canada"
+    },
+    {
+      "id": "ti-25016343",
+      "ids": [
+        "ti-25016343"
+      ],
+      "company": "Texas Instruments",
+      "title": "Systems Engineering Intern - Power",
+      "location": "Dallas, TX, United States",
+      "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016343",
+      "posted": "2026-11-17",
+      "term": "",
+      "flags": "",
+      "region": "us"
     },
     {
       "id": "ti-25019495",
@@ -7830,6 +7902,20 @@
       "region": "us"
     },
     {
+      "id": "ti-25016345",
+      "ids": [
+        "ti-25016345"
+      ],
+      "company": "Texas Instruments",
+      "title": "Analog Design Eng Intern (GaN Device)",
+      "location": "Santa Clara, CA, United States",
+      "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016345",
+      "posted": "2026-11-13",
+      "term": "",
+      "flags": "",
+      "region": "us"
+    },
+    {
       "id": "ti-25017544",
       "ids": [
         "ti-25017544"
@@ -7844,17 +7930,17 @@
       "region": "us"
     },
     {
-      "id": "ti-25016345",
+      "id": "ti-25017548",
       "ids": [
-        "ti-25016345"
+        "ti-25017548"
       ],
       "company": "Texas Instruments",
-      "title": "Analog Design Eng Intern (GaN Device)",
-      "location": "Santa Clara, CA, United States",
-      "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25016345",
-      "posted": "2026-11-13",
+      "title": "Digital IC Design Engineering Intern - MS/PhD",
+      "location": "Dallas, TX, United States",
+      "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017548",
+      "posted": "2026-09-02",
       "term": "",
-      "flags": "",
+      "flags": "\ud83c\udf93",
       "region": "us"
     },
     {
@@ -7872,17 +7958,17 @@
       "region": "us"
     },
     {
-      "id": "ti-25017548",
+      "id": "workday-viavisolutions-job/Bothell-WA-USA/COOP---EFI-FIT-Intern_260005313-1",
       "ids": [
-        "ti-25017548"
+        "workday-viavisolutions-job/Bothell-WA-USA/COOP---EFI-FIT-Intern_260005313-1"
       ],
-      "company": "Texas Instruments",
-      "title": "Digital IC Design Engineering Intern - MS/PhD",
-      "location": "Dallas, TX, United States",
-      "link": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/25017548",
-      "posted": "2026-09-02",
+      "company": "VIAVI Solutions",
+      "title": "Robotics Intern",
+      "location": "Bothell, WA USA",
+      "link": "https://viavisolutions.wd1.myworkdayjobs.com/careers/job/Bothell-WA-USA/COOP---EFI-FIT-Intern_260005313-1",
+      "posted": "2026-11-18",
       "term": "",
-      "flags": "\ud83c\udf93",
+      "flags": "",
       "region": "us"
     },
     {
